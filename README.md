@@ -98,13 +98,14 @@ java -cp ".;wrangLR.jar" main.Main ../tests/FibIterative.java -o output.asm
 # Print to console instead of file
 java -cp ".;wrangLR.jar" main.Main ../tests/FibIterative.java -c
 
-# Append the MIPS runtime library (needed for standalone execution)
-java -cp ".;wrangLR.jar" main.Main ../tests/FibIterative.java -a mjLib-rust.asm
+# Append a MIPS runtime library (required for standalone execution)
+# Note: mjLib.asm is not included due to publishing permissions
+java -cp ".;wrangLR.jar" main.Main ../tests/FibIterative.java -a mjLib.asm
 ```
 
 ### Run the Output
 
-Using SPIM:
+Using SPIM or a compatible MIPS simulator:
 ```bash
 spim -file output.asm
 ```
@@ -207,7 +208,6 @@ COMPILER/
 │   ├── main/                # Entry point (instructor)
 │   ├── Lib.java             # Predefined I/O library class
 │   ├── wrangLR.jar          # Parser generator tool
-│   ├── mjLib-rust.asm       # MIPS runtime library
 │   └── Makefile
 ├── runtime/
 │   └── RunMain.java         # MIPS runtime entry point
@@ -220,3 +220,5 @@ COMPILER/
 ├── CHANGES.md               # Modifications from original assignments
 └── README.md
 ```
+
+> **Note:** The MiniJava MIPS runtime library (`mjLib.asm`) is not included in this repository due to publishing permissions. To execute the generated MIPS assembly, you will need to supply your own runtime library and append it using the `-a` flag (e.g., `-a mjLib.asm`). The compiler itself — lexing, parsing, semantic analysis, and code generation — works without it.
