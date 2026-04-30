@@ -2,6 +2,9 @@
 
 A complete compiler for the MiniJava language (a pedagogical subset of Java) that produces MIPS assembly output. Built as the culmination of a semester-long Compiler Design course, combining five incremental assignments into a single, clean, buildable project.
 
+Shoutout to Dr. Libby! It was a pleasure to take your Compilers course, and was a fantastic learning experience.
+Special thanks to Dr. Vegdahl as well for laying the groundwork that made this project possible.
+
 ---
 
 ## Architecture Overview
