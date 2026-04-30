@@ -69,7 +69,7 @@ A complete compiler for the MiniJava language (a pedagogical subset of Java) tha
 
 - **Java 21** (JDK)
 - **make** (optional — manual commands provided below)
-- A MIPS simulator for running output (RIPS, SPIM, or MARS)
+- A MIPS simulator for running output (eg SPIM)
 
 ### Clone and Build
 
@@ -103,11 +103,6 @@ java -cp ".;wrangLR.jar" main.Main ../tests/FibIterative.java -a mjLib-rust.asm
 ```
 
 ### Run the Output
-
-Using RIPS simulator:
-```bash
-java -jar RIPS.jar output.asm
-```
 
 Using SPIM:
 ```bash
@@ -189,63 +184,6 @@ make test
 
 ---
 
-## Example Output
-
-**Input** — `tests/FibIterative.java`:
-```java
-class Main extends Lib {
-    public void main() {
-        int n = 14;
-        int a = 0;
-        int b = 1;
-        int i = 0;
-        while (i < n) {
-            int temp = b;
-            b = a + b;
-            a = temp;
-            i = i + 1;
-        }
-        super.printStr("The fibonacci number of ");
-        super.printInt(n);
-        super.printStr(" is ");
-        super.printInt(a);
-        super.println();
-    }
-}
-```
-
-**Compile and Run**:
-```bash
-$ java -cp ".;wrangLR.jar" main.Main ../tests/FibIterative.java -a mjLib-rust.asm
-Compilation successful for ../tests/FibIterative.java.
-
-$ java -jar RIPS.jar FibIterative.asm
-The fibonacci number of 14 is 377
-```
-
-**Generated MIPS** (excerpt):
-```mips
- .text
- .globl main
-mth_main_Main:
- # prologue
- subu $sp,$sp,24
- sw $ra,20($sp)
- sw $s0,16($sp)
- move $s0,$a0
- # int n = 14
- li $t0,14
- sw $t0,-8($s0)
- # int a = 0
- li $t0,0
- sw $t0,-12($s0)
- # int b = 1
- li $t0,1
- sw $t0,-16($s0)
- ...
-```
-
----
 
 ## Project Structure
 

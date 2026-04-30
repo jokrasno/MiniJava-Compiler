@@ -1,5 +1,5 @@
-package main;
 // Provided by instructor — infrastructure code
+package main;
 
 import java.io.*;
 import java.nio.file.*;

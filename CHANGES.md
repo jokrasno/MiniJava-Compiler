@@ -2,7 +2,9 @@
 
 ## Scanner (MJScanner)
 
-The student's original lexer (`TokenGrammar.java` from Assignment 1) was a basic token recognizer that printed tokens to the console. The Assignment 5 infrastructure requires a two-pass pipeline where the scanner writes encoded tokens to a `ByteArrayOutputStream` that the parser reads from. The `MJScanner.class` and `MJScannerParseTable*.class` are precompiled from the instructor's enhanced scanner, as no `.java` source exists for this version. The student's original `TokenGrammar.java` is preserved in `src/parse/original/` for reference.
+The student wrote `TokenGrammar.java` in Assignment 1, and `MJGrammar.java` in Assignment 2 contains a comment (line 626) instructing the student to paste their TokenGrammar content there to create a single-pass parser. However, wrangLR cannot generate a combined lexer+parser state machine from the merged grammar — the combined grammar causes wrangLR to crash with an internal `ArrayIndexOutOfBoundsException`.
+
+For this reason, the compiler uses a two-pass architecture: the scanner (`MJScanner`) processes raw source into an encoded token stream, and the parser (`MJGrammar` with filtered grammar) reads the encoded tokens. `MJScanner.class` and `MJScannerParseTable*.class` are precompiled from the instructor's enhanced scanner. The student's original `TokenGrammar.java` is preserved in `src/parse/original/`.
 
 ## VtableGenerator
 
