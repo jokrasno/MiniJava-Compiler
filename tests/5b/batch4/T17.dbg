@@ -1,0 +1,5483 @@
+ .data # Program at 3.1
+# ****** class Object ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 207 # 'O' with high bit set # ClassDecl at 0.0
+  .byte 98 # 'b' # ClassDecl at 0.0
+  .byte 106 # 'j' # ClassDecl at 0.0
+  .byte 101 # 'e' # ClassDecl at 0.0
+  .byte 99 # 'c' # ClassDecl at 0.0
+  .byte 116 # 't' # ClassDecl at 0.0
+15008:CLASS_Object: # ClassDecl at 0.0
+  .word mth_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word mth_equals_Object # MethodDeclNonVoid at 0.0
+  .word mth_toString_Object # MethodDeclNonVoid at 0.0
+# ****** class String ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 211 # 'S' with high bit set # ClassDecl at 0.0
+  .byte 116 # 't' # ClassDecl at 0.0
+  .byte 114 # 'r' # ClassDecl at 0.0
+  .byte 105 # 'i' # ClassDecl at 0.0
+  .byte 110 # 'n' # ClassDecl at 0.0
+  .byte 103 # 'g' # ClassDecl at 0.0
+15028:CLASS_String: # ClassDecl at 0.0
+  .word mth_hashCode_String # MethodDeclNonVoid at 0.0
+  .word mth_equals_String # MethodDeclNonVoid at 0.0
+  .word mth_toString_String # MethodDeclNonVoid at 0.0
+  .word mth_concat_String # MethodDeclNonVoid at 0.0
+  .word mth_substring_String # MethodDeclNonVoid at 0.0
+  .word mth_length_String # MethodDeclNonVoid at 0.0
+  .word mth_charAt_String # MethodDeclNonVoid at 0.0
+  .word mth_compareTo_String # MethodDeclNonVoid at 0.0
+15060:END_CLASS_String: # ClassDecl at 0.0
+# ****** class Lib ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 204 # 'L' with high bit set # ClassDecl at 0.0
+  .byte 105 # 'i' # ClassDecl at 0.0
+  .byte 98 # 'b' # ClassDecl at 0.0
+15064:CLASS_Lib: # ClassDecl at 0.0
+  .word mth_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word mth_equals_Object # MethodDeclNonVoid at 0.0
+  .word mth_toString_Object # MethodDeclNonVoid at 0.0
+  .word mth_readLine_Lib # MethodDeclNonVoid at 0.0
+  .word mth_readInt_Lib # MethodDeclNonVoid at 0.0
+  .word mth_readChar_Lib # MethodDeclNonVoid at 0.0
+  .word mth_printStr_Lib # MethodDeclVoid at 0.0
+  .word mth_printBool_Lib # MethodDeclVoid at 0.0
+  .word mth_printInt_Lib # MethodDeclVoid at 0.0
+  .word mth_intToString_Lib # MethodDeclNonVoid at 0.0
+  .word mth_intToChar_Lib # MethodDeclNonVoid at 0.0
+# ****** class Main ****** # ClassDecl at 3.7
+  .byte 205 # 'M' with high bit set # ClassDecl at 3.7
+  .byte 97 # 'a' # ClassDecl at 3.7
+  .byte 105 # 'i' # ClassDecl at 3.7
+  .byte 110 # 'n' # ClassDecl at 3.7
+15112:CLASS_Main: # ClassDecl at 3.7
+  .word mth_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word mth_equals_Object # MethodDeclNonVoid at 0.0
+  .word mth_toString_Object # MethodDeclNonVoid at 0.0
+  .word mth_readLine_Lib # MethodDeclNonVoid at 0.0
+  .word mth_readInt_Lib # MethodDeclNonVoid at 0.0
+  .word mth_readChar_Lib # MethodDeclNonVoid at 0.0
+  .word mth_printStr_Lib # MethodDeclVoid at 0.0
+  .word mth_printBool_Lib # MethodDeclVoid at 0.0
+  .word mth_printInt_Lib # MethodDeclVoid at 0.0
+  .word mth_intToString_Lib # MethodDeclNonVoid at 0.0
+  .word mth_intToChar_Lib # MethodDeclNonVoid at 0.0
+  .word mth_main_Main # MethodDeclVoid at 4.17
+  .word mth_between_Main # MethodDeclNonVoid at 310.20
+15164:END_CLASS_Main: # ClassDecl at 3.7
+15164:END_CLASS_Lib: # ClassDecl at 0.0
+# ****** class RunMain ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 210 # 'R' with high bit set # ClassDecl at 0.0
+  .byte 117 # 'u' # ClassDecl at 0.0
+  .byte 110 # 'n' # ClassDecl at 0.0
+  .byte 77 # 'M' # ClassDecl at 0.0
+  .byte 97 # 'a' # ClassDecl at 0.0
+  .byte 105 # 'i' # ClassDecl at 0.0
+  .byte 110 # 'n' # ClassDecl at 0.0
+15172:CLASS_RunMain: # ClassDecl at 0.0
+  .word mth_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word mth_equals_Object # MethodDeclNonVoid at 0.0
+  .word mth_toString_Object # MethodDeclNonVoid at 0.0
+15184:END_CLASS_RunMain: # ClassDecl at 0.0
+15184:dataArrayVTableStart: # IntType at 0.0
+15184:END_CLASS_Object: # ClassDecl at 0.0
+  .byte 99 # StringLit at 9.22
+  .byte 97 # StringLit at 9.22
+  .byte 115 # StringLit at 9.22
+  .byte 101 # StringLit at 9.22
+  .byte 32 # StringLit at 9.22
+  .byte 49 # StringLit at 9.22
+  .byte 0 # StringLit at 9.22
+  .byte 0 # StringLit at 9.22
+  .word CLASS_String # StringLit at 9.22
+  .word 3 # StringLit at 9.22
+  .word -6 # StringLit at 9.22
+15204:strLit_19: # StringLit at 9.22
+  .byte 99 # StringLit at 12.22
+  .byte 97 # StringLit at 12.22
+  .byte 115 # StringLit at 12.22
+  .byte 101 # StringLit at 12.22
+  .byte 32 # StringLit at 12.22
+  .byte 50 # StringLit at 12.22
+  .byte 0 # StringLit at 12.22
+  .byte 0 # StringLit at 12.22
+  .word CLASS_String # StringLit at 12.22
+  .word 3 # StringLit at 12.22
+  .word -6 # StringLit at 12.22
+15224:strLit_24: # StringLit at 12.22
+  .byte 99 # StringLit at 17.22
+  .byte 97 # StringLit at 17.22
+  .byte 115 # StringLit at 17.22
+  .byte 101 # StringLit at 17.22
+  .byte 32 # StringLit at 17.22
+  .byte 51 # StringLit at 17.22
+  .byte 0 # StringLit at 17.22
+  .byte 0 # StringLit at 17.22
+  .word CLASS_String # StringLit at 17.22
+  .word 3 # StringLit at 17.22
+  .word -6 # StringLit at 17.22
+15244:strLit_36: # StringLit at 17.22
+  .byte 99 # StringLit at 20.22
+  .byte 97 # StringLit at 20.22
+  .byte 115 # StringLit at 20.22
+  .byte 101 # StringLit at 20.22
+  .byte 32 # StringLit at 20.22
+  .byte 52 # StringLit at 20.22
+  .byte 0 # StringLit at 20.22
+  .byte 0 # StringLit at 20.22
+  .word CLASS_String # StringLit at 20.22
+  .word 3 # StringLit at 20.22
+  .word -6 # StringLit at 20.22
+15264:strLit_41: # StringLit at 20.22
+  .byte 99 # StringLit at 27.22
+  .byte 97 # StringLit at 27.22
+  .byte 115 # StringLit at 27.22
+  .byte 101 # StringLit at 27.22
+  .byte 32 # StringLit at 27.22
+  .byte 53 # StringLit at 27.22
+  .byte 0 # StringLit at 27.22
+  .byte 0 # StringLit at 27.22
+  .word CLASS_String # StringLit at 27.22
+  .word 3 # StringLit at 27.22
+  .word -6 # StringLit at 27.22
+15284:strLit_60: # StringLit at 27.22
+  .byte 99 # StringLit at 30.22
+  .byte 97 # StringLit at 30.22
+  .byte 115 # StringLit at 30.22
+  .byte 101 # StringLit at 30.22
+  .byte 32 # StringLit at 30.22
+  .byte 54 # StringLit at 30.22
+  .byte 0 # StringLit at 30.22
+  .byte 0 # StringLit at 30.22
+  .word CLASS_String # StringLit at 30.22
+  .word 3 # StringLit at 30.22
+  .word -6 # StringLit at 30.22
+15304:strLit_65: # StringLit at 30.22
+  .byte 99 # StringLit at 35.22
+  .byte 97 # StringLit at 35.22
+  .byte 115 # StringLit at 35.22
+  .byte 101 # StringLit at 35.22
+  .byte 32 # StringLit at 35.22
+  .byte 55 # StringLit at 35.22
+  .byte 0 # StringLit at 35.22
+  .byte 0 # StringLit at 35.22
+  .word CLASS_String # StringLit at 35.22
+  .word 3 # StringLit at 35.22
+  .word -6 # StringLit at 35.22
+15324:strLit_77: # StringLit at 35.22
+  .byte 99 # StringLit at 38.22
+  .byte 97 # StringLit at 38.22
+  .byte 115 # StringLit at 38.22
+  .byte 101 # StringLit at 38.22
+  .byte 32 # StringLit at 38.22
+  .byte 56 # StringLit at 38.22
+  .byte 0 # StringLit at 38.22
+  .byte 0 # StringLit at 38.22
+  .word CLASS_String # StringLit at 38.22
+  .word 3 # StringLit at 38.22
+  .word -6 # StringLit at 38.22
+15344:strLit_82: # StringLit at 38.22
+.text
+.globl main
+0:main:
+0#  jal vm_init
+4#  li $s6,1
+8#  li $s7,0
+12#  jal newObject
+16#  la $t0,CLASS_Main
+20#  sw $t0,-12($s7)
+24#  lw $t0,0($sp)
+28#  sw $s2,0($sp)
+32#  move $s2,$t0
+36#beq $s2, $zero, nullPtrException
+40#  lw $t0,-12($s2)
+44#  lw $t0,44($t0)
+48#  jalr $t0
+52#  lw $s2,($sp)
+56#  addu $sp,$sp,4
+60#  move $t0,$zero
+64#  subu $sp,$sp,4
+68#  sw $t0,($sp)
+72#  addu $sp,$sp,4
+76#  li $v0, 10
+80#  syscall
+84:mth_main_Main:
+84#  subu $sp,$sp,4
+88#  sw $ra,($sp)
+92#  li $t0,5
+96#  subu $sp,$sp,8
+100#  sw $s5,4($sp)
+104#  sw $t0,($sp)
+108#  subu $sp,$sp,4
+112#  sw $s2,($sp)
+116#  lw $t0,4($sp)
+120#  subu $sp,$sp,8
+124#  sw $s5,4($sp)
+128#  sw $t0,($sp)
+132#  li $t0,0
+136#  subu $sp,$sp,8
+140#  sw $s5,4($sp)
+144#  sw $t0,($sp)
+148#  li $t0,39
+152#  subu $sp,$sp,8
+156#  sw $s5,4($sp)
+160#  sw $t0,($sp)
+164#  lw $t0,24($sp)
+168#  sw $s2,24($sp)
+172#  move $s2,$t0
+176#beq $s2, $zero, nullPtrException
+180#  lw $t0,-12($s2)
+184#  lw $t0,48($t0)
+188#  jalr $t0
+192#  addu $sp,$sp,24
+196#  lw $s2,($sp)
+200#  addu $sp,$sp,4
+204#  subu $sp,$sp,8
+208#  sw $s5,4($sp)
+212#  sw $t0,($sp)
+216#  lw $t0,($sp)
+220#  addu $sp,$sp,8
+224#  beq $t0, $zero, if_else_91
+228#  subu $sp,$sp,4
+232#  sw $s2,($sp)
+236#  lw $t0,4($sp)
+240#  subu $sp,$sp,8
+244#  sw $s5,4($sp)
+248#  sw $t0,($sp)
+252#  li $t0,0
+256#  subu $sp,$sp,8
+260#  sw $s5,4($sp)
+264#  sw $t0,($sp)
+268#  li $t0,19
+272#  subu $sp,$sp,8
+276#  sw $s5,4($sp)
+280#  sw $t0,($sp)
+284#  lw $t0,24($sp)
+288#  sw $s2,24($sp)
+292#  move $s2,$t0
+296#beq $s2, $zero, nullPtrException
+300#  lw $t0,-12($s2)
+304#  lw $t0,48($t0)
+308#  jalr $t0
+312#  addu $sp,$sp,24
+316#  lw $s2,($sp)
+320#  addu $sp,$sp,4
+324#  subu $sp,$sp,8
+328#  sw $s5,4($sp)
+332#  sw $t0,($sp)
+336#  lw $t0,($sp)
+340#  addu $sp,$sp,8
+344#  beq $t0, $zero, if_else_48
+348#  subu $sp,$sp,4
+352#  sw $s2,($sp)
+356#  lw $t0,4($sp)
+360#  subu $sp,$sp,8
+364#  sw $s5,4($sp)
+368#  sw $t0,($sp)
+372#  li $t0,0
+376#  subu $sp,$sp,8
+380#  sw $s5,4($sp)
+384#  sw $t0,($sp)
+388#  li $t0,9
+392#  subu $sp,$sp,8
+396#  sw $s5,4($sp)
+400#  sw $t0,($sp)
+404#  lw $t0,24($sp)
+408#  sw $s2,24($sp)
+412#  move $s2,$t0
+416#beq $s2, $zero, nullPtrException
+420#  lw $t0,-12($s2)
+424#  lw $t0,48($t0)
+428#  jalr $t0
+432#  addu $sp,$sp,24
+436#  lw $s2,($sp)
+440#  addu $sp,$sp,4
+444#  subu $sp,$sp,8
+448#  sw $s5,4($sp)
+452#  sw $t0,($sp)
+456#  lw $t0,($sp)
+460#  addu $sp,$sp,8
+464#  beq $t0, $zero, if_else_29
+468#  subu $sp,$sp,4
+472#  sw $s2,($sp)
+476#  la $t0,strLit_19
+480#  subu $sp,$sp,4
+484#  sw $t0,($sp)
+488#  lw $t0,4($sp)
+492#  sw $s2,4($sp)
+496#  move $s2,$t0
+500#beq $s2, $zero, nullPtrException
+504#  jal mth_printStr_Lib
+508#  addu $sp,$sp,4
+512#  lw $s2,($sp)
+516#  addu $sp,$sp,4
+520#  move $t0,$zero
+524#  subu $sp,$sp,4
+528#  sw $t0,($sp)
+532#  addu $sp,$sp,4
+536#  j if_done_29
+540:if_else_29:
+540#  subu $sp,$sp,4
+544#  sw $s2,($sp)
+548#  la $t0,strLit_24
+552#  subu $sp,$sp,4
+556#  sw $t0,($sp)
+560#  lw $t0,4($sp)
+564#  sw $s2,4($sp)
+568#  move $s2,$t0
+572#beq $s2, $zero, nullPtrException
+576#  jal mth_printStr_Lib
+580#  addu $sp,$sp,4
+584#  lw $s2,($sp)
+588#  addu $sp,$sp,4
+592#  move $t0,$zero
+596#  subu $sp,$sp,4
+600#  sw $t0,($sp)
+604#  addu $sp,$sp,4
+608:if_done_29:
+608#  j if_done_48
+612:if_else_48:
+612#  subu $sp,$sp,4
+616#  sw $s2,($sp)
+620#  lw $t0,4($sp)
+624#  subu $sp,$sp,8
+628#  sw $s5,4($sp)
+632#  sw $t0,($sp)
+636#  li $t0,20
+640#  subu $sp,$sp,8
+644#  sw $s5,4($sp)
+648#  sw $t0,($sp)
+652#  li $t0,29
+656#  subu $sp,$sp,8
+660#  sw $s5,4($sp)
+664#  sw $t0,($sp)
+668#  lw $t0,24($sp)
+672#  sw $s2,24($sp)
+676#  move $s2,$t0
+680#beq $s2, $zero, nullPtrException
+684#  lw $t0,-12($s2)
+688#  lw $t0,48($t0)
+692#  jalr $t0
+696#  addu $sp,$sp,24
+700#  lw $s2,($sp)
+704#  addu $sp,$sp,4
+708#  subu $sp,$sp,8
+712#  sw $s5,4($sp)
+716#  sw $t0,($sp)
+720#  lw $t0,($sp)
+724#  addu $sp,$sp,8
+728#  beq $t0, $zero, if_else_46
+732#  subu $sp,$sp,4
+736#  sw $s2,($sp)
+740#  la $t0,strLit_36
+744#  subu $sp,$sp,4
+748#  sw $t0,($sp)
+752#  lw $t0,4($sp)
+756#  sw $s2,4($sp)
+760#  move $s2,$t0
+764#beq $s2, $zero, nullPtrException
+768#  jal mth_printStr_Lib
+772#  addu $sp,$sp,4
+776#  lw $s2,($sp)
+780#  addu $sp,$sp,4
+784#  move $t0,$zero
+788#  subu $sp,$sp,4
+792#  sw $t0,($sp)
+796#  addu $sp,$sp,4
+800#  j if_done_46
+804:if_else_46:
+804#  subu $sp,$sp,4
+808#  sw $s2,($sp)
+812#  la $t0,strLit_41
+816#  subu $sp,$sp,4
+820#  sw $t0,($sp)
+824#  lw $t0,4($sp)
+828#  sw $s2,4($sp)
+832#  move $s2,$t0
+836#beq $s2, $zero, nullPtrException
+840#  jal mth_printStr_Lib
+844#  addu $sp,$sp,4
+848#  lw $s2,($sp)
+852#  addu $sp,$sp,4
+856#  move $t0,$zero
+860#  subu $sp,$sp,4
+864#  sw $t0,($sp)
+868#  addu $sp,$sp,4
+872:if_done_46:
+872:if_done_48:
+872#  j if_done_91
+876:if_else_91:
+876#  subu $sp,$sp,4
+880#  sw $s2,($sp)
+884#  lw $t0,4($sp)
+888#  subu $sp,$sp,8
+892#  sw $s5,4($sp)
+896#  sw $t0,($sp)
+900#  li $t0,40
+904#  subu $sp,$sp,8
+908#  sw $s5,4($sp)
+912#  sw $t0,($sp)
+916#  li $t0,59
+920#  subu $sp,$sp,8
+924#  sw $s5,4($sp)
+928#  sw $t0,($sp)
+932#  lw $t0,24($sp)
+936#  sw $s2,24($sp)
+940#  move $s2,$t0
+944#beq $s2, $zero, nullPtrException
+948#  lw $t0,-12($s2)
+952#  lw $t0,48($t0)
+956#  jalr $t0
+960#  addu $sp,$sp,24
+964#  lw $s2,($sp)
+968#  addu $sp,$sp,4
+972#  subu $sp,$sp,8
+976#  sw $s5,4($sp)
+980#  sw $t0,($sp)
+984#  lw $t0,($sp)
+988#  addu $sp,$sp,8
+992#  beq $t0, $zero, if_else_89
+996#  subu $sp,$sp,4
+1000#  sw $s2,($sp)
+1004#  lw $t0,4($sp)
+1008#  subu $sp,$sp,8
+1012#  sw $s5,4($sp)
+1016#  sw $t0,($sp)
+1020#  li $t0,40
+1024#  subu $sp,$sp,8
+1028#  sw $s5,4($sp)
+1032#  sw $t0,($sp)
+1036#  li $t0,49
+1040#  subu $sp,$sp,8
+1044#  sw $s5,4($sp)
+1048#  sw $t0,($sp)
+1052#  lw $t0,24($sp)
+1056#  sw $s2,24($sp)
+1060#  move $s2,$t0
+1064#beq $s2, $zero, nullPtrException
+1068#  lw $t0,-12($s2)
+1072#  lw $t0,48($t0)
+1076#  jalr $t0
+1080#  addu $sp,$sp,24
+1084#  lw $s2,($sp)
+1088#  addu $sp,$sp,4
+1092#  subu $sp,$sp,8
+1096#  sw $s5,4($sp)
+1100#  sw $t0,($sp)
+1104#  lw $t0,($sp)
+1108#  addu $sp,$sp,8
+1112#  beq $t0, $zero, if_else_70
+1116#  subu $sp,$sp,4
+1120#  sw $s2,($sp)
+1124#  la $t0,strLit_60
+1128#  subu $sp,$sp,4
+1132#  sw $t0,($sp)
+1136#  lw $t0,4($sp)
+1140#  sw $s2,4($sp)
+1144#  move $s2,$t0
+1148#beq $s2, $zero, nullPtrException
+1152#  jal mth_printStr_Lib
+1156#  addu $sp,$sp,4
+1160#  lw $s2,($sp)
+1164#  addu $sp,$sp,4
+1168#  move $t0,$zero
+1172#  subu $sp,$sp,4
+1176#  sw $t0,($sp)
+1180#  addu $sp,$sp,4
+1184#  j if_done_70
+1188:if_else_70:
+1188#  subu $sp,$sp,4
+1192#  sw $s2,($sp)
+1196#  la $t0,strLit_65
+1200#  subu $sp,$sp,4
+1204#  sw $t0,($sp)
+1208#  lw $t0,4($sp)
+1212#  sw $s2,4($sp)
+1216#  move $s2,$t0
+1220#beq $s2, $zero, nullPtrException
+1224#  jal mth_printStr_Lib
+1228#  addu $sp,$sp,4
+1232#  lw $s2,($sp)
+1236#  addu $sp,$sp,4
+1240#  move $t0,$zero
+1244#  subu $sp,$sp,4
+1248#  sw $t0,($sp)
+1252#  addu $sp,$sp,4
+1256:if_done_70:
+1256#  j if_done_89
+1260:if_else_89:
+1260#  subu $sp,$sp,4
+1264#  sw $s2,($sp)
+1268#  lw $t0,4($sp)
+1272#  subu $sp,$sp,8
+1276#  sw $s5,4($sp)
+1280#  sw $t0,($sp)
+1284#  li $t0,60
+1288#  subu $sp,$sp,8
+1292#  sw $s5,4($sp)
+1296#  sw $t0,($sp)
+1300#  li $t0,69
+1304#  subu $sp,$sp,8
+1308#  sw $s5,4($sp)
+1312#  sw $t0,($sp)
+1316#  lw $t0,24($sp)
+1320#  sw $s2,24($sp)
+1324#  move $s2,$t0
+1328#beq $s2, $zero, nullPtrException
+1332#  lw $t0,-12($s2)
+1336#  lw $t0,48($t0)
+1340#  jalr $t0
+1344#  addu $sp,$sp,24
+1348#  lw $s2,($sp)
+1352#  addu $sp,$sp,4
+1356#  subu $sp,$sp,8
+1360#  sw $s5,4($sp)
+1364#  sw $t0,($sp)
+1368#  lw $t0,($sp)
+1372#  addu $sp,$sp,8
+1376#  beq $t0, $zero, if_else_87
+1380#  subu $sp,$sp,4
+1384#  sw $s2,($sp)
+1388#  la $t0,strLit_77
+1392#  subu $sp,$sp,4
+1396#  sw $t0,($sp)
+1400#  lw $t0,4($sp)
+1404#  sw $s2,4($sp)
+1408#  move $s2,$t0
+1412#beq $s2, $zero, nullPtrException
+1416#  jal mth_printStr_Lib
+1420#  addu $sp,$sp,4
+1424#  lw $s2,($sp)
+1428#  addu $sp,$sp,4
+1432#  move $t0,$zero
+1436#  subu $sp,$sp,4
+1440#  sw $t0,($sp)
+1444#  addu $sp,$sp,4
+1448#  j if_done_87
+1452:if_else_87:
+1452#  subu $sp,$sp,4
+1456#  sw $s2,($sp)
+1460#  la $t0,strLit_82
+1464#  subu $sp,$sp,4
+1468#  sw $t0,($sp)
+1472#  lw $t0,4($sp)
+1476#  sw $s2,4($sp)
+1480#  move $s2,$t0
+1484#beq $s2, $zero, nullPtrException
+1488#  jal mth_printStr_Lib
+1492#  addu $sp,$sp,4
+1496#  lw $s2,($sp)
+1500#  addu $sp,$sp,4
+1504#  move $t0,$zero
+1508#  subu $sp,$sp,4
+1512#  sw $t0,($sp)
+1516#  addu $sp,$sp,4
+1520:if_done_87:
+1520:if_done_89:
+1520:if_done_91:
+1520#  li $t0,15
+1524#  subu $sp,$sp,8
+1528#  sw $s5,4($sp)
+1532#  sw $t0,($sp)
+1536#  lw $t0,($sp)
+1540#  addu $sp,$sp,8
+1544#  sw $t0,0($sp)
+1548#  subu $sp,$sp,4
+1552#  sw $s2,($sp)
+1556#  lw $t0,4($sp)
+1560#  subu $sp,$sp,8
+1564#  sw $s5,4($sp)
+1568#  sw $t0,($sp)
+1572#  li $t0,0
+1576#  subu $sp,$sp,8
+1580#  sw $s5,4($sp)
+1584#  sw $t0,($sp)
+1588#  li $t0,39
+1592#  subu $sp,$sp,8
+1596#  sw $s5,4($sp)
+1600#  sw $t0,($sp)
+1604#  lw $t0,24($sp)
+1608#  sw $s2,24($sp)
+1612#  move $s2,$t0
+1616#beq $s2, $zero, nullPtrException
+1620#  lw $t0,-12($s2)
+1624#  lw $t0,48($t0)
+1628#  jalr $t0
+1632#  addu $sp,$sp,24
+1636#  lw $s2,($sp)
+1640#  addu $sp,$sp,4
+1644#  subu $sp,$sp,8
+1648#  sw $s5,4($sp)
+1652#  sw $t0,($sp)
+1656#  lw $t0,($sp)
+1660#  addu $sp,$sp,8
+1664#  beq $t0, $zero, if_else_182
+1668#  subu $sp,$sp,4
+1672#  sw $s2,($sp)
+1676#  lw $t0,4($sp)
+1680#  subu $sp,$sp,8
+1684#  sw $s5,4($sp)
+1688#  sw $t0,($sp)
+1692#  li $t0,0
+1696#  subu $sp,$sp,8
+1700#  sw $s5,4($sp)
+1704#  sw $t0,($sp)
+1708#  li $t0,19
+1712#  subu $sp,$sp,8
+1716#  sw $s5,4($sp)
+1720#  sw $t0,($sp)
+1724#  lw $t0,24($sp)
+1728#  sw $s2,24($sp)
+1732#  move $s2,$t0
+1736#beq $s2, $zero, nullPtrException
+1740#  lw $t0,-12($s2)
+1744#  lw $t0,48($t0)
+1748#  jalr $t0
+1752#  addu $sp,$sp,24
+1756#  lw $s2,($sp)
+1760#  addu $sp,$sp,4
+1764#  subu $sp,$sp,8
+1768#  sw $s5,4($sp)
+1772#  sw $t0,($sp)
+1776#  lw $t0,($sp)
+1780#  addu $sp,$sp,8
+1784#  beq $t0, $zero, if_else_139
+1788#  subu $sp,$sp,4
+1792#  sw $s2,($sp)
+1796#  lw $t0,4($sp)
+1800#  subu $sp,$sp,8
+1804#  sw $s5,4($sp)
+1808#  sw $t0,($sp)
+1812#  li $t0,0
+1816#  subu $sp,$sp,8
+1820#  sw $s5,4($sp)
+1824#  sw $t0,($sp)
+1828#  li $t0,9
+1832#  subu $sp,$sp,8
+1836#  sw $s5,4($sp)
+1840#  sw $t0,($sp)
+1844#  lw $t0,24($sp)
+1848#  sw $s2,24($sp)
+1852#  move $s2,$t0
+1856#beq $s2, $zero, nullPtrException
+1860#  lw $t0,-12($s2)
+1864#  lw $t0,48($t0)
+1868#  jalr $t0
+1872#  addu $sp,$sp,24
+1876#  lw $s2,($sp)
+1880#  addu $sp,$sp,4
+1884#  subu $sp,$sp,8
+1888#  sw $s5,4($sp)
+1892#  sw $t0,($sp)
+1896#  lw $t0,($sp)
+1900#  addu $sp,$sp,8
+1904#  beq $t0, $zero, if_else_120
+1908#  subu $sp,$sp,4
+1912#  sw $s2,($sp)
+1916#  la $t0,strLit_19
+1920#  subu $sp,$sp,4
+1924#  sw $t0,($sp)
+1928#  lw $t0,4($sp)
+1932#  sw $s2,4($sp)
+1936#  move $s2,$t0
+1940#beq $s2, $zero, nullPtrException
+1944#  jal mth_printStr_Lib
+1948#  addu $sp,$sp,4
+1952#  lw $s2,($sp)
+1956#  addu $sp,$sp,4
+1960#  move $t0,$zero
+1964#  subu $sp,$sp,4
+1968#  sw $t0,($sp)
+1972#  addu $sp,$sp,4
+1976#  j if_done_120
+1980:if_else_120:
+1980#  subu $sp,$sp,4
+1984#  sw $s2,($sp)
+1988#  la $t0,strLit_24
+1992#  subu $sp,$sp,4
+1996#  sw $t0,($sp)
+2000#  lw $t0,4($sp)
+2004#  sw $s2,4($sp)
+2008#  move $s2,$t0
+2012#beq $s2, $zero, nullPtrException
+2016#  jal mth_printStr_Lib
+2020#  addu $sp,$sp,4
+2024#  lw $s2,($sp)
+2028#  addu $sp,$sp,4
+2032#  move $t0,$zero
+2036#  subu $sp,$sp,4
+2040#  sw $t0,($sp)
+2044#  addu $sp,$sp,4
+2048:if_done_120:
+2048#  j if_done_139
+2052:if_else_139:
+2052#  subu $sp,$sp,4
+2056#  sw $s2,($sp)
+2060#  lw $t0,4($sp)
+2064#  subu $sp,$sp,8
+2068#  sw $s5,4($sp)
+2072#  sw $t0,($sp)
+2076#  li $t0,20
+2080#  subu $sp,$sp,8
+2084#  sw $s5,4($sp)
+2088#  sw $t0,($sp)
+2092#  li $t0,29
+2096#  subu $sp,$sp,8
+2100#  sw $s5,4($sp)
+2104#  sw $t0,($sp)
+2108#  lw $t0,24($sp)
+2112#  sw $s2,24($sp)
+2116#  move $s2,$t0
+2120#beq $s2, $zero, nullPtrException
+2124#  lw $t0,-12($s2)
+2128#  lw $t0,48($t0)
+2132#  jalr $t0
+2136#  addu $sp,$sp,24
+2140#  lw $s2,($sp)
+2144#  addu $sp,$sp,4
+2148#  subu $sp,$sp,8
+2152#  sw $s5,4($sp)
+2156#  sw $t0,($sp)
+2160#  lw $t0,($sp)
+2164#  addu $sp,$sp,8
+2168#  beq $t0, $zero, if_else_137
+2172#  subu $sp,$sp,4
+2176#  sw $s2,($sp)
+2180#  la $t0,strLit_36
+2184#  subu $sp,$sp,4
+2188#  sw $t0,($sp)
+2192#  lw $t0,4($sp)
+2196#  sw $s2,4($sp)
+2200#  move $s2,$t0
+2204#beq $s2, $zero, nullPtrException
+2208#  jal mth_printStr_Lib
+2212#  addu $sp,$sp,4
+2216#  lw $s2,($sp)
+2220#  addu $sp,$sp,4
+2224#  move $t0,$zero
+2228#  subu $sp,$sp,4
+2232#  sw $t0,($sp)
+2236#  addu $sp,$sp,4
+2240#  j if_done_137
+2244:if_else_137:
+2244#  subu $sp,$sp,4
+2248#  sw $s2,($sp)
+2252#  la $t0,strLit_41
+2256#  subu $sp,$sp,4
+2260#  sw $t0,($sp)
+2264#  lw $t0,4($sp)
+2268#  sw $s2,4($sp)
+2272#  move $s2,$t0
+2276#beq $s2, $zero, nullPtrException
+2280#  jal mth_printStr_Lib
+2284#  addu $sp,$sp,4
+2288#  lw $s2,($sp)
+2292#  addu $sp,$sp,4
+2296#  move $t0,$zero
+2300#  subu $sp,$sp,4
+2304#  sw $t0,($sp)
+2308#  addu $sp,$sp,4
+2312:if_done_137:
+2312:if_done_139:
+2312#  j if_done_182
+2316:if_else_182:
+2316#  subu $sp,$sp,4
+2320#  sw $s2,($sp)
+2324#  lw $t0,4($sp)
+2328#  subu $sp,$sp,8
+2332#  sw $s5,4($sp)
+2336#  sw $t0,($sp)
+2340#  li $t0,40
+2344#  subu $sp,$sp,8
+2348#  sw $s5,4($sp)
+2352#  sw $t0,($sp)
+2356#  li $t0,59
+2360#  subu $sp,$sp,8
+2364#  sw $s5,4($sp)
+2368#  sw $t0,($sp)
+2372#  lw $t0,24($sp)
+2376#  sw $s2,24($sp)
+2380#  move $s2,$t0
+2384#beq $s2, $zero, nullPtrException
+2388#  lw $t0,-12($s2)
+2392#  lw $t0,48($t0)
+2396#  jalr $t0
+2400#  addu $sp,$sp,24
+2404#  lw $s2,($sp)
+2408#  addu $sp,$sp,4
+2412#  subu $sp,$sp,8
+2416#  sw $s5,4($sp)
+2420#  sw $t0,($sp)
+2424#  lw $t0,($sp)
+2428#  addu $sp,$sp,8
+2432#  beq $t0, $zero, if_else_180
+2436#  subu $sp,$sp,4
+2440#  sw $s2,($sp)
+2444#  lw $t0,4($sp)
+2448#  subu $sp,$sp,8
+2452#  sw $s5,4($sp)
+2456#  sw $t0,($sp)
+2460#  li $t0,40
+2464#  subu $sp,$sp,8
+2468#  sw $s5,4($sp)
+2472#  sw $t0,($sp)
+2476#  li $t0,49
+2480#  subu $sp,$sp,8
+2484#  sw $s5,4($sp)
+2488#  sw $t0,($sp)
+2492#  lw $t0,24($sp)
+2496#  sw $s2,24($sp)
+2500#  move $s2,$t0
+2504#beq $s2, $zero, nullPtrException
+2508#  lw $t0,-12($s2)
+2512#  lw $t0,48($t0)
+2516#  jalr $t0
+2520#  addu $sp,$sp,24
+2524#  lw $s2,($sp)
+2528#  addu $sp,$sp,4
+2532#  subu $sp,$sp,8
+2536#  sw $s5,4($sp)
+2540#  sw $t0,($sp)
+2544#  lw $t0,($sp)
+2548#  addu $sp,$sp,8
+2552#  beq $t0, $zero, if_else_161
+2556#  subu $sp,$sp,4
+2560#  sw $s2,($sp)
+2564#  la $t0,strLit_60
+2568#  subu $sp,$sp,4
+2572#  sw $t0,($sp)
+2576#  lw $t0,4($sp)
+2580#  sw $s2,4($sp)
+2584#  move $s2,$t0
+2588#beq $s2, $zero, nullPtrException
+2592#  jal mth_printStr_Lib
+2596#  addu $sp,$sp,4
+2600#  lw $s2,($sp)
+2604#  addu $sp,$sp,4
+2608#  move $t0,$zero
+2612#  subu $sp,$sp,4
+2616#  sw $t0,($sp)
+2620#  addu $sp,$sp,4
+2624#  j if_done_161
+2628:if_else_161:
+2628#  subu $sp,$sp,4
+2632#  sw $s2,($sp)
+2636#  la $t0,strLit_65
+2640#  subu $sp,$sp,4
+2644#  sw $t0,($sp)
+2648#  lw $t0,4($sp)
+2652#  sw $s2,4($sp)
+2656#  move $s2,$t0
+2660#beq $s2, $zero, nullPtrException
+2664#  jal mth_printStr_Lib
+2668#  addu $sp,$sp,4
+2672#  lw $s2,($sp)
+2676#  addu $sp,$sp,4
+2680#  move $t0,$zero
+2684#  subu $sp,$sp,4
+2688#  sw $t0,($sp)
+2692#  addu $sp,$sp,4
+2696:if_done_161:
+2696#  j if_done_180
+2700:if_else_180:
+2700#  subu $sp,$sp,4
+2704#  sw $s2,($sp)
+2708#  lw $t0,4($sp)
+2712#  subu $sp,$sp,8
+2716#  sw $s5,4($sp)
+2720#  sw $t0,($sp)
+2724#  li $t0,60
+2728#  subu $sp,$sp,8
+2732#  sw $s5,4($sp)
+2736#  sw $t0,($sp)
+2740#  li $t0,69
+2744#  subu $sp,$sp,8
+2748#  sw $s5,4($sp)
+2752#  sw $t0,($sp)
+2756#  lw $t0,24($sp)
+2760#  sw $s2,24($sp)
+2764#  move $s2,$t0
+2768#beq $s2, $zero, nullPtrException
+2772#  lw $t0,-12($s2)
+2776#  lw $t0,48($t0)
+2780#  jalr $t0
+2784#  addu $sp,$sp,24
+2788#  lw $s2,($sp)
+2792#  addu $sp,$sp,4
+2796#  subu $sp,$sp,8
+2800#  sw $s5,4($sp)
+2804#  sw $t0,($sp)
+2808#  lw $t0,($sp)
+2812#  addu $sp,$sp,8
+2816#  beq $t0, $zero, if_else_178
+2820#  subu $sp,$sp,4
+2824#  sw $s2,($sp)
+2828#  la $t0,strLit_77
+2832#  subu $sp,$sp,4
+2836#  sw $t0,($sp)
+2840#  lw $t0,4($sp)
+2844#  sw $s2,4($sp)
+2848#  move $s2,$t0
+2852#beq $s2, $zero, nullPtrException
+2856#  jal mth_printStr_Lib
+2860#  addu $sp,$sp,4
+2864#  lw $s2,($sp)
+2868#  addu $sp,$sp,4
+2872#  move $t0,$zero
+2876#  subu $sp,$sp,4
+2880#  sw $t0,($sp)
+2884#  addu $sp,$sp,4
+2888#  j if_done_178
+2892:if_else_178:
+2892#  subu $sp,$sp,4
+2896#  sw $s2,($sp)
+2900#  la $t0,strLit_82
+2904#  subu $sp,$sp,4
+2908#  sw $t0,($sp)
+2912#  lw $t0,4($sp)
+2916#  sw $s2,4($sp)
+2920#  move $s2,$t0
+2924#beq $s2, $zero, nullPtrException
+2928#  jal mth_printStr_Lib
+2932#  addu $sp,$sp,4
+2936#  lw $s2,($sp)
+2940#  addu $sp,$sp,4
+2944#  move $t0,$zero
+2948#  subu $sp,$sp,4
+2952#  sw $t0,($sp)
+2956#  addu $sp,$sp,4
+2960:if_done_178:
+2960:if_done_180:
+2960:if_done_182:
+2960#  li $t0,25
+2964#  subu $sp,$sp,8
+2968#  sw $s5,4($sp)
+2972#  sw $t0,($sp)
+2976#  lw $t0,($sp)
+2980#  addu $sp,$sp,8
+2984#  sw $t0,0($sp)
+2988#  subu $sp,$sp,4
+2992#  sw $s2,($sp)
+2996#  lw $t0,4($sp)
+3000#  subu $sp,$sp,8
+3004#  sw $s5,4($sp)
+3008#  sw $t0,($sp)
+3012#  li $t0,0
+3016#  subu $sp,$sp,8
+3020#  sw $s5,4($sp)
+3024#  sw $t0,($sp)
+3028#  li $t0,39
+3032#  subu $sp,$sp,8
+3036#  sw $s5,4($sp)
+3040#  sw $t0,($sp)
+3044#  lw $t0,24($sp)
+3048#  sw $s2,24($sp)
+3052#  move $s2,$t0
+3056#beq $s2, $zero, nullPtrException
+3060#  lw $t0,-12($s2)
+3064#  lw $t0,48($t0)
+3068#  jalr $t0
+3072#  addu $sp,$sp,24
+3076#  lw $s2,($sp)
+3080#  addu $sp,$sp,4
+3084#  subu $sp,$sp,8
+3088#  sw $s5,4($sp)
+3092#  sw $t0,($sp)
+3096#  lw $t0,($sp)
+3100#  addu $sp,$sp,8
+3104#  beq $t0, $zero, if_else_273
+3108#  subu $sp,$sp,4
+3112#  sw $s2,($sp)
+3116#  lw $t0,4($sp)
+3120#  subu $sp,$sp,8
+3124#  sw $s5,4($sp)
+3128#  sw $t0,($sp)
+3132#  li $t0,0
+3136#  subu $sp,$sp,8
+3140#  sw $s5,4($sp)
+3144#  sw $t0,($sp)
+3148#  li $t0,19
+3152#  subu $sp,$sp,8
+3156#  sw $s5,4($sp)
+3160#  sw $t0,($sp)
+3164#  lw $t0,24($sp)
+3168#  sw $s2,24($sp)
+3172#  move $s2,$t0
+3176#beq $s2, $zero, nullPtrException
+3180#  lw $t0,-12($s2)
+3184#  lw $t0,48($t0)
+3188#  jalr $t0
+3192#  addu $sp,$sp,24
+3196#  lw $s2,($sp)
+3200#  addu $sp,$sp,4
+3204#  subu $sp,$sp,8
+3208#  sw $s5,4($sp)
+3212#  sw $t0,($sp)
+3216#  lw $t0,($sp)
+3220#  addu $sp,$sp,8
+3224#  beq $t0, $zero, if_else_230
+3228#  subu $sp,$sp,4
+3232#  sw $s2,($sp)
+3236#  lw $t0,4($sp)
+3240#  subu $sp,$sp,8
+3244#  sw $s5,4($sp)
+3248#  sw $t0,($sp)
+3252#  li $t0,0
+3256#  subu $sp,$sp,8
+3260#  sw $s5,4($sp)
+3264#  sw $t0,($sp)
+3268#  li $t0,9
+3272#  subu $sp,$sp,8
+3276#  sw $s5,4($sp)
+3280#  sw $t0,($sp)
+3284#  lw $t0,24($sp)
+3288#  sw $s2,24($sp)
+3292#  move $s2,$t0
+3296#beq $s2, $zero, nullPtrException
+3300#  lw $t0,-12($s2)
+3304#  lw $t0,48($t0)
+3308#  jalr $t0
+3312#  addu $sp,$sp,24
+3316#  lw $s2,($sp)
+3320#  addu $sp,$sp,4
+3324#  subu $sp,$sp,8
+3328#  sw $s5,4($sp)
+3332#  sw $t0,($sp)
+3336#  lw $t0,($sp)
+3340#  addu $sp,$sp,8
+3344#  beq $t0, $zero, if_else_211
+3348#  subu $sp,$sp,4
+3352#  sw $s2,($sp)
+3356#  la $t0,strLit_19
+3360#  subu $sp,$sp,4
+3364#  sw $t0,($sp)
+3368#  lw $t0,4($sp)
+3372#  sw $s2,4($sp)
+3376#  move $s2,$t0
+3380#beq $s2, $zero, nullPtrException
+3384#  jal mth_printStr_Lib
+3388#  addu $sp,$sp,4
+3392#  lw $s2,($sp)
+3396#  addu $sp,$sp,4
+3400#  move $t0,$zero
+3404#  subu $sp,$sp,4
+3408#  sw $t0,($sp)
+3412#  addu $sp,$sp,4
+3416#  j if_done_211
+3420:if_else_211:
+3420#  subu $sp,$sp,4
+3424#  sw $s2,($sp)
+3428#  la $t0,strLit_24
+3432#  subu $sp,$sp,4
+3436#  sw $t0,($sp)
+3440#  lw $t0,4($sp)
+3444#  sw $s2,4($sp)
+3448#  move $s2,$t0
+3452#beq $s2, $zero, nullPtrException
+3456#  jal mth_printStr_Lib
+3460#  addu $sp,$sp,4
+3464#  lw $s2,($sp)
+3468#  addu $sp,$sp,4
+3472#  move $t0,$zero
+3476#  subu $sp,$sp,4
+3480#  sw $t0,($sp)
+3484#  addu $sp,$sp,4
+3488:if_done_211:
+3488#  j if_done_230
+3492:if_else_230:
+3492#  subu $sp,$sp,4
+3496#  sw $s2,($sp)
+3500#  lw $t0,4($sp)
+3504#  subu $sp,$sp,8
+3508#  sw $s5,4($sp)
+3512#  sw $t0,($sp)
+3516#  li $t0,20
+3520#  subu $sp,$sp,8
+3524#  sw $s5,4($sp)
+3528#  sw $t0,($sp)
+3532#  li $t0,29
+3536#  subu $sp,$sp,8
+3540#  sw $s5,4($sp)
+3544#  sw $t0,($sp)
+3548#  lw $t0,24($sp)
+3552#  sw $s2,24($sp)
+3556#  move $s2,$t0
+3560#beq $s2, $zero, nullPtrException
+3564#  lw $t0,-12($s2)
+3568#  lw $t0,48($t0)
+3572#  jalr $t0
+3576#  addu $sp,$sp,24
+3580#  lw $s2,($sp)
+3584#  addu $sp,$sp,4
+3588#  subu $sp,$sp,8
+3592#  sw $s5,4($sp)
+3596#  sw $t0,($sp)
+3600#  lw $t0,($sp)
+3604#  addu $sp,$sp,8
+3608#  beq $t0, $zero, if_else_228
+3612#  subu $sp,$sp,4
+3616#  sw $s2,($sp)
+3620#  la $t0,strLit_36
+3624#  subu $sp,$sp,4
+3628#  sw $t0,($sp)
+3632#  lw $t0,4($sp)
+3636#  sw $s2,4($sp)
+3640#  move $s2,$t0
+3644#beq $s2, $zero, nullPtrException
+3648#  jal mth_printStr_Lib
+3652#  addu $sp,$sp,4
+3656#  lw $s2,($sp)
+3660#  addu $sp,$sp,4
+3664#  move $t0,$zero
+3668#  subu $sp,$sp,4
+3672#  sw $t0,($sp)
+3676#  addu $sp,$sp,4
+3680#  j if_done_228
+3684:if_else_228:
+3684#  subu $sp,$sp,4
+3688#  sw $s2,($sp)
+3692#  la $t0,strLit_41
+3696#  subu $sp,$sp,4
+3700#  sw $t0,($sp)
+3704#  lw $t0,4($sp)
+3708#  sw $s2,4($sp)
+3712#  move $s2,$t0
+3716#beq $s2, $zero, nullPtrException
+3720#  jal mth_printStr_Lib
+3724#  addu $sp,$sp,4
+3728#  lw $s2,($sp)
+3732#  addu $sp,$sp,4
+3736#  move $t0,$zero
+3740#  subu $sp,$sp,4
+3744#  sw $t0,($sp)
+3748#  addu $sp,$sp,4
+3752:if_done_228:
+3752:if_done_230:
+3752#  j if_done_273
+3756:if_else_273:
+3756#  subu $sp,$sp,4
+3760#  sw $s2,($sp)
+3764#  lw $t0,4($sp)
+3768#  subu $sp,$sp,8
+3772#  sw $s5,4($sp)
+3776#  sw $t0,($sp)
+3780#  li $t0,40
+3784#  subu $sp,$sp,8
+3788#  sw $s5,4($sp)
+3792#  sw $t0,($sp)
+3796#  li $t0,59
+3800#  subu $sp,$sp,8
+3804#  sw $s5,4($sp)
+3808#  sw $t0,($sp)
+3812#  lw $t0,24($sp)
+3816#  sw $s2,24($sp)
+3820#  move $s2,$t0
+3824#beq $s2, $zero, nullPtrException
+3828#  lw $t0,-12($s2)
+3832#  lw $t0,48($t0)
+3836#  jalr $t0
+3840#  addu $sp,$sp,24
+3844#  lw $s2,($sp)
+3848#  addu $sp,$sp,4
+3852#  subu $sp,$sp,8
+3856#  sw $s5,4($sp)
+3860#  sw $t0,($sp)
+3864#  lw $t0,($sp)
+3868#  addu $sp,$sp,8
+3872#  beq $t0, $zero, if_else_271
+3876#  subu $sp,$sp,4
+3880#  sw $s2,($sp)
+3884#  lw $t0,4($sp)
+3888#  subu $sp,$sp,8
+3892#  sw $s5,4($sp)
+3896#  sw $t0,($sp)
+3900#  li $t0,40
+3904#  subu $sp,$sp,8
+3908#  sw $s5,4($sp)
+3912#  sw $t0,($sp)
+3916#  li $t0,49
+3920#  subu $sp,$sp,8
+3924#  sw $s5,4($sp)
+3928#  sw $t0,($sp)
+3932#  lw $t0,24($sp)
+3936#  sw $s2,24($sp)
+3940#  move $s2,$t0
+3944#beq $s2, $zero, nullPtrException
+3948#  lw $t0,-12($s2)
+3952#  lw $t0,48($t0)
+3956#  jalr $t0
+3960#  addu $sp,$sp,24
+3964#  lw $s2,($sp)
+3968#  addu $sp,$sp,4
+3972#  subu $sp,$sp,8
+3976#  sw $s5,4($sp)
+3980#  sw $t0,($sp)
+3984#  lw $t0,($sp)
+3988#  addu $sp,$sp,8
+3992#  beq $t0, $zero, if_else_252
+3996#  subu $sp,$sp,4
+4000#  sw $s2,($sp)
+4004#  la $t0,strLit_60
+4008#  subu $sp,$sp,4
+4012#  sw $t0,($sp)
+4016#  lw $t0,4($sp)
+4020#  sw $s2,4($sp)
+4024#  move $s2,$t0
+4028#beq $s2, $zero, nullPtrException
+4032#  jal mth_printStr_Lib
+4036#  addu $sp,$sp,4
+4040#  lw $s2,($sp)
+4044#  addu $sp,$sp,4
+4048#  move $t0,$zero
+4052#  subu $sp,$sp,4
+4056#  sw $t0,($sp)
+4060#  addu $sp,$sp,4
+4064#  j if_done_252
+4068:if_else_252:
+4068#  subu $sp,$sp,4
+4072#  sw $s2,($sp)
+4076#  la $t0,strLit_65
+4080#  subu $sp,$sp,4
+4084#  sw $t0,($sp)
+4088#  lw $t0,4($sp)
+4092#  sw $s2,4($sp)
+4096#  move $s2,$t0
+4100#beq $s2, $zero, nullPtrException
+4104#  jal mth_printStr_Lib
+4108#  addu $sp,$sp,4
+4112#  lw $s2,($sp)
+4116#  addu $sp,$sp,4
+4120#  move $t0,$zero
+4124#  subu $sp,$sp,4
+4128#  sw $t0,($sp)
+4132#  addu $sp,$sp,4
+4136:if_done_252:
+4136#  j if_done_271
+4140:if_else_271:
+4140#  subu $sp,$sp,4
+4144#  sw $s2,($sp)
+4148#  lw $t0,4($sp)
+4152#  subu $sp,$sp,8
+4156#  sw $s5,4($sp)
+4160#  sw $t0,($sp)
+4164#  li $t0,60
+4168#  subu $sp,$sp,8
+4172#  sw $s5,4($sp)
+4176#  sw $t0,($sp)
+4180#  li $t0,69
+4184#  subu $sp,$sp,8
+4188#  sw $s5,4($sp)
+4192#  sw $t0,($sp)
+4196#  lw $t0,24($sp)
+4200#  sw $s2,24($sp)
+4204#  move $s2,$t0
+4208#beq $s2, $zero, nullPtrException
+4212#  lw $t0,-12($s2)
+4216#  lw $t0,48($t0)
+4220#  jalr $t0
+4224#  addu $sp,$sp,24
+4228#  lw $s2,($sp)
+4232#  addu $sp,$sp,4
+4236#  subu $sp,$sp,8
+4240#  sw $s5,4($sp)
+4244#  sw $t0,($sp)
+4248#  lw $t0,($sp)
+4252#  addu $sp,$sp,8
+4256#  beq $t0, $zero, if_else_269
+4260#  subu $sp,$sp,4
+4264#  sw $s2,($sp)
+4268#  la $t0,strLit_77
+4272#  subu $sp,$sp,4
+4276#  sw $t0,($sp)
+4280#  lw $t0,4($sp)
+4284#  sw $s2,4($sp)
+4288#  move $s2,$t0
+4292#beq $s2, $zero, nullPtrException
+4296#  jal mth_printStr_Lib
+4300#  addu $sp,$sp,4
+4304#  lw $s2,($sp)
+4308#  addu $sp,$sp,4
+4312#  move $t0,$zero
+4316#  subu $sp,$sp,4
+4320#  sw $t0,($sp)
+4324#  addu $sp,$sp,4
+4328#  j if_done_269
+4332:if_else_269:
+4332#  subu $sp,$sp,4
+4336#  sw $s2,($sp)
+4340#  la $t0,strLit_82
+4344#  subu $sp,$sp,4
+4348#  sw $t0,($sp)
+4352#  lw $t0,4($sp)
+4356#  sw $s2,4($sp)
+4360#  move $s2,$t0
+4364#beq $s2, $zero, nullPtrException
+4368#  jal mth_printStr_Lib
+4372#  addu $sp,$sp,4
+4376#  lw $s2,($sp)
+4380#  addu $sp,$sp,4
+4384#  move $t0,$zero
+4388#  subu $sp,$sp,4
+4392#  sw $t0,($sp)
+4396#  addu $sp,$sp,4
+4400:if_done_269:
+4400:if_done_271:
+4400:if_done_273:
+4400#  li $t0,35
+4404#  subu $sp,$sp,8
+4408#  sw $s5,4($sp)
+4412#  sw $t0,($sp)
+4416#  lw $t0,($sp)
+4420#  addu $sp,$sp,8
+4424#  sw $t0,0($sp)
+4428#  subu $sp,$sp,4
+4432#  sw $s2,($sp)
+4436#  lw $t0,4($sp)
+4440#  subu $sp,$sp,8
+4444#  sw $s5,4($sp)
+4448#  sw $t0,($sp)
+4452#  li $t0,0
+4456#  subu $sp,$sp,8
+4460#  sw $s5,4($sp)
+4464#  sw $t0,($sp)
+4468#  li $t0,39
+4472#  subu $sp,$sp,8
+4476#  sw $s5,4($sp)
+4480#  sw $t0,($sp)
+4484#  lw $t0,24($sp)
+4488#  sw $s2,24($sp)
+4492#  move $s2,$t0
+4496#beq $s2, $zero, nullPtrException
+4500#  lw $t0,-12($s2)
+4504#  lw $t0,48($t0)
+4508#  jalr $t0
+4512#  addu $sp,$sp,24
+4516#  lw $s2,($sp)
+4520#  addu $sp,$sp,4
+4524#  subu $sp,$sp,8
+4528#  sw $s5,4($sp)
+4532#  sw $t0,($sp)
+4536#  lw $t0,($sp)
+4540#  addu $sp,$sp,8
+4544#  beq $t0, $zero, if_else_364
+4548#  subu $sp,$sp,4
+4552#  sw $s2,($sp)
+4556#  lw $t0,4($sp)
+4560#  subu $sp,$sp,8
+4564#  sw $s5,4($sp)
+4568#  sw $t0,($sp)
+4572#  li $t0,0
+4576#  subu $sp,$sp,8
+4580#  sw $s5,4($sp)
+4584#  sw $t0,($sp)
+4588#  li $t0,19
+4592#  subu $sp,$sp,8
+4596#  sw $s5,4($sp)
+4600#  sw $t0,($sp)
+4604#  lw $t0,24($sp)
+4608#  sw $s2,24($sp)
+4612#  move $s2,$t0
+4616#beq $s2, $zero, nullPtrException
+4620#  lw $t0,-12($s2)
+4624#  lw $t0,48($t0)
+4628#  jalr $t0
+4632#  addu $sp,$sp,24
+4636#  lw $s2,($sp)
+4640#  addu $sp,$sp,4
+4644#  subu $sp,$sp,8
+4648#  sw $s5,4($sp)
+4652#  sw $t0,($sp)
+4656#  lw $t0,($sp)
+4660#  addu $sp,$sp,8
+4664#  beq $t0, $zero, if_else_321
+4668#  subu $sp,$sp,4
+4672#  sw $s2,($sp)
+4676#  lw $t0,4($sp)
+4680#  subu $sp,$sp,8
+4684#  sw $s5,4($sp)
+4688#  sw $t0,($sp)
+4692#  li $t0,0
+4696#  subu $sp,$sp,8
+4700#  sw $s5,4($sp)
+4704#  sw $t0,($sp)
+4708#  li $t0,9
+4712#  subu $sp,$sp,8
+4716#  sw $s5,4($sp)
+4720#  sw $t0,($sp)
+4724#  lw $t0,24($sp)
+4728#  sw $s2,24($sp)
+4732#  move $s2,$t0
+4736#beq $s2, $zero, nullPtrException
+4740#  lw $t0,-12($s2)
+4744#  lw $t0,48($t0)
+4748#  jalr $t0
+4752#  addu $sp,$sp,24
+4756#  lw $s2,($sp)
+4760#  addu $sp,$sp,4
+4764#  subu $sp,$sp,8
+4768#  sw $s5,4($sp)
+4772#  sw $t0,($sp)
+4776#  lw $t0,($sp)
+4780#  addu $sp,$sp,8
+4784#  beq $t0, $zero, if_else_302
+4788#  subu $sp,$sp,4
+4792#  sw $s2,($sp)
+4796#  la $t0,strLit_19
+4800#  subu $sp,$sp,4
+4804#  sw $t0,($sp)
+4808#  lw $t0,4($sp)
+4812#  sw $s2,4($sp)
+4816#  move $s2,$t0
+4820#beq $s2, $zero, nullPtrException
+4824#  jal mth_printStr_Lib
+4828#  addu $sp,$sp,4
+4832#  lw $s2,($sp)
+4836#  addu $sp,$sp,4
+4840#  move $t0,$zero
+4844#  subu $sp,$sp,4
+4848#  sw $t0,($sp)
+4852#  addu $sp,$sp,4
+4856#  j if_done_302
+4860:if_else_302:
+4860#  subu $sp,$sp,4
+4864#  sw $s2,($sp)
+4868#  la $t0,strLit_24
+4872#  subu $sp,$sp,4
+4876#  sw $t0,($sp)
+4880#  lw $t0,4($sp)
+4884#  sw $s2,4($sp)
+4888#  move $s2,$t0
+4892#beq $s2, $zero, nullPtrException
+4896#  jal mth_printStr_Lib
+4900#  addu $sp,$sp,4
+4904#  lw $s2,($sp)
+4908#  addu $sp,$sp,4
+4912#  move $t0,$zero
+4916#  subu $sp,$sp,4
+4920#  sw $t0,($sp)
+4924#  addu $sp,$sp,4
+4928:if_done_302:
+4928#  j if_done_321
+4932:if_else_321:
+4932#  subu $sp,$sp,4
+4936#  sw $s2,($sp)
+4940#  lw $t0,4($sp)
+4944#  subu $sp,$sp,8
+4948#  sw $s5,4($sp)
+4952#  sw $t0,($sp)
+4956#  li $t0,20
+4960#  subu $sp,$sp,8
+4964#  sw $s5,4($sp)
+4968#  sw $t0,($sp)
+4972#  li $t0,29
+4976#  subu $sp,$sp,8
+4980#  sw $s5,4($sp)
+4984#  sw $t0,($sp)
+4988#  lw $t0,24($sp)
+4992#  sw $s2,24($sp)
+4996#  move $s2,$t0
+5000#beq $s2, $zero, nullPtrException
+5004#  lw $t0,-12($s2)
+5008#  lw $t0,48($t0)
+5012#  jalr $t0
+5016#  addu $sp,$sp,24
+5020#  lw $s2,($sp)
+5024#  addu $sp,$sp,4
+5028#  subu $sp,$sp,8
+5032#  sw $s5,4($sp)
+5036#  sw $t0,($sp)
+5040#  lw $t0,($sp)
+5044#  addu $sp,$sp,8
+5048#  beq $t0, $zero, if_else_319
+5052#  subu $sp,$sp,4
+5056#  sw $s2,($sp)
+5060#  la $t0,strLit_36
+5064#  subu $sp,$sp,4
+5068#  sw $t0,($sp)
+5072#  lw $t0,4($sp)
+5076#  sw $s2,4($sp)
+5080#  move $s2,$t0
+5084#beq $s2, $zero, nullPtrException
+5088#  jal mth_printStr_Lib
+5092#  addu $sp,$sp,4
+5096#  lw $s2,($sp)
+5100#  addu $sp,$sp,4
+5104#  move $t0,$zero
+5108#  subu $sp,$sp,4
+5112#  sw $t0,($sp)
+5116#  addu $sp,$sp,4
+5120#  j if_done_319
+5124:if_else_319:
+5124#  subu $sp,$sp,4
+5128#  sw $s2,($sp)
+5132#  la $t0,strLit_41
+5136#  subu $sp,$sp,4
+5140#  sw $t0,($sp)
+5144#  lw $t0,4($sp)
+5148#  sw $s2,4($sp)
+5152#  move $s2,$t0
+5156#beq $s2, $zero, nullPtrException
+5160#  jal mth_printStr_Lib
+5164#  addu $sp,$sp,4
+5168#  lw $s2,($sp)
+5172#  addu $sp,$sp,4
+5176#  move $t0,$zero
+5180#  subu $sp,$sp,4
+5184#  sw $t0,($sp)
+5188#  addu $sp,$sp,4
+5192:if_done_319:
+5192:if_done_321:
+5192#  j if_done_364
+5196:if_else_364:
+5196#  subu $sp,$sp,4
+5200#  sw $s2,($sp)
+5204#  lw $t0,4($sp)
+5208#  subu $sp,$sp,8
+5212#  sw $s5,4($sp)
+5216#  sw $t0,($sp)
+5220#  li $t0,40
+5224#  subu $sp,$sp,8
+5228#  sw $s5,4($sp)
+5232#  sw $t0,($sp)
+5236#  li $t0,59
+5240#  subu $sp,$sp,8
+5244#  sw $s5,4($sp)
+5248#  sw $t0,($sp)
+5252#  lw $t0,24($sp)
+5256#  sw $s2,24($sp)
+5260#  move $s2,$t0
+5264#beq $s2, $zero, nullPtrException
+5268#  lw $t0,-12($s2)
+5272#  lw $t0,48($t0)
+5276#  jalr $t0
+5280#  addu $sp,$sp,24
+5284#  lw $s2,($sp)
+5288#  addu $sp,$sp,4
+5292#  subu $sp,$sp,8
+5296#  sw $s5,4($sp)
+5300#  sw $t0,($sp)
+5304#  lw $t0,($sp)
+5308#  addu $sp,$sp,8
+5312#  beq $t0, $zero, if_else_362
+5316#  subu $sp,$sp,4
+5320#  sw $s2,($sp)
+5324#  lw $t0,4($sp)
+5328#  subu $sp,$sp,8
+5332#  sw $s5,4($sp)
+5336#  sw $t0,($sp)
+5340#  li $t0,40
+5344#  subu $sp,$sp,8
+5348#  sw $s5,4($sp)
+5352#  sw $t0,($sp)
+5356#  li $t0,49
+5360#  subu $sp,$sp,8
+5364#  sw $s5,4($sp)
+5368#  sw $t0,($sp)
+5372#  lw $t0,24($sp)
+5376#  sw $s2,24($sp)
+5380#  move $s2,$t0
+5384#beq $s2, $zero, nullPtrException
+5388#  lw $t0,-12($s2)
+5392#  lw $t0,48($t0)
+5396#  jalr $t0
+5400#  addu $sp,$sp,24
+5404#  lw $s2,($sp)
+5408#  addu $sp,$sp,4
+5412#  subu $sp,$sp,8
+5416#  sw $s5,4($sp)
+5420#  sw $t0,($sp)
+5424#  lw $t0,($sp)
+5428#  addu $sp,$sp,8
+5432#  beq $t0, $zero, if_else_343
+5436#  subu $sp,$sp,4
+5440#  sw $s2,($sp)
+5444#  la $t0,strLit_60
+5448#  subu $sp,$sp,4
+5452#  sw $t0,($sp)
+5456#  lw $t0,4($sp)
+5460#  sw $s2,4($sp)
+5464#  move $s2,$t0
+5468#beq $s2, $zero, nullPtrException
+5472#  jal mth_printStr_Lib
+5476#  addu $sp,$sp,4
+5480#  lw $s2,($sp)
+5484#  addu $sp,$sp,4
+5488#  move $t0,$zero
+5492#  subu $sp,$sp,4
+5496#  sw $t0,($sp)
+5500#  addu $sp,$sp,4
+5504#  j if_done_343
+5508:if_else_343:
+5508#  subu $sp,$sp,4
+5512#  sw $s2,($sp)
+5516#  la $t0,strLit_65
+5520#  subu $sp,$sp,4
+5524#  sw $t0,($sp)
+5528#  lw $t0,4($sp)
+5532#  sw $s2,4($sp)
+5536#  move $s2,$t0
+5540#beq $s2, $zero, nullPtrException
+5544#  jal mth_printStr_Lib
+5548#  addu $sp,$sp,4
+5552#  lw $s2,($sp)
+5556#  addu $sp,$sp,4
+5560#  move $t0,$zero
+5564#  subu $sp,$sp,4
+5568#  sw $t0,($sp)
+5572#  addu $sp,$sp,4
+5576:if_done_343:
+5576#  j if_done_362
+5580:if_else_362:
+5580#  subu $sp,$sp,4
+5584#  sw $s2,($sp)
+5588#  lw $t0,4($sp)
+5592#  subu $sp,$sp,8
+5596#  sw $s5,4($sp)
+5600#  sw $t0,($sp)
+5604#  li $t0,60
+5608#  subu $sp,$sp,8
+5612#  sw $s5,4($sp)
+5616#  sw $t0,($sp)
+5620#  li $t0,69
+5624#  subu $sp,$sp,8
+5628#  sw $s5,4($sp)
+5632#  sw $t0,($sp)
+5636#  lw $t0,24($sp)
+5640#  sw $s2,24($sp)
+5644#  move $s2,$t0
+5648#beq $s2, $zero, nullPtrException
+5652#  lw $t0,-12($s2)
+5656#  lw $t0,48($t0)
+5660#  jalr $t0
+5664#  addu $sp,$sp,24
+5668#  lw $s2,($sp)
+5672#  addu $sp,$sp,4
+5676#  subu $sp,$sp,8
+5680#  sw $s5,4($sp)
+5684#  sw $t0,($sp)
+5688#  lw $t0,($sp)
+5692#  addu $sp,$sp,8
+5696#  beq $t0, $zero, if_else_360
+5700#  subu $sp,$sp,4
+5704#  sw $s2,($sp)
+5708#  la $t0,strLit_77
+5712#  subu $sp,$sp,4
+5716#  sw $t0,($sp)
+5720#  lw $t0,4($sp)
+5724#  sw $s2,4($sp)
+5728#  move $s2,$t0
+5732#beq $s2, $zero, nullPtrException
+5736#  jal mth_printStr_Lib
+5740#  addu $sp,$sp,4
+5744#  lw $s2,($sp)
+5748#  addu $sp,$sp,4
+5752#  move $t0,$zero
+5756#  subu $sp,$sp,4
+5760#  sw $t0,($sp)
+5764#  addu $sp,$sp,4
+5768#  j if_done_360
+5772:if_else_360:
+5772#  subu $sp,$sp,4
+5776#  sw $s2,($sp)
+5780#  la $t0,strLit_82
+5784#  subu $sp,$sp,4
+5788#  sw $t0,($sp)
+5792#  lw $t0,4($sp)
+5796#  sw $s2,4($sp)
+5800#  move $s2,$t0
+5804#beq $s2, $zero, nullPtrException
+5808#  jal mth_printStr_Lib
+5812#  addu $sp,$sp,4
+5816#  lw $s2,($sp)
+5820#  addu $sp,$sp,4
+5824#  move $t0,$zero
+5828#  subu $sp,$sp,4
+5832#  sw $t0,($sp)
+5836#  addu $sp,$sp,4
+5840:if_done_360:
+5840:if_done_362:
+5840:if_done_364:
+5840#  li $t0,45
+5844#  subu $sp,$sp,8
+5848#  sw $s5,4($sp)
+5852#  sw $t0,($sp)
+5856#  lw $t0,($sp)
+5860#  addu $sp,$sp,8
+5864#  sw $t0,0($sp)
+5868#  subu $sp,$sp,4
+5872#  sw $s2,($sp)
+5876#  lw $t0,4($sp)
+5880#  subu $sp,$sp,8
+5884#  sw $s5,4($sp)
+5888#  sw $t0,($sp)
+5892#  li $t0,0
+5896#  subu $sp,$sp,8
+5900#  sw $s5,4($sp)
+5904#  sw $t0,($sp)
+5908#  li $t0,39
+5912#  subu $sp,$sp,8
+5916#  sw $s5,4($sp)
+5920#  sw $t0,($sp)
+5924#  lw $t0,24($sp)
+5928#  sw $s2,24($sp)
+5932#  move $s2,$t0
+5936#beq $s2, $zero, nullPtrException
+5940#  lw $t0,-12($s2)
+5944#  lw $t0,48($t0)
+5948#  jalr $t0
+5952#  addu $sp,$sp,24
+5956#  lw $s2,($sp)
+5960#  addu $sp,$sp,4
+5964#  subu $sp,$sp,8
+5968#  sw $s5,4($sp)
+5972#  sw $t0,($sp)
+5976#  lw $t0,($sp)
+5980#  addu $sp,$sp,8
+5984#  beq $t0, $zero, if_else_455
+5988#  subu $sp,$sp,4
+5992#  sw $s2,($sp)
+5996#  lw $t0,4($sp)
+6000#  subu $sp,$sp,8
+6004#  sw $s5,4($sp)
+6008#  sw $t0,($sp)
+6012#  li $t0,0
+6016#  subu $sp,$sp,8
+6020#  sw $s5,4($sp)
+6024#  sw $t0,($sp)
+6028#  li $t0,19
+6032#  subu $sp,$sp,8
+6036#  sw $s5,4($sp)
+6040#  sw $t0,($sp)
+6044#  lw $t0,24($sp)
+6048#  sw $s2,24($sp)
+6052#  move $s2,$t0
+6056#beq $s2, $zero, nullPtrException
+6060#  lw $t0,-12($s2)
+6064#  lw $t0,48($t0)
+6068#  jalr $t0
+6072#  addu $sp,$sp,24
+6076#  lw $s2,($sp)
+6080#  addu $sp,$sp,4
+6084#  subu $sp,$sp,8
+6088#  sw $s5,4($sp)
+6092#  sw $t0,($sp)
+6096#  lw $t0,($sp)
+6100#  addu $sp,$sp,8
+6104#  beq $t0, $zero, if_else_412
+6108#  subu $sp,$sp,4
+6112#  sw $s2,($sp)
+6116#  lw $t0,4($sp)
+6120#  subu $sp,$sp,8
+6124#  sw $s5,4($sp)
+6128#  sw $t0,($sp)
+6132#  li $t0,0
+6136#  subu $sp,$sp,8
+6140#  sw $s5,4($sp)
+6144#  sw $t0,($sp)
+6148#  li $t0,9
+6152#  subu $sp,$sp,8
+6156#  sw $s5,4($sp)
+6160#  sw $t0,($sp)
+6164#  lw $t0,24($sp)
+6168#  sw $s2,24($sp)
+6172#  move $s2,$t0
+6176#beq $s2, $zero, nullPtrException
+6180#  lw $t0,-12($s2)
+6184#  lw $t0,48($t0)
+6188#  jalr $t0
+6192#  addu $sp,$sp,24
+6196#  lw $s2,($sp)
+6200#  addu $sp,$sp,4
+6204#  subu $sp,$sp,8
+6208#  sw $s5,4($sp)
+6212#  sw $t0,($sp)
+6216#  lw $t0,($sp)
+6220#  addu $sp,$sp,8
+6224#  beq $t0, $zero, if_else_393
+6228#  subu $sp,$sp,4
+6232#  sw $s2,($sp)
+6236#  la $t0,strLit_19
+6240#  subu $sp,$sp,4
+6244#  sw $t0,($sp)
+6248#  lw $t0,4($sp)
+6252#  sw $s2,4($sp)
+6256#  move $s2,$t0
+6260#beq $s2, $zero, nullPtrException
+6264#  jal mth_printStr_Lib
+6268#  addu $sp,$sp,4
+6272#  lw $s2,($sp)
+6276#  addu $sp,$sp,4
+6280#  move $t0,$zero
+6284#  subu $sp,$sp,4
+6288#  sw $t0,($sp)
+6292#  addu $sp,$sp,4
+6296#  j if_done_393
+6300:if_else_393:
+6300#  subu $sp,$sp,4
+6304#  sw $s2,($sp)
+6308#  la $t0,strLit_24
+6312#  subu $sp,$sp,4
+6316#  sw $t0,($sp)
+6320#  lw $t0,4($sp)
+6324#  sw $s2,4($sp)
+6328#  move $s2,$t0
+6332#beq $s2, $zero, nullPtrException
+6336#  jal mth_printStr_Lib
+6340#  addu $sp,$sp,4
+6344#  lw $s2,($sp)
+6348#  addu $sp,$sp,4
+6352#  move $t0,$zero
+6356#  subu $sp,$sp,4
+6360#  sw $t0,($sp)
+6364#  addu $sp,$sp,4
+6368:if_done_393:
+6368#  j if_done_412
+6372:if_else_412:
+6372#  subu $sp,$sp,4
+6376#  sw $s2,($sp)
+6380#  lw $t0,4($sp)
+6384#  subu $sp,$sp,8
+6388#  sw $s5,4($sp)
+6392#  sw $t0,($sp)
+6396#  li $t0,20
+6400#  subu $sp,$sp,8
+6404#  sw $s5,4($sp)
+6408#  sw $t0,($sp)
+6412#  li $t0,29
+6416#  subu $sp,$sp,8
+6420#  sw $s5,4($sp)
+6424#  sw $t0,($sp)
+6428#  lw $t0,24($sp)
+6432#  sw $s2,24($sp)
+6436#  move $s2,$t0
+6440#beq $s2, $zero, nullPtrException
+6444#  lw $t0,-12($s2)
+6448#  lw $t0,48($t0)
+6452#  jalr $t0
+6456#  addu $sp,$sp,24
+6460#  lw $s2,($sp)
+6464#  addu $sp,$sp,4
+6468#  subu $sp,$sp,8
+6472#  sw $s5,4($sp)
+6476#  sw $t0,($sp)
+6480#  lw $t0,($sp)
+6484#  addu $sp,$sp,8
+6488#  beq $t0, $zero, if_else_410
+6492#  subu $sp,$sp,4
+6496#  sw $s2,($sp)
+6500#  la $t0,strLit_36
+6504#  subu $sp,$sp,4
+6508#  sw $t0,($sp)
+6512#  lw $t0,4($sp)
+6516#  sw $s2,4($sp)
+6520#  move $s2,$t0
+6524#beq $s2, $zero, nullPtrException
+6528#  jal mth_printStr_Lib
+6532#  addu $sp,$sp,4
+6536#  lw $s2,($sp)
+6540#  addu $sp,$sp,4
+6544#  move $t0,$zero
+6548#  subu $sp,$sp,4
+6552#  sw $t0,($sp)
+6556#  addu $sp,$sp,4
+6560#  j if_done_410
+6564:if_else_410:
+6564#  subu $sp,$sp,4
+6568#  sw $s2,($sp)
+6572#  la $t0,strLit_41
+6576#  subu $sp,$sp,4
+6580#  sw $t0,($sp)
+6584#  lw $t0,4($sp)
+6588#  sw $s2,4($sp)
+6592#  move $s2,$t0
+6596#beq $s2, $zero, nullPtrException
+6600#  jal mth_printStr_Lib
+6604#  addu $sp,$sp,4
+6608#  lw $s2,($sp)
+6612#  addu $sp,$sp,4
+6616#  move $t0,$zero
+6620#  subu $sp,$sp,4
+6624#  sw $t0,($sp)
+6628#  addu $sp,$sp,4
+6632:if_done_410:
+6632:if_done_412:
+6632#  j if_done_455
+6636:if_else_455:
+6636#  subu $sp,$sp,4
+6640#  sw $s2,($sp)
+6644#  lw $t0,4($sp)
+6648#  subu $sp,$sp,8
+6652#  sw $s5,4($sp)
+6656#  sw $t0,($sp)
+6660#  li $t0,40
+6664#  subu $sp,$sp,8
+6668#  sw $s5,4($sp)
+6672#  sw $t0,($sp)
+6676#  li $t0,59
+6680#  subu $sp,$sp,8
+6684#  sw $s5,4($sp)
+6688#  sw $t0,($sp)
+6692#  lw $t0,24($sp)
+6696#  sw $s2,24($sp)
+6700#  move $s2,$t0
+6704#beq $s2, $zero, nullPtrException
+6708#  lw $t0,-12($s2)
+6712#  lw $t0,48($t0)
+6716#  jalr $t0
+6720#  addu $sp,$sp,24
+6724#  lw $s2,($sp)
+6728#  addu $sp,$sp,4
+6732#  subu $sp,$sp,8
+6736#  sw $s5,4($sp)
+6740#  sw $t0,($sp)
+6744#  lw $t0,($sp)
+6748#  addu $sp,$sp,8
+6752#  beq $t0, $zero, if_else_453
+6756#  subu $sp,$sp,4
+6760#  sw $s2,($sp)
+6764#  lw $t0,4($sp)
+6768#  subu $sp,$sp,8
+6772#  sw $s5,4($sp)
+6776#  sw $t0,($sp)
+6780#  li $t0,40
+6784#  subu $sp,$sp,8
+6788#  sw $s5,4($sp)
+6792#  sw $t0,($sp)
+6796#  li $t0,49
+6800#  subu $sp,$sp,8
+6804#  sw $s5,4($sp)
+6808#  sw $t0,($sp)
+6812#  lw $t0,24($sp)
+6816#  sw $s2,24($sp)
+6820#  move $s2,$t0
+6824#beq $s2, $zero, nullPtrException
+6828#  lw $t0,-12($s2)
+6832#  lw $t0,48($t0)
+6836#  jalr $t0
+6840#  addu $sp,$sp,24
+6844#  lw $s2,($sp)
+6848#  addu $sp,$sp,4
+6852#  subu $sp,$sp,8
+6856#  sw $s5,4($sp)
+6860#  sw $t0,($sp)
+6864#  lw $t0,($sp)
+6868#  addu $sp,$sp,8
+6872#  beq $t0, $zero, if_else_434
+6876#  subu $sp,$sp,4
+6880#  sw $s2,($sp)
+6884#  la $t0,strLit_60
+6888#  subu $sp,$sp,4
+6892#  sw $t0,($sp)
+6896#  lw $t0,4($sp)
+6900#  sw $s2,4($sp)
+6904#  move $s2,$t0
+6908#beq $s2, $zero, nullPtrException
+6912#  jal mth_printStr_Lib
+6916#  addu $sp,$sp,4
+6920#  lw $s2,($sp)
+6924#  addu $sp,$sp,4
+6928#  move $t0,$zero
+6932#  subu $sp,$sp,4
+6936#  sw $t0,($sp)
+6940#  addu $sp,$sp,4
+6944#  j if_done_434
+6948:if_else_434:
+6948#  subu $sp,$sp,4
+6952#  sw $s2,($sp)
+6956#  la $t0,strLit_65
+6960#  subu $sp,$sp,4
+6964#  sw $t0,($sp)
+6968#  lw $t0,4($sp)
+6972#  sw $s2,4($sp)
+6976#  move $s2,$t0
+6980#beq $s2, $zero, nullPtrException
+6984#  jal mth_printStr_Lib
+6988#  addu $sp,$sp,4
+6992#  lw $s2,($sp)
+6996#  addu $sp,$sp,4
+7000#  move $t0,$zero
+7004#  subu $sp,$sp,4
+7008#  sw $t0,($sp)
+7012#  addu $sp,$sp,4
+7016:if_done_434:
+7016#  j if_done_453
+7020:if_else_453:
+7020#  subu $sp,$sp,4
+7024#  sw $s2,($sp)
+7028#  lw $t0,4($sp)
+7032#  subu $sp,$sp,8
+7036#  sw $s5,4($sp)
+7040#  sw $t0,($sp)
+7044#  li $t0,60
+7048#  subu $sp,$sp,8
+7052#  sw $s5,4($sp)
+7056#  sw $t0,($sp)
+7060#  li $t0,69
+7064#  subu $sp,$sp,8
+7068#  sw $s5,4($sp)
+7072#  sw $t0,($sp)
+7076#  lw $t0,24($sp)
+7080#  sw $s2,24($sp)
+7084#  move $s2,$t0
+7088#beq $s2, $zero, nullPtrException
+7092#  lw $t0,-12($s2)
+7096#  lw $t0,48($t0)
+7100#  jalr $t0
+7104#  addu $sp,$sp,24
+7108#  lw $s2,($sp)
+7112#  addu $sp,$sp,4
+7116#  subu $sp,$sp,8
+7120#  sw $s5,4($sp)
+7124#  sw $t0,($sp)
+7128#  lw $t0,($sp)
+7132#  addu $sp,$sp,8
+7136#  beq $t0, $zero, if_else_451
+7140#  subu $sp,$sp,4
+7144#  sw $s2,($sp)
+7148#  la $t0,strLit_77
+7152#  subu $sp,$sp,4
+7156#  sw $t0,($sp)
+7160#  lw $t0,4($sp)
+7164#  sw $s2,4($sp)
+7168#  move $s2,$t0
+7172#beq $s2, $zero, nullPtrException
+7176#  jal mth_printStr_Lib
+7180#  addu $sp,$sp,4
+7184#  lw $s2,($sp)
+7188#  addu $sp,$sp,4
+7192#  move $t0,$zero
+7196#  subu $sp,$sp,4
+7200#  sw $t0,($sp)
+7204#  addu $sp,$sp,4
+7208#  j if_done_451
+7212:if_else_451:
+7212#  subu $sp,$sp,4
+7216#  sw $s2,($sp)
+7220#  la $t0,strLit_82
+7224#  subu $sp,$sp,4
+7228#  sw $t0,($sp)
+7232#  lw $t0,4($sp)
+7236#  sw $s2,4($sp)
+7240#  move $s2,$t0
+7244#beq $s2, $zero, nullPtrException
+7248#  jal mth_printStr_Lib
+7252#  addu $sp,$sp,4
+7256#  lw $s2,($sp)
+7260#  addu $sp,$sp,4
+7264#  move $t0,$zero
+7268#  subu $sp,$sp,4
+7272#  sw $t0,($sp)
+7276#  addu $sp,$sp,4
+7280:if_done_451:
+7280:if_done_453:
+7280:if_done_455:
+7280#  li $t0,55
+7284#  subu $sp,$sp,8
+7288#  sw $s5,4($sp)
+7292#  sw $t0,($sp)
+7296#  lw $t0,($sp)
+7300#  addu $sp,$sp,8
+7304#  sw $t0,0($sp)
+7308#  subu $sp,$sp,4
+7312#  sw $s2,($sp)
+7316#  lw $t0,4($sp)
+7320#  subu $sp,$sp,8
+7324#  sw $s5,4($sp)
+7328#  sw $t0,($sp)
+7332#  li $t0,0
+7336#  subu $sp,$sp,8
+7340#  sw $s5,4($sp)
+7344#  sw $t0,($sp)
+7348#  li $t0,39
+7352#  subu $sp,$sp,8
+7356#  sw $s5,4($sp)
+7360#  sw $t0,($sp)
+7364#  lw $t0,24($sp)
+7368#  sw $s2,24($sp)
+7372#  move $s2,$t0
+7376#beq $s2, $zero, nullPtrException
+7380#  lw $t0,-12($s2)
+7384#  lw $t0,48($t0)
+7388#  jalr $t0
+7392#  addu $sp,$sp,24
+7396#  lw $s2,($sp)
+7400#  addu $sp,$sp,4
+7404#  subu $sp,$sp,8
+7408#  sw $s5,4($sp)
+7412#  sw $t0,($sp)
+7416#  lw $t0,($sp)
+7420#  addu $sp,$sp,8
+7424#  beq $t0, $zero, if_else_546
+7428#  subu $sp,$sp,4
+7432#  sw $s2,($sp)
+7436#  lw $t0,4($sp)
+7440#  subu $sp,$sp,8
+7444#  sw $s5,4($sp)
+7448#  sw $t0,($sp)
+7452#  li $t0,0
+7456#  subu $sp,$sp,8
+7460#  sw $s5,4($sp)
+7464#  sw $t0,($sp)
+7468#  li $t0,19
+7472#  subu $sp,$sp,8
+7476#  sw $s5,4($sp)
+7480#  sw $t0,($sp)
+7484#  lw $t0,24($sp)
+7488#  sw $s2,24($sp)
+7492#  move $s2,$t0
+7496#beq $s2, $zero, nullPtrException
+7500#  lw $t0,-12($s2)
+7504#  lw $t0,48($t0)
+7508#  jalr $t0
+7512#  addu $sp,$sp,24
+7516#  lw $s2,($sp)
+7520#  addu $sp,$sp,4
+7524#  subu $sp,$sp,8
+7528#  sw $s5,4($sp)
+7532#  sw $t0,($sp)
+7536#  lw $t0,($sp)
+7540#  addu $sp,$sp,8
+7544#  beq $t0, $zero, if_else_503
+7548#  subu $sp,$sp,4
+7552#  sw $s2,($sp)
+7556#  lw $t0,4($sp)
+7560#  subu $sp,$sp,8
+7564#  sw $s5,4($sp)
+7568#  sw $t0,($sp)
+7572#  li $t0,0
+7576#  subu $sp,$sp,8
+7580#  sw $s5,4($sp)
+7584#  sw $t0,($sp)
+7588#  li $t0,9
+7592#  subu $sp,$sp,8
+7596#  sw $s5,4($sp)
+7600#  sw $t0,($sp)
+7604#  lw $t0,24($sp)
+7608#  sw $s2,24($sp)
+7612#  move $s2,$t0
+7616#beq $s2, $zero, nullPtrException
+7620#  lw $t0,-12($s2)
+7624#  lw $t0,48($t0)
+7628#  jalr $t0
+7632#  addu $sp,$sp,24
+7636#  lw $s2,($sp)
+7640#  addu $sp,$sp,4
+7644#  subu $sp,$sp,8
+7648#  sw $s5,4($sp)
+7652#  sw $t0,($sp)
+7656#  lw $t0,($sp)
+7660#  addu $sp,$sp,8
+7664#  beq $t0, $zero, if_else_484
+7668#  subu $sp,$sp,4
+7672#  sw $s2,($sp)
+7676#  la $t0,strLit_19
+7680#  subu $sp,$sp,4
+7684#  sw $t0,($sp)
+7688#  lw $t0,4($sp)
+7692#  sw $s2,4($sp)
+7696#  move $s2,$t0
+7700#beq $s2, $zero, nullPtrException
+7704#  jal mth_printStr_Lib
+7708#  addu $sp,$sp,4
+7712#  lw $s2,($sp)
+7716#  addu $sp,$sp,4
+7720#  move $t0,$zero
+7724#  subu $sp,$sp,4
+7728#  sw $t0,($sp)
+7732#  addu $sp,$sp,4
+7736#  j if_done_484
+7740:if_else_484:
+7740#  subu $sp,$sp,4
+7744#  sw $s2,($sp)
+7748#  la $t0,strLit_24
+7752#  subu $sp,$sp,4
+7756#  sw $t0,($sp)
+7760#  lw $t0,4($sp)
+7764#  sw $s2,4($sp)
+7768#  move $s2,$t0
+7772#beq $s2, $zero, nullPtrException
+7776#  jal mth_printStr_Lib
+7780#  addu $sp,$sp,4
+7784#  lw $s2,($sp)
+7788#  addu $sp,$sp,4
+7792#  move $t0,$zero
+7796#  subu $sp,$sp,4
+7800#  sw $t0,($sp)
+7804#  addu $sp,$sp,4
+7808:if_done_484:
+7808#  j if_done_503
+7812:if_else_503:
+7812#  subu $sp,$sp,4
+7816#  sw $s2,($sp)
+7820#  lw $t0,4($sp)
+7824#  subu $sp,$sp,8
+7828#  sw $s5,4($sp)
+7832#  sw $t0,($sp)
+7836#  li $t0,20
+7840#  subu $sp,$sp,8
+7844#  sw $s5,4($sp)
+7848#  sw $t0,($sp)
+7852#  li $t0,29
+7856#  subu $sp,$sp,8
+7860#  sw $s5,4($sp)
+7864#  sw $t0,($sp)
+7868#  lw $t0,24($sp)
+7872#  sw $s2,24($sp)
+7876#  move $s2,$t0
+7880#beq $s2, $zero, nullPtrException
+7884#  lw $t0,-12($s2)
+7888#  lw $t0,48($t0)
+7892#  jalr $t0
+7896#  addu $sp,$sp,24
+7900#  lw $s2,($sp)
+7904#  addu $sp,$sp,4
+7908#  subu $sp,$sp,8
+7912#  sw $s5,4($sp)
+7916#  sw $t0,($sp)
+7920#  lw $t0,($sp)
+7924#  addu $sp,$sp,8
+7928#  beq $t0, $zero, if_else_501
+7932#  subu $sp,$sp,4
+7936#  sw $s2,($sp)
+7940#  la $t0,strLit_36
+7944#  subu $sp,$sp,4
+7948#  sw $t0,($sp)
+7952#  lw $t0,4($sp)
+7956#  sw $s2,4($sp)
+7960#  move $s2,$t0
+7964#beq $s2, $zero, nullPtrException
+7968#  jal mth_printStr_Lib
+7972#  addu $sp,$sp,4
+7976#  lw $s2,($sp)
+7980#  addu $sp,$sp,4
+7984#  move $t0,$zero
+7988#  subu $sp,$sp,4
+7992#  sw $t0,($sp)
+7996#  addu $sp,$sp,4
+8000#  j if_done_501
+8004:if_else_501:
+8004#  subu $sp,$sp,4
+8008#  sw $s2,($sp)
+8012#  la $t0,strLit_41
+8016#  subu $sp,$sp,4
+8020#  sw $t0,($sp)
+8024#  lw $t0,4($sp)
+8028#  sw $s2,4($sp)
+8032#  move $s2,$t0
+8036#beq $s2, $zero, nullPtrException
+8040#  jal mth_printStr_Lib
+8044#  addu $sp,$sp,4
+8048#  lw $s2,($sp)
+8052#  addu $sp,$sp,4
+8056#  move $t0,$zero
+8060#  subu $sp,$sp,4
+8064#  sw $t0,($sp)
+8068#  addu $sp,$sp,4
+8072:if_done_501:
+8072:if_done_503:
+8072#  j if_done_546
+8076:if_else_546:
+8076#  subu $sp,$sp,4
+8080#  sw $s2,($sp)
+8084#  lw $t0,4($sp)
+8088#  subu $sp,$sp,8
+8092#  sw $s5,4($sp)
+8096#  sw $t0,($sp)
+8100#  li $t0,40
+8104#  subu $sp,$sp,8
+8108#  sw $s5,4($sp)
+8112#  sw $t0,($sp)
+8116#  li $t0,59
+8120#  subu $sp,$sp,8
+8124#  sw $s5,4($sp)
+8128#  sw $t0,($sp)
+8132#  lw $t0,24($sp)
+8136#  sw $s2,24($sp)
+8140#  move $s2,$t0
+8144#beq $s2, $zero, nullPtrException
+8148#  lw $t0,-12($s2)
+8152#  lw $t0,48($t0)
+8156#  jalr $t0
+8160#  addu $sp,$sp,24
+8164#  lw $s2,($sp)
+8168#  addu $sp,$sp,4
+8172#  subu $sp,$sp,8
+8176#  sw $s5,4($sp)
+8180#  sw $t0,($sp)
+8184#  lw $t0,($sp)
+8188#  addu $sp,$sp,8
+8192#  beq $t0, $zero, if_else_544
+8196#  subu $sp,$sp,4
+8200#  sw $s2,($sp)
+8204#  lw $t0,4($sp)
+8208#  subu $sp,$sp,8
+8212#  sw $s5,4($sp)
+8216#  sw $t0,($sp)
+8220#  li $t0,40
+8224#  subu $sp,$sp,8
+8228#  sw $s5,4($sp)
+8232#  sw $t0,($sp)
+8236#  li $t0,49
+8240#  subu $sp,$sp,8
+8244#  sw $s5,4($sp)
+8248#  sw $t0,($sp)
+8252#  lw $t0,24($sp)
+8256#  sw $s2,24($sp)
+8260#  move $s2,$t0
+8264#beq $s2, $zero, nullPtrException
+8268#  lw $t0,-12($s2)
+8272#  lw $t0,48($t0)
+8276#  jalr $t0
+8280#  addu $sp,$sp,24
+8284#  lw $s2,($sp)
+8288#  addu $sp,$sp,4
+8292#  subu $sp,$sp,8
+8296#  sw $s5,4($sp)
+8300#  sw $t0,($sp)
+8304#  lw $t0,($sp)
+8308#  addu $sp,$sp,8
+8312#  beq $t0, $zero, if_else_525
+8316#  subu $sp,$sp,4
+8320#  sw $s2,($sp)
+8324#  la $t0,strLit_60
+8328#  subu $sp,$sp,4
+8332#  sw $t0,($sp)
+8336#  lw $t0,4($sp)
+8340#  sw $s2,4($sp)
+8344#  move $s2,$t0
+8348#beq $s2, $zero, nullPtrException
+8352#  jal mth_printStr_Lib
+8356#  addu $sp,$sp,4
+8360#  lw $s2,($sp)
+8364#  addu $sp,$sp,4
+8368#  move $t0,$zero
+8372#  subu $sp,$sp,4
+8376#  sw $t0,($sp)
+8380#  addu $sp,$sp,4
+8384#  j if_done_525
+8388:if_else_525:
+8388#  subu $sp,$sp,4
+8392#  sw $s2,($sp)
+8396#  la $t0,strLit_65
+8400#  subu $sp,$sp,4
+8404#  sw $t0,($sp)
+8408#  lw $t0,4($sp)
+8412#  sw $s2,4($sp)
+8416#  move $s2,$t0
+8420#beq $s2, $zero, nullPtrException
+8424#  jal mth_printStr_Lib
+8428#  addu $sp,$sp,4
+8432#  lw $s2,($sp)
+8436#  addu $sp,$sp,4
+8440#  move $t0,$zero
+8444#  subu $sp,$sp,4
+8448#  sw $t0,($sp)
+8452#  addu $sp,$sp,4
+8456:if_done_525:
+8456#  j if_done_544
+8460:if_else_544:
+8460#  subu $sp,$sp,4
+8464#  sw $s2,($sp)
+8468#  lw $t0,4($sp)
+8472#  subu $sp,$sp,8
+8476#  sw $s5,4($sp)
+8480#  sw $t0,($sp)
+8484#  li $t0,60
+8488#  subu $sp,$sp,8
+8492#  sw $s5,4($sp)
+8496#  sw $t0,($sp)
+8500#  li $t0,69
+8504#  subu $sp,$sp,8
+8508#  sw $s5,4($sp)
+8512#  sw $t0,($sp)
+8516#  lw $t0,24($sp)
+8520#  sw $s2,24($sp)
+8524#  move $s2,$t0
+8528#beq $s2, $zero, nullPtrException
+8532#  lw $t0,-12($s2)
+8536#  lw $t0,48($t0)
+8540#  jalr $t0
+8544#  addu $sp,$sp,24
+8548#  lw $s2,($sp)
+8552#  addu $sp,$sp,4
+8556#  subu $sp,$sp,8
+8560#  sw $s5,4($sp)
+8564#  sw $t0,($sp)
+8568#  lw $t0,($sp)
+8572#  addu $sp,$sp,8
+8576#  beq $t0, $zero, if_else_542
+8580#  subu $sp,$sp,4
+8584#  sw $s2,($sp)
+8588#  la $t0,strLit_77
+8592#  subu $sp,$sp,4
+8596#  sw $t0,($sp)
+8600#  lw $t0,4($sp)
+8604#  sw $s2,4($sp)
+8608#  move $s2,$t0
+8612#beq $s2, $zero, nullPtrException
+8616#  jal mth_printStr_Lib
+8620#  addu $sp,$sp,4
+8624#  lw $s2,($sp)
+8628#  addu $sp,$sp,4
+8632#  move $t0,$zero
+8636#  subu $sp,$sp,4
+8640#  sw $t0,($sp)
+8644#  addu $sp,$sp,4
+8648#  j if_done_542
+8652:if_else_542:
+8652#  subu $sp,$sp,4
+8656#  sw $s2,($sp)
+8660#  la $t0,strLit_82
+8664#  subu $sp,$sp,4
+8668#  sw $t0,($sp)
+8672#  lw $t0,4($sp)
+8676#  sw $s2,4($sp)
+8680#  move $s2,$t0
+8684#beq $s2, $zero, nullPtrException
+8688#  jal mth_printStr_Lib
+8692#  addu $sp,$sp,4
+8696#  lw $s2,($sp)
+8700#  addu $sp,$sp,4
+8704#  move $t0,$zero
+8708#  subu $sp,$sp,4
+8712#  sw $t0,($sp)
+8716#  addu $sp,$sp,4
+8720:if_done_542:
+8720:if_done_544:
+8720:if_done_546:
+8720#  li $t0,65
+8724#  subu $sp,$sp,8
+8728#  sw $s5,4($sp)
+8732#  sw $t0,($sp)
+8736#  lw $t0,($sp)
+8740#  addu $sp,$sp,8
+8744#  sw $t0,0($sp)
+8748#  subu $sp,$sp,4
+8752#  sw $s2,($sp)
+8756#  lw $t0,4($sp)
+8760#  subu $sp,$sp,8
+8764#  sw $s5,4($sp)
+8768#  sw $t0,($sp)
+8772#  li $t0,0
+8776#  subu $sp,$sp,8
+8780#  sw $s5,4($sp)
+8784#  sw $t0,($sp)
+8788#  li $t0,39
+8792#  subu $sp,$sp,8
+8796#  sw $s5,4($sp)
+8800#  sw $t0,($sp)
+8804#  lw $t0,24($sp)
+8808#  sw $s2,24($sp)
+8812#  move $s2,$t0
+8816#beq $s2, $zero, nullPtrException
+8820#  lw $t0,-12($s2)
+8824#  lw $t0,48($t0)
+8828#  jalr $t0
+8832#  addu $sp,$sp,24
+8836#  lw $s2,($sp)
+8840#  addu $sp,$sp,4
+8844#  subu $sp,$sp,8
+8848#  sw $s5,4($sp)
+8852#  sw $t0,($sp)
+8856#  lw $t0,($sp)
+8860#  addu $sp,$sp,8
+8864#  beq $t0, $zero, if_else_637
+8868#  subu $sp,$sp,4
+8872#  sw $s2,($sp)
+8876#  lw $t0,4($sp)
+8880#  subu $sp,$sp,8
+8884#  sw $s5,4($sp)
+8888#  sw $t0,($sp)
+8892#  li $t0,0
+8896#  subu $sp,$sp,8
+8900#  sw $s5,4($sp)
+8904#  sw $t0,($sp)
+8908#  li $t0,19
+8912#  subu $sp,$sp,8
+8916#  sw $s5,4($sp)
+8920#  sw $t0,($sp)
+8924#  lw $t0,24($sp)
+8928#  sw $s2,24($sp)
+8932#  move $s2,$t0
+8936#beq $s2, $zero, nullPtrException
+8940#  lw $t0,-12($s2)
+8944#  lw $t0,48($t0)
+8948#  jalr $t0
+8952#  addu $sp,$sp,24
+8956#  lw $s2,($sp)
+8960#  addu $sp,$sp,4
+8964#  subu $sp,$sp,8
+8968#  sw $s5,4($sp)
+8972#  sw $t0,($sp)
+8976#  lw $t0,($sp)
+8980#  addu $sp,$sp,8
+8984#  beq $t0, $zero, if_else_594
+8988#  subu $sp,$sp,4
+8992#  sw $s2,($sp)
+8996#  lw $t0,4($sp)
+9000#  subu $sp,$sp,8
+9004#  sw $s5,4($sp)
+9008#  sw $t0,($sp)
+9012#  li $t0,0
+9016#  subu $sp,$sp,8
+9020#  sw $s5,4($sp)
+9024#  sw $t0,($sp)
+9028#  li $t0,9
+9032#  subu $sp,$sp,8
+9036#  sw $s5,4($sp)
+9040#  sw $t0,($sp)
+9044#  lw $t0,24($sp)
+9048#  sw $s2,24($sp)
+9052#  move $s2,$t0
+9056#beq $s2, $zero, nullPtrException
+9060#  lw $t0,-12($s2)
+9064#  lw $t0,48($t0)
+9068#  jalr $t0
+9072#  addu $sp,$sp,24
+9076#  lw $s2,($sp)
+9080#  addu $sp,$sp,4
+9084#  subu $sp,$sp,8
+9088#  sw $s5,4($sp)
+9092#  sw $t0,($sp)
+9096#  lw $t0,($sp)
+9100#  addu $sp,$sp,8
+9104#  beq $t0, $zero, if_else_575
+9108#  subu $sp,$sp,4
+9112#  sw $s2,($sp)
+9116#  la $t0,strLit_19
+9120#  subu $sp,$sp,4
+9124#  sw $t0,($sp)
+9128#  lw $t0,4($sp)
+9132#  sw $s2,4($sp)
+9136#  move $s2,$t0
+9140#beq $s2, $zero, nullPtrException
+9144#  jal mth_printStr_Lib
+9148#  addu $sp,$sp,4
+9152#  lw $s2,($sp)
+9156#  addu $sp,$sp,4
+9160#  move $t0,$zero
+9164#  subu $sp,$sp,4
+9168#  sw $t0,($sp)
+9172#  addu $sp,$sp,4
+9176#  j if_done_575
+9180:if_else_575:
+9180#  subu $sp,$sp,4
+9184#  sw $s2,($sp)
+9188#  la $t0,strLit_24
+9192#  subu $sp,$sp,4
+9196#  sw $t0,($sp)
+9200#  lw $t0,4($sp)
+9204#  sw $s2,4($sp)
+9208#  move $s2,$t0
+9212#beq $s2, $zero, nullPtrException
+9216#  jal mth_printStr_Lib
+9220#  addu $sp,$sp,4
+9224#  lw $s2,($sp)
+9228#  addu $sp,$sp,4
+9232#  move $t0,$zero
+9236#  subu $sp,$sp,4
+9240#  sw $t0,($sp)
+9244#  addu $sp,$sp,4
+9248:if_done_575:
+9248#  j if_done_594
+9252:if_else_594:
+9252#  subu $sp,$sp,4
+9256#  sw $s2,($sp)
+9260#  lw $t0,4($sp)
+9264#  subu $sp,$sp,8
+9268#  sw $s5,4($sp)
+9272#  sw $t0,($sp)
+9276#  li $t0,20
+9280#  subu $sp,$sp,8
+9284#  sw $s5,4($sp)
+9288#  sw $t0,($sp)
+9292#  li $t0,29
+9296#  subu $sp,$sp,8
+9300#  sw $s5,4($sp)
+9304#  sw $t0,($sp)
+9308#  lw $t0,24($sp)
+9312#  sw $s2,24($sp)
+9316#  move $s2,$t0
+9320#beq $s2, $zero, nullPtrException
+9324#  lw $t0,-12($s2)
+9328#  lw $t0,48($t0)
+9332#  jalr $t0
+9336#  addu $sp,$sp,24
+9340#  lw $s2,($sp)
+9344#  addu $sp,$sp,4
+9348#  subu $sp,$sp,8
+9352#  sw $s5,4($sp)
+9356#  sw $t0,($sp)
+9360#  lw $t0,($sp)
+9364#  addu $sp,$sp,8
+9368#  beq $t0, $zero, if_else_592
+9372#  subu $sp,$sp,4
+9376#  sw $s2,($sp)
+9380#  la $t0,strLit_36
+9384#  subu $sp,$sp,4
+9388#  sw $t0,($sp)
+9392#  lw $t0,4($sp)
+9396#  sw $s2,4($sp)
+9400#  move $s2,$t0
+9404#beq $s2, $zero, nullPtrException
+9408#  jal mth_printStr_Lib
+9412#  addu $sp,$sp,4
+9416#  lw $s2,($sp)
+9420#  addu $sp,$sp,4
+9424#  move $t0,$zero
+9428#  subu $sp,$sp,4
+9432#  sw $t0,($sp)
+9436#  addu $sp,$sp,4
+9440#  j if_done_592
+9444:if_else_592:
+9444#  subu $sp,$sp,4
+9448#  sw $s2,($sp)
+9452#  la $t0,strLit_41
+9456#  subu $sp,$sp,4
+9460#  sw $t0,($sp)
+9464#  lw $t0,4($sp)
+9468#  sw $s2,4($sp)
+9472#  move $s2,$t0
+9476#beq $s2, $zero, nullPtrException
+9480#  jal mth_printStr_Lib
+9484#  addu $sp,$sp,4
+9488#  lw $s2,($sp)
+9492#  addu $sp,$sp,4
+9496#  move $t0,$zero
+9500#  subu $sp,$sp,4
+9504#  sw $t0,($sp)
+9508#  addu $sp,$sp,4
+9512:if_done_592:
+9512:if_done_594:
+9512#  j if_done_637
+9516:if_else_637:
+9516#  subu $sp,$sp,4
+9520#  sw $s2,($sp)
+9524#  lw $t0,4($sp)
+9528#  subu $sp,$sp,8
+9532#  sw $s5,4($sp)
+9536#  sw $t0,($sp)
+9540#  li $t0,40
+9544#  subu $sp,$sp,8
+9548#  sw $s5,4($sp)
+9552#  sw $t0,($sp)
+9556#  li $t0,59
+9560#  subu $sp,$sp,8
+9564#  sw $s5,4($sp)
+9568#  sw $t0,($sp)
+9572#  lw $t0,24($sp)
+9576#  sw $s2,24($sp)
+9580#  move $s2,$t0
+9584#beq $s2, $zero, nullPtrException
+9588#  lw $t0,-12($s2)
+9592#  lw $t0,48($t0)
+9596#  jalr $t0
+9600#  addu $sp,$sp,24
+9604#  lw $s2,($sp)
+9608#  addu $sp,$sp,4
+9612#  subu $sp,$sp,8
+9616#  sw $s5,4($sp)
+9620#  sw $t0,($sp)
+9624#  lw $t0,($sp)
+9628#  addu $sp,$sp,8
+9632#  beq $t0, $zero, if_else_635
+9636#  subu $sp,$sp,4
+9640#  sw $s2,($sp)
+9644#  lw $t0,4($sp)
+9648#  subu $sp,$sp,8
+9652#  sw $s5,4($sp)
+9656#  sw $t0,($sp)
+9660#  li $t0,40
+9664#  subu $sp,$sp,8
+9668#  sw $s5,4($sp)
+9672#  sw $t0,($sp)
+9676#  li $t0,49
+9680#  subu $sp,$sp,8
+9684#  sw $s5,4($sp)
+9688#  sw $t0,($sp)
+9692#  lw $t0,24($sp)
+9696#  sw $s2,24($sp)
+9700#  move $s2,$t0
+9704#beq $s2, $zero, nullPtrException
+9708#  lw $t0,-12($s2)
+9712#  lw $t0,48($t0)
+9716#  jalr $t0
+9720#  addu $sp,$sp,24
+9724#  lw $s2,($sp)
+9728#  addu $sp,$sp,4
+9732#  subu $sp,$sp,8
+9736#  sw $s5,4($sp)
+9740#  sw $t0,($sp)
+9744#  lw $t0,($sp)
+9748#  addu $sp,$sp,8
+9752#  beq $t0, $zero, if_else_616
+9756#  subu $sp,$sp,4
+9760#  sw $s2,($sp)
+9764#  la $t0,strLit_60
+9768#  subu $sp,$sp,4
+9772#  sw $t0,($sp)
+9776#  lw $t0,4($sp)
+9780#  sw $s2,4($sp)
+9784#  move $s2,$t0
+9788#beq $s2, $zero, nullPtrException
+9792#  jal mth_printStr_Lib
+9796#  addu $sp,$sp,4
+9800#  lw $s2,($sp)
+9804#  addu $sp,$sp,4
+9808#  move $t0,$zero
+9812#  subu $sp,$sp,4
+9816#  sw $t0,($sp)
+9820#  addu $sp,$sp,4
+9824#  j if_done_616
+9828:if_else_616:
+9828#  subu $sp,$sp,4
+9832#  sw $s2,($sp)
+9836#  la $t0,strLit_65
+9840#  subu $sp,$sp,4
+9844#  sw $t0,($sp)
+9848#  lw $t0,4($sp)
+9852#  sw $s2,4($sp)
+9856#  move $s2,$t0
+9860#beq $s2, $zero, nullPtrException
+9864#  jal mth_printStr_Lib
+9868#  addu $sp,$sp,4
+9872#  lw $s2,($sp)
+9876#  addu $sp,$sp,4
+9880#  move $t0,$zero
+9884#  subu $sp,$sp,4
+9888#  sw $t0,($sp)
+9892#  addu $sp,$sp,4
+9896:if_done_616:
+9896#  j if_done_635
+9900:if_else_635:
+9900#  subu $sp,$sp,4
+9904#  sw $s2,($sp)
+9908#  lw $t0,4($sp)
+9912#  subu $sp,$sp,8
+9916#  sw $s5,4($sp)
+9920#  sw $t0,($sp)
+9924#  li $t0,60
+9928#  subu $sp,$sp,8
+9932#  sw $s5,4($sp)
+9936#  sw $t0,($sp)
+9940#  li $t0,69
+9944#  subu $sp,$sp,8
+9948#  sw $s5,4($sp)
+9952#  sw $t0,($sp)
+9956#  lw $t0,24($sp)
+9960#  sw $s2,24($sp)
+9964#  move $s2,$t0
+9968#beq $s2, $zero, nullPtrException
+9972#  lw $t0,-12($s2)
+9976#  lw $t0,48($t0)
+9980#  jalr $t0
+9984#  addu $sp,$sp,24
+9988#  lw $s2,($sp)
+9992#  addu $sp,$sp,4
+9996#  subu $sp,$sp,8
+10000#  sw $s5,4($sp)
+10004#  sw $t0,($sp)
+10008#  lw $t0,($sp)
+10012#  addu $sp,$sp,8
+10016#  beq $t0, $zero, if_else_633
+10020#  subu $sp,$sp,4
+10024#  sw $s2,($sp)
+10028#  la $t0,strLit_77
+10032#  subu $sp,$sp,4
+10036#  sw $t0,($sp)
+10040#  lw $t0,4($sp)
+10044#  sw $s2,4($sp)
+10048#  move $s2,$t0
+10052#beq $s2, $zero, nullPtrException
+10056#  jal mth_printStr_Lib
+10060#  addu $sp,$sp,4
+10064#  lw $s2,($sp)
+10068#  addu $sp,$sp,4
+10072#  move $t0,$zero
+10076#  subu $sp,$sp,4
+10080#  sw $t0,($sp)
+10084#  addu $sp,$sp,4
+10088#  j if_done_633
+10092:if_else_633:
+10092#  subu $sp,$sp,4
+10096#  sw $s2,($sp)
+10100#  la $t0,strLit_82
+10104#  subu $sp,$sp,4
+10108#  sw $t0,($sp)
+10112#  lw $t0,4($sp)
+10116#  sw $s2,4($sp)
+10120#  move $s2,$t0
+10124#beq $s2, $zero, nullPtrException
+10128#  jal mth_printStr_Lib
+10132#  addu $sp,$sp,4
+10136#  lw $s2,($sp)
+10140#  addu $sp,$sp,4
+10144#  move $t0,$zero
+10148#  subu $sp,$sp,4
+10152#  sw $t0,($sp)
+10156#  addu $sp,$sp,4
+10160:if_done_633:
+10160:if_done_635:
+10160:if_done_637:
+10160#  li $t0,75
+10164#  subu $sp,$sp,8
+10168#  sw $s5,4($sp)
+10172#  sw $t0,($sp)
+10176#  lw $t0,($sp)
+10180#  addu $sp,$sp,8
+10184#  sw $t0,0($sp)
+10188#  subu $sp,$sp,4
+10192#  sw $s2,($sp)
+10196#  lw $t0,4($sp)
+10200#  subu $sp,$sp,8
+10204#  sw $s5,4($sp)
+10208#  sw $t0,($sp)
+10212#  li $t0,0
+10216#  subu $sp,$sp,8
+10220#  sw $s5,4($sp)
+10224#  sw $t0,($sp)
+10228#  li $t0,39
+10232#  subu $sp,$sp,8
+10236#  sw $s5,4($sp)
+10240#  sw $t0,($sp)
+10244#  lw $t0,24($sp)
+10248#  sw $s2,24($sp)
+10252#  move $s2,$t0
+10256#beq $s2, $zero, nullPtrException
+10260#  lw $t0,-12($s2)
+10264#  lw $t0,48($t0)
+10268#  jalr $t0
+10272#  addu $sp,$sp,24
+10276#  lw $s2,($sp)
+10280#  addu $sp,$sp,4
+10284#  subu $sp,$sp,8
+10288#  sw $s5,4($sp)
+10292#  sw $t0,($sp)
+10296#  lw $t0,($sp)
+10300#  addu $sp,$sp,8
+10304#  beq $t0, $zero, if_else_728
+10308#  subu $sp,$sp,4
+10312#  sw $s2,($sp)
+10316#  lw $t0,4($sp)
+10320#  subu $sp,$sp,8
+10324#  sw $s5,4($sp)
+10328#  sw $t0,($sp)
+10332#  li $t0,0
+10336#  subu $sp,$sp,8
+10340#  sw $s5,4($sp)
+10344#  sw $t0,($sp)
+10348#  li $t0,19
+10352#  subu $sp,$sp,8
+10356#  sw $s5,4($sp)
+10360#  sw $t0,($sp)
+10364#  lw $t0,24($sp)
+10368#  sw $s2,24($sp)
+10372#  move $s2,$t0
+10376#beq $s2, $zero, nullPtrException
+10380#  lw $t0,-12($s2)
+10384#  lw $t0,48($t0)
+10388#  jalr $t0
+10392#  addu $sp,$sp,24
+10396#  lw $s2,($sp)
+10400#  addu $sp,$sp,4
+10404#  subu $sp,$sp,8
+10408#  sw $s5,4($sp)
+10412#  sw $t0,($sp)
+10416#  lw $t0,($sp)
+10420#  addu $sp,$sp,8
+10424#  beq $t0, $zero, if_else_685
+10428#  subu $sp,$sp,4
+10432#  sw $s2,($sp)
+10436#  lw $t0,4($sp)
+10440#  subu $sp,$sp,8
+10444#  sw $s5,4($sp)
+10448#  sw $t0,($sp)
+10452#  li $t0,0
+10456#  subu $sp,$sp,8
+10460#  sw $s5,4($sp)
+10464#  sw $t0,($sp)
+10468#  li $t0,9
+10472#  subu $sp,$sp,8
+10476#  sw $s5,4($sp)
+10480#  sw $t0,($sp)
+10484#  lw $t0,24($sp)
+10488#  sw $s2,24($sp)
+10492#  move $s2,$t0
+10496#beq $s2, $zero, nullPtrException
+10500#  lw $t0,-12($s2)
+10504#  lw $t0,48($t0)
+10508#  jalr $t0
+10512#  addu $sp,$sp,24
+10516#  lw $s2,($sp)
+10520#  addu $sp,$sp,4
+10524#  subu $sp,$sp,8
+10528#  sw $s5,4($sp)
+10532#  sw $t0,($sp)
+10536#  lw $t0,($sp)
+10540#  addu $sp,$sp,8
+10544#  beq $t0, $zero, if_else_666
+10548#  subu $sp,$sp,4
+10552#  sw $s2,($sp)
+10556#  la $t0,strLit_19
+10560#  subu $sp,$sp,4
+10564#  sw $t0,($sp)
+10568#  lw $t0,4($sp)
+10572#  sw $s2,4($sp)
+10576#  move $s2,$t0
+10580#beq $s2, $zero, nullPtrException
+10584#  jal mth_printStr_Lib
+10588#  addu $sp,$sp,4
+10592#  lw $s2,($sp)
+10596#  addu $sp,$sp,4
+10600#  move $t0,$zero
+10604#  subu $sp,$sp,4
+10608#  sw $t0,($sp)
+10612#  addu $sp,$sp,4
+10616#  j if_done_666
+10620:if_else_666:
+10620#  subu $sp,$sp,4
+10624#  sw $s2,($sp)
+10628#  la $t0,strLit_24
+10632#  subu $sp,$sp,4
+10636#  sw $t0,($sp)
+10640#  lw $t0,4($sp)
+10644#  sw $s2,4($sp)
+10648#  move $s2,$t0
+10652#beq $s2, $zero, nullPtrException
+10656#  jal mth_printStr_Lib
+10660#  addu $sp,$sp,4
+10664#  lw $s2,($sp)
+10668#  addu $sp,$sp,4
+10672#  move $t0,$zero
+10676#  subu $sp,$sp,4
+10680#  sw $t0,($sp)
+10684#  addu $sp,$sp,4
+10688:if_done_666:
+10688#  j if_done_685
+10692:if_else_685:
+10692#  subu $sp,$sp,4
+10696#  sw $s2,($sp)
+10700#  lw $t0,4($sp)
+10704#  subu $sp,$sp,8
+10708#  sw $s5,4($sp)
+10712#  sw $t0,($sp)
+10716#  li $t0,20
+10720#  subu $sp,$sp,8
+10724#  sw $s5,4($sp)
+10728#  sw $t0,($sp)
+10732#  li $t0,29
+10736#  subu $sp,$sp,8
+10740#  sw $s5,4($sp)
+10744#  sw $t0,($sp)
+10748#  lw $t0,24($sp)
+10752#  sw $s2,24($sp)
+10756#  move $s2,$t0
+10760#beq $s2, $zero, nullPtrException
+10764#  lw $t0,-12($s2)
+10768#  lw $t0,48($t0)
+10772#  jalr $t0
+10776#  addu $sp,$sp,24
+10780#  lw $s2,($sp)
+10784#  addu $sp,$sp,4
+10788#  subu $sp,$sp,8
+10792#  sw $s5,4($sp)
+10796#  sw $t0,($sp)
+10800#  lw $t0,($sp)
+10804#  addu $sp,$sp,8
+10808#  beq $t0, $zero, if_else_683
+10812#  subu $sp,$sp,4
+10816#  sw $s2,($sp)
+10820#  la $t0,strLit_36
+10824#  subu $sp,$sp,4
+10828#  sw $t0,($sp)
+10832#  lw $t0,4($sp)
+10836#  sw $s2,4($sp)
+10840#  move $s2,$t0
+10844#beq $s2, $zero, nullPtrException
+10848#  jal mth_printStr_Lib
+10852#  addu $sp,$sp,4
+10856#  lw $s2,($sp)
+10860#  addu $sp,$sp,4
+10864#  move $t0,$zero
+10868#  subu $sp,$sp,4
+10872#  sw $t0,($sp)
+10876#  addu $sp,$sp,4
+10880#  j if_done_683
+10884:if_else_683:
+10884#  subu $sp,$sp,4
+10888#  sw $s2,($sp)
+10892#  la $t0,strLit_41
+10896#  subu $sp,$sp,4
+10900#  sw $t0,($sp)
+10904#  lw $t0,4($sp)
+10908#  sw $s2,4($sp)
+10912#  move $s2,$t0
+10916#beq $s2, $zero, nullPtrException
+10920#  jal mth_printStr_Lib
+10924#  addu $sp,$sp,4
+10928#  lw $s2,($sp)
+10932#  addu $sp,$sp,4
+10936#  move $t0,$zero
+10940#  subu $sp,$sp,4
+10944#  sw $t0,($sp)
+10948#  addu $sp,$sp,4
+10952:if_done_683:
+10952:if_done_685:
+10952#  j if_done_728
+10956:if_else_728:
+10956#  subu $sp,$sp,4
+10960#  sw $s2,($sp)
+10964#  lw $t0,4($sp)
+10968#  subu $sp,$sp,8
+10972#  sw $s5,4($sp)
+10976#  sw $t0,($sp)
+10980#  li $t0,40
+10984#  subu $sp,$sp,8
+10988#  sw $s5,4($sp)
+10992#  sw $t0,($sp)
+10996#  li $t0,59
+11000#  subu $sp,$sp,8
+11004#  sw $s5,4($sp)
+11008#  sw $t0,($sp)
+11012#  lw $t0,24($sp)
+11016#  sw $s2,24($sp)
+11020#  move $s2,$t0
+11024#beq $s2, $zero, nullPtrException
+11028#  lw $t0,-12($s2)
+11032#  lw $t0,48($t0)
+11036#  jalr $t0
+11040#  addu $sp,$sp,24
+11044#  lw $s2,($sp)
+11048#  addu $sp,$sp,4
+11052#  subu $sp,$sp,8
+11056#  sw $s5,4($sp)
+11060#  sw $t0,($sp)
+11064#  lw $t0,($sp)
+11068#  addu $sp,$sp,8
+11072#  beq $t0, $zero, if_else_726
+11076#  subu $sp,$sp,4
+11080#  sw $s2,($sp)
+11084#  lw $t0,4($sp)
+11088#  subu $sp,$sp,8
+11092#  sw $s5,4($sp)
+11096#  sw $t0,($sp)
+11100#  li $t0,40
+11104#  subu $sp,$sp,8
+11108#  sw $s5,4($sp)
+11112#  sw $t0,($sp)
+11116#  li $t0,49
+11120#  subu $sp,$sp,8
+11124#  sw $s5,4($sp)
+11128#  sw $t0,($sp)
+11132#  lw $t0,24($sp)
+11136#  sw $s2,24($sp)
+11140#  move $s2,$t0
+11144#beq $s2, $zero, nullPtrException
+11148#  lw $t0,-12($s2)
+11152#  lw $t0,48($t0)
+11156#  jalr $t0
+11160#  addu $sp,$sp,24
+11164#  lw $s2,($sp)
+11168#  addu $sp,$sp,4
+11172#  subu $sp,$sp,8
+11176#  sw $s5,4($sp)
+11180#  sw $t0,($sp)
+11184#  lw $t0,($sp)
+11188#  addu $sp,$sp,8
+11192#  beq $t0, $zero, if_else_707
+11196#  subu $sp,$sp,4
+11200#  sw $s2,($sp)
+11204#  la $t0,strLit_60
+11208#  subu $sp,$sp,4
+11212#  sw $t0,($sp)
+11216#  lw $t0,4($sp)
+11220#  sw $s2,4($sp)
+11224#  move $s2,$t0
+11228#beq $s2, $zero, nullPtrException
+11232#  jal mth_printStr_Lib
+11236#  addu $sp,$sp,4
+11240#  lw $s2,($sp)
+11244#  addu $sp,$sp,4
+11248#  move $t0,$zero
+11252#  subu $sp,$sp,4
+11256#  sw $t0,($sp)
+11260#  addu $sp,$sp,4
+11264#  j if_done_707
+11268:if_else_707:
+11268#  subu $sp,$sp,4
+11272#  sw $s2,($sp)
+11276#  la $t0,strLit_65
+11280#  subu $sp,$sp,4
+11284#  sw $t0,($sp)
+11288#  lw $t0,4($sp)
+11292#  sw $s2,4($sp)
+11296#  move $s2,$t0
+11300#beq $s2, $zero, nullPtrException
+11304#  jal mth_printStr_Lib
+11308#  addu $sp,$sp,4
+11312#  lw $s2,($sp)
+11316#  addu $sp,$sp,4
+11320#  move $t0,$zero
+11324#  subu $sp,$sp,4
+11328#  sw $t0,($sp)
+11332#  addu $sp,$sp,4
+11336:if_done_707:
+11336#  j if_done_726
+11340:if_else_726:
+11340#  subu $sp,$sp,4
+11344#  sw $s2,($sp)
+11348#  lw $t0,4($sp)
+11352#  subu $sp,$sp,8
+11356#  sw $s5,4($sp)
+11360#  sw $t0,($sp)
+11364#  li $t0,60
+11368#  subu $sp,$sp,8
+11372#  sw $s5,4($sp)
+11376#  sw $t0,($sp)
+11380#  li $t0,69
+11384#  subu $sp,$sp,8
+11388#  sw $s5,4($sp)
+11392#  sw $t0,($sp)
+11396#  lw $t0,24($sp)
+11400#  sw $s2,24($sp)
+11404#  move $s2,$t0
+11408#beq $s2, $zero, nullPtrException
+11412#  lw $t0,-12($s2)
+11416#  lw $t0,48($t0)
+11420#  jalr $t0
+11424#  addu $sp,$sp,24
+11428#  lw $s2,($sp)
+11432#  addu $sp,$sp,4
+11436#  subu $sp,$sp,8
+11440#  sw $s5,4($sp)
+11444#  sw $t0,($sp)
+11448#  lw $t0,($sp)
+11452#  addu $sp,$sp,8
+11456#  beq $t0, $zero, if_else_724
+11460#  subu $sp,$sp,4
+11464#  sw $s2,($sp)
+11468#  la $t0,strLit_77
+11472#  subu $sp,$sp,4
+11476#  sw $t0,($sp)
+11480#  lw $t0,4($sp)
+11484#  sw $s2,4($sp)
+11488#  move $s2,$t0
+11492#beq $s2, $zero, nullPtrException
+11496#  jal mth_printStr_Lib
+11500#  addu $sp,$sp,4
+11504#  lw $s2,($sp)
+11508#  addu $sp,$sp,4
+11512#  move $t0,$zero
+11516#  subu $sp,$sp,4
+11520#  sw $t0,($sp)
+11524#  addu $sp,$sp,4
+11528#  j if_done_724
+11532:if_else_724:
+11532#  subu $sp,$sp,4
+11536#  sw $s2,($sp)
+11540#  la $t0,strLit_82
+11544#  subu $sp,$sp,4
+11548#  sw $t0,($sp)
+11552#  lw $t0,4($sp)
+11556#  sw $s2,4($sp)
+11560#  move $s2,$t0
+11564#beq $s2, $zero, nullPtrException
+11568#  jal mth_printStr_Lib
+11572#  addu $sp,$sp,4
+11576#  lw $s2,($sp)
+11580#  addu $sp,$sp,4
+11584#  move $t0,$zero
+11588#  subu $sp,$sp,4
+11592#  sw $t0,($sp)
+11596#  addu $sp,$sp,4
+11600:if_done_724:
+11600:if_done_726:
+11600:if_done_728:
+11600#  addu $sp,$sp,8
+11604#  lw $ra,($sp)
+11608#  addu $sp,$sp,4
+11612#  jr $ra
+11616:mth_between_Main:
+11616#  subu $sp,$sp,4
+11620#  sw $ra,($sp)
+11624#  li $t0, 1
+11628#  subu $sp,$sp,8
+11632#  sw $s5,4($sp)
+11636#  sw $t0,($sp)
+11640#  lw $t0,28($sp)
+11644#  subu $sp,$sp,8
+11648#  sw $s5,4($sp)
+11652#  sw $t0,($sp)
+11656#  lw $t0,28($sp)
+11660#  subu $sp,$sp,8
+11664#  sw $s5,4($sp)
+11668#  sw $t0,($sp)
+11672#  lw $t2,($sp)
+11676#  addu $sp,$sp,8
+11680#  lw $t1,($sp)
+11684#  addu $sp,$sp,8
+11688#  slt $t0, $t1, $t2
+11692#  subu $sp,$sp,8
+11696#  sw $s5,4($sp)
+11700#  sw $t0,($sp)
+11704#  lw $t0,($sp)
+11708#  addu $sp,$sp,8
+11712#  beq $t0, $zero, if_else_748
+11716#  move $t0, $zero
+11720#  subu $sp,$sp,8
+11724#  sw $s5,4($sp)
+11728#  sw $t0,($sp)
+11732#  lw $t0,($sp)
+11736#  addu $sp,$sp,8
+11740#  sw $t0,0($sp)
+11744#  j if_done_748
+11748:if_else_748:
+11748:if_done_748:
+11748#  lw $t0,28($sp)
+11752#  subu $sp,$sp,8
+11756#  sw $s5,4($sp)
+11760#  sw $t0,($sp)
+11764#  lw $t0,20($sp)
+11768#  subu $sp,$sp,8
+11772#  sw $s5,4($sp)
+11776#  sw $t0,($sp)
+11780#  lw $t2,($sp)
+11784#  addu $sp,$sp,8
+11788#  lw $t1,($sp)
+11792#  addu $sp,$sp,8
+11796#  sgt $t0, $t1, $t2
+11800#  subu $sp,$sp,8
+11804#  sw $s5,4($sp)
+11808#  sw $t0,($sp)
+11812#  lw $t0,($sp)
+11816#  addu $sp,$sp,8
+11820#  beq $t0, $zero, if_else_756
+11824#  move $t0, $zero
+11828#  subu $sp,$sp,8
+11832#  sw $s5,4($sp)
+11836#  sw $t0,($sp)
+11840#  lw $t0,($sp)
+11844#  addu $sp,$sp,8
+11848#  sw $t0,0($sp)
+11852#  j if_done_756
+11856:if_else_756:
+11856:if_done_756:
+11856#  lw $t0,0($sp)
+11860#  subu $sp,$sp,8
+11864#  sw $s5,4($sp)
+11868#  sw $t0,($sp)
+11872#  lw $t0,($sp)
+11876#  addu $sp,$sp,8
+11880#  addu $sp,$sp,8
+11884#  lw $ra,($sp)
+11888#  addu $sp,$sp,4
+11892#  jr $ra
+##############################################################
+# MiniJava/UP library for MIPS/Spim -- version that assumes
+#    one-word boolean on stack
+# author: Steven R. Vegdahl
+# date: 7-13 July 2004
+# modified 12-17 March 2007
+# modified 3-25 May 2007
+# modified 2 May 2015
+# modified 7 March 2016
+# modified 11 May - 31 June 2017
+# modified 2024 Steven Libby changed calling conventions
+#               This is now passed in s2, 
+#               and methods don't pop parameters
+# status: Seems to work on all test cases.
+###############################################################
+
+
+
+
+###############################################################
+# hashCode() - library method (class Object)
+# - returns a hash code for an object
+# - produces int that is the object's hash code
+#   meaning that they are the same physical object
+# - parameters:
+#   - $s2 - this-pointer (for Object)
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - 1 if the objects were the same; 0 otherwise
+###############################################################
+11896:mth_hashCode_Object:
+    # for now, we'll return the -8 offset word, shifted/added to
+    # itself, then XORed with a fixed "random" value
+11896#    lw $t0,-8($s2) # get word with hash bits from this
+11900#    srl $t1,$t0,11 # shift/add to introduce more "randomness"
+11904#    addu $t0,$t1
+
+11908#    jr $ra # return, no change to the stack
+
+###############################################################
+# equals() - library method (class Object)
+# - tests whether two objects are equal
+# - produces boolean that tells whether two objects are equal--
+#   meaning that they are the same physical object
+# - parameters:
+#   - $s2 - this-pointer
+#   - ($sp) - object to compare to
+#   - 4($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - 1 if the objects were the same; 0 otherwise
+###############################################################
+11912:mth_equals_Object:
+11912#    move $t0,$s2 # first pointer (this)
+11916#    lw $t1,($sp) # second pointer
+11920#    seq $t0,$t0,$t1 # produce boolean telling if they are equal
+11921##...subu $at,$t0,$t1
+11925##...sltiu $t0,$at,1
+
+11928#    jr $ra # return
+
+###############################################################
+# hashCode() - library method (class String)
+# - returns a hash code for an object
+# - produces int that is the object's hash code
+#   meaning that they are the same physical object
+# - parameters:
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - 1 if the objects were the same; 0 otherwise
+###############################################################
+11932:mth_hashCode_String:
+11932#    move $t0,$s2 # put this pointer in t0
+
+11936#    li $t2,0 # current hash value
+11940#    lw $t1,-4($t0) # negative of number of characters in string
+11944#    beq $t1,$zero,done_hashCode_String # if zero length => done
+11948#    addu $t0,$t1 # address of first character in string +12,
+                 # not accounting for padding and header words
+11952#    and $t0,0xfffffffc # adjust for padding
+11953##...lui $at,65535
+11957##...ori $at,$at,0xfffc
+11961##...and $t0,$t0,$at
+11964#    subu $t1,$t0,$t1 # address at end of string +12
+11968:loop_hashCode_String:    
+11968#    sll $t4,$t2,5 # multiply by 32
+11972#    subu $t2,$t4,$t2 # subtract original, so that it's now multiply by 31
+11976#    lbu $t3,-12($t0) # current character
+11980#    addu $t2,$t3 # add in current character
+11984#    addu $t0,1 # go to next character's address
+11988#    bne $t0,$t1,loop_hashCode_String # loop back if more
+11992:done_hashCode_String:    
+
+    # push int on stack
+11992#    move $t0, $t2 # put $t2 in return slot
+11996#    jr $ra # return
+
+###############################################################
+# toString() - library method (class Object)
+# - returns a String version of the object
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - the string version of the object
+# ****NOTE: this method counts on the fact that the hashCode method
+# ****is in slot 0 of the vtable    
+###############################################################
+12000:mth_toString_Object:
+    # we need to append:
+    # - a string created from the object name in the negative portion of
+    #   the vtable
+    # - an at-sign "@"
+    # - the hex version of the hashcode for the object, with no leading
+    #   zeros
+
+    # save return address. Get new this pointer
+12000#    subu $sp,4
+12004#    sw $ra,($sp)
+    
+    # get hash value
+12008#    lw $t2,-12($s2) # vtable address
+12012#    lw $t0,($t2) # method address
+12016#    jalr $t0
+12020#    subu $sp,8 # push result (int in $t0) on stack
+12024#    sw $s5,4($sp)
+12028#    sw $t0,($sp)
+
+    # compute print-size of hash value
+12032#    li $t0, 1
+12036#    lw $t1, ($sp)
+12040#    srl $t1,$t1,4
+12044#    beq $t1,$zero,toString_skip_loop
+12048:toString_loop_top:
+12048#    addu $t0,1
+12052#    srl $t1,$t1,4
+12056#    bne $t1,$zero,toString_loop_top
+12060:toString_skip_loop:
+12060#    subu $sp,8
+12064#    sw $s5,4($sp)
+12068#    sw $t0,($sp)
+    
+    ################################################################
+    # at this point, the stack looks like (from top):
+    # - print-size (in bytes) of the hash value
+    # - GC tag (5)
+    # - hash value
+    # - GC tag (5)
+    # - return address
+    # - old this pointer
+    # - ... rest of stack
+    ################################################################
+
+    # determine the size of the "prefix string"
+12072#    lw $t2,-12($s2) # vtable address
+12076#    move $t0,$t2
+12080:toString_checkTagBit:
+12080#    subu $t0,1
+12084#    lb $t1,($t0)
+12088#    and $t1,0x80
+12089##...lui $at,0
+12093##...ori $at,$at,0x80
+12097##...and $t1,$t1,$at
+12100#    beq $t1,$zero,toString_checkTagBit
+12104#    subu $t1,$t2,$t0 # size of the prefix string, in bytes
+12108#    subu $sp,8
+12112#    sw $t1,($sp)
+12116#    sw $s5,4($sp) # push size onto stack
+
+    # determine the header words for the string object's header
+12120#    move $s7,$zero # -4 offset header word
+12124#    lw $t4,8($sp) # bytes for hash value
+12128#    addu $t4,$t1 # bytes for prefix
+    # add 8, to account for:
+    #  - +1 for the '@' character
+    #  - +4 for the vtable word
+    #  - +3 to get the effect of rounding up rather than down
+12132#    addu $t4,8
+12136#    srl $s6,$t4,2 # divide by 4
+    
+    # allocate the object
+12140#    jal newObject
+        
+    ################################################################
+    # at this point, the stack looks like (from top):
+    # - new object, allocated to be our string
+    # - number of characters in the prefix
+    # - GC tag (5)
+    # - print-size (in bytes) of the hash value
+    # - GC tag (5)
+    # - hash value
+    # - GC tag (5)
+    # - return address
+    # - old this pointer
+    # - ... rest of stack
+    # $s7 also contains the address of the new object
+    ################################################################
+
+12144#    li $t0,CLASS_String # store string vtable address into ...
+12148#    sw $t0,-12($s7) # ... -12 offset in object header
+12152#    lw $t2,-12($s2) # our object's vtable address
+12156#    lw $t5,4($sp) # number characters in prefix
+12160#    lw $t1,12($sp) # number of characters in hashcode
+12164#    addu $t3,$t1,$t5 # number of characters in string ...
+12168#    addu $t3,1 # ... including the '@' character
+12172#    subu $t0,$zero,$t3 # store negated length into ...
+12176#    sw $t0,-4($s7) # ... -4 offset header word
+12180#    lw $t0,-8($s7) # get -8 offset header-word
+12184#    bge $t0,$zero,skipMask_toString # don't strip hash code if not there
+12185##...slt $at,$t0,$zero
+12189##...beq $at,$zero,12208
+12192#    and $t0,0xff # mask off object's hash value ...
+12193##...lui $at,0
+12197##...ori $at,$at,0xff
+12201##...and $t0,$t0,$at
+12204#    sw $t0,-8($s7) # ... and store back into -8 header-word
+12208:skipMask_toString:
+12208#    sll $t0,2 # convert to byte-offset (and shift off top bit, if there)
+12212#    subu $t0,$s7,$t0 # address first byte of string +8
+#    addu $t1,$t0,$t3 # address of one past last byte of string +8
+    
+    # copy the prefix into the string
+12216#    subu $t4,$t2,$t5
+12220:toString_copyLoop:    
+12220#    lb $t3,($t4)
+12224#    and $t3,0x7f # mask off sign bit (in case first word)
+12225##...lui $at,0
+12229##...ori $at,$at,0x7f
+12233##...and $t3,$t3,$at
+12236#    sb $t3,-8($t0)
+12240#    addu $t4,1
+12244#    addu $t0,1
+12248#    blt $t4,$t2,toString_copyLoop
+12249##...slt $at,$t4,$t2
+12253##...bne $at,$zero,12220
+
+    # copy the '@' sign
+12256#    li $t3,'@'
+12260#    sb $t3,-8($t0)
+                
+    ################################################################
+    # at this point, the stack looks like (from top):
+    # - the new string object that we are building
+    # - number of characters in the prefix
+    # - GC tag (5)
+    # - print-size (in bytes) of the hash value
+    # - GC tag (5)
+    # - hash value
+    # - GC tag (5)
+    # - return address
+    # - old this pointer
+    # - ... rest of stack
+    # $t0 contains the address of next byte to store, +8
+    # $t1 the number of characters in the hashcode
+    # $s2 contains the object on which toString() has been called
+    # $s7 also contains the address of the new object
+    ################################################################
+
+    # store the hex version of the hash value
+12264#    addu $t2,$t0,$t1 # address of last byte in string to store +8
+12268#    lw $t3,20($sp) # hash code to print
+12272:toString_hashCopyLoop:
+12272#    and $t4,$t3,0xf
+12276#    srl $t3,4
+12280#    lb $t4,hexChars($t4)
+12284#    sb $t4,-8($t2)
+12288#    subu $t2,$t2,1
+12292#    bgt $t2,$t0,toString_hashCopyLoop
+12293##...slt $at,$t0,$t2
+12297##...bne $at,$zero,12272
+
+    # blow away stack until return address
+    # put return address in $ra, 
+    # and put return string on top of stack
+12300#    addu $sp,28
+12304#    lw $ra,($sp)
+12308#    addu $sp,4
+12312#    move $t0, $s7 # return string we created
+12316#    jr $ra
+
+###############################################################
+# equals() - library method (class String)
+# - the String version of the .equals method
+# - produces false if the second object is null or is not a String ;
+#   otherwise produces true iff the two strings have the same contents
+# - parameters:
+#   - $s2 - this-pointer
+#   - ($sp) - object to compare to
+#   - 4($sp) - old-this-pointer
+# - return-value:
+#   - ($sp) - 1 if the objects were the same; 0 otherwise
+###############################################################
+12320:mth_equals_String:
+    
+    # quick test for obvious false
+12320#    lw $t0,($sp) # second parameter
+12324#    beq $t0,$zero,goEsFalse # go return false if null
+12328#    lw $t1,-12($t0) # vtable pointer
+12332#    la $t2,CLASS_String # string vtable pointer
+12336#    bne $t1,$t2,goEsFalse # go return false if not a string
+
+    # save $ra, $s2, second parameter
+    # we don't need to swap $s2, 
+    # because it's still in the string class.
+12340#    subu $sp,12
+12344#    sw $ra,8($sp)
+12348#    sw $s2,4($sp)
+12352#    sw $t0,($sp)
+12356#    jal mth_compareTo_String
+12360#    lw $s2, 4($sp) #restore this pointer and pop parameters
+12364#    addu $sp, 8 # pop parameters
+
+    # return value is 1 iff result is 0; else 0
+12368#    seq $t0,$t0,$zero
+12369##...subu $at,$t0,$zero
+12373##...sltiu $t0,$at,1
+
+    # pop return address and return $t0
+12376#    lw $ra,($sp)
+12380#    addu $sp,4
+
+12384#    jr $ra # return
+    
+12388:goEsFalse:
+    # put 0 in $t0 and return
+12388#    li $t0, 0
+12392#    jr $ra # return
+
+###############################################################
+# toString() - library method (class String)
+# - returns a String version of the object
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - the string version of the object
+###############################################################
+12396:mth_toString_String:
+    #we are a string, so return this.
+12396#    move $t0, $s2
+12400#    jr $ra
+
+###############################################################
+# readLine() - library method (class Lib)
+# - reads line from standard input
+# - produces String that contains the line read, except that it
+#   does not include the end-of-line character-sequence. An
+#   end-of-line character-sequence is one of the following:
+#   - a return character followed by a newline character
+#   - a newline character not preceded by a return character
+#   - a return character not followed by a newline character
+#   - an end-of-file character that follows at least one data
+#     character
+# - returns null on end-of-file
+# - parameter:
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - pointer to string containing line that was read
+# - anomalies:
+#   - with bare "return", looks ahead one character to check for
+#     newline.  This could cause non-intuitive behavior when
+#     run interactively.
+###############################################################
+12404:mth_readLine_Lib:
+    
+12404#    subu $sp,$sp,8 # allocate space for data tag, saving $ra
+12408#    sw $ra, 4($sp) # save $ra
+12412#    move $t1,$sp # save "original" sp
+
+12416:  doRead:
+
+    # read the character
+12416#    jal readLogicalChar
+
+    # if we have a 'return', read another character to check for
+    # newline
+12420#    subu $t2,$v0,13
+12424#    bne $t2,$zero,notReturnRL
+12428#    jal readLogicalChar
+12432#    subu $t2,$v0,10 # check for newline
+12436#    beq $t2,$zero,foundNewLine
+12440#    sw $v0,lastCharRead # push back character into queue
+12444#    j foundNewLine # go process the line
+
+12448:  notReturnRL:
+
+    # at this point, $v0 has our character
+
+12448#    subu $t0,$v0,10
+12452#    beq $t0,$zero,foundNewLine
+12456#    blt $v0,$zero,foundEof
+12457##...slt $at,$v0,$zero
+12461##...bne $at,$zero,12476
+
+    # we have a character, so push it onto stack
+12464#    subu $sp,$sp,4
+12468#    sw $v0,($sp)
+
+    # loop back up to get next character
+12472#    j doRead
+
+12476:  foundEof:
+    # if we had actually read some characters before hitting
+        # the eof, go return them as if a newline had been read
+12476#    bne $t1,$sp foundNewLine
+
+    # otherwise, we got end of file without having read any
+    # new characters, so return null
+12480#    li $s7, 0 # return-value: null
+12484#    j rlReturn # return
+
+12488:  foundNewLine:
+
+    # at this point, we have our newline (or end-of-file), and all space
+    # on the stack above $t1 are characters to be put into the string.
+    # That is therefore the number of data words to allocate (plus 1
+    # more for the class-pointer)
+
+
+    # set up GC tag and char-count on stack
+12488#    subu $t0,$t1,$sp # number of chars we read (times 4)
+12492#    srl $s6,$t0,2 # number of words on stack with chars
+12496#    subu $sp,$sp,4 # push char-count ...
+12500#    sw $s6,($sp) # ... onto stack
+12504#    addu $t2,$t0,5 # GC tag, incl. for count-word
+12508#    sw $t2,($t1) # store GC tag
+    
+    # allocate the appropriate Object
+12512#    addu $s6,$s6,7 # 3 to round up, plus 1 for v-table pointer word
+12516#    srl $s6,$s6,2  # data words in object
+12520#    move $s7,$zero # object words in object
+12524#    jal newObject  # allocate space
+    
+    # store header words
+12528#    la $t0,CLASS_String
+12532#    sw $t0,-12($s7)# store class tag (String) into object
+12536#    lw $t2,4($sp) # char-count
+12540#    sll $t1,$t2,2 # 4 times number of chars
+12544#    subu $t2,$zero,$t2 # negative of char-count
+12548#    sw $t2,-4($s7) # store negative char-count as header-word 2
+
+    # set up pointers to various parts of stack and object
+12552#    lw $t0,-8($s7) # data words in object, possibly must mask off hash
+12556#    bge $t0,$zero,skipMask_readLine # don't strip hash code if not there
+12557##...slt $at,$t0,$zero
+12561##...beq $at,$zero,12580
+12564#    and $t0,0xff # mask off object's hash value ...
+12565##...lui $at,0
+12569##...ori $at,$at,0xff
+12573##...and $t0,$t0,$at
+12576#    sw $t0,-8($s7) # ... and store back into -8 header-word
+12580:  skipMask_readLine:
+
+12580#    sll $t0,$t0,2 # data bytes in object
+12584#    subu $t0,$s7,$t0 # place to store first character (plus 8)    
+12588#    subu $t0,$t0,$t2 # place to store last character (plus 9)
+12592#    addu $sp,$sp,8 # pop redundant object-pointer and count
+12596#    addu $t1,$t1,$sp # first non-char spot on stack
+
+    # at this point:
+    #  $t0 points to the target-spot for the last character (plus 9)
+    #  $t1 contains top spot on the stack not containing a char
+    #  $sp points to the word with the last source character
+
+    # copy the characters, popping each off the stack
+
+12600#    beq $sp,$t1,rlReturn
+12604:  charCopyLoop:
+12604#    lw $t2,($sp)
+12608#    sb $t2,-9($t0)
+12612#    addu $sp,$sp,4
+12616#    subu $t0,$t0,1
+12620#    bne $sp,$t1,charCopyLoop
+12624:  rlReturn:
+
+12624#    lw $ra, 4($sp)
+12628#    addu $sp, 8   # pop $ra and pointless word off stack
+12632#    move $t0, $s7 # return string we allocated in $s7
+12636#    jr $ra
+
+###################################################################
+# readInt() - library method (class Lib)
+# - skips whitespace
+# - then attempts to read a base-10 integer from standard input
+# - aborts program if a valid integer is not found
+# - returns the integer that is read
+# - truncates on overflow
+# - parameter:
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - value that was read
+###################################################################
+12640:mth_readInt_Lib:
+
+    # save $ra by pushing onto stack
+12640#    subu $sp,$sp,4
+12644#    sw $ra,($sp)
+
+12648:  riSkipWhiteLoop:
+    # read a character
+12648#    jal readLogicalChar
+
+    # if character <= 32 ascii, check for whitespace; if not
+    # whitespace, abort 
+12652#    subu $t0,$v0,32
+12656#    bgt $t0,$zero,nonWhite
+12657##...slt $at,$zero,$t0
+12661##...bne $at,$zero,12704
+12664#    beq $t0,$zero,riSkipWhiteLoop # start over if space
+12668#    subu $t0,$v0,10
+12672#    beq $t0,$zero,riSkipWhiteLoop # start over if newline
+12676#    subu $t0,$v0,9
+12680#    beq $t0,$zero,riSkipWhiteLoop # start over if tab
+12684#    subu $t0,$v0,13
+12688#    beq $t0,$zero,riSkipWhiteLoop # start over if carriage return
+12692#    subu $t0,$v0,12
+12696#    beq $t0,$zero,riSkipWhiteLoop # start over if form-feed
+12700#    j badIntegerFormat # illegal integer char: abort program
+
+12704:  nonWhite:
+12704#    subu $t0,$v0,'-'
+12708#    li $t4,1 # final multiplier
+12712#    bne $t0,$zero,helpReadInt # go read
+12716#    li $t4,-1 # -1 in final multiplier
+
+    # read another character to make up for the '-'
+12720#    jal readLogicalChar
+
+12724:  helpReadInt:
+12724#    li $t2,10
+12728#    subu $t1,$v0,'0' # convert digit to 0-9 value
+12732#    bgeu $t1,$t2,badIntegerFormat # abort if not digit
+12733##...sltu $at,$t1,$t2
+12737##...beq $at,$zero,14984
+12740#    move $t3,$t1 #
+
+    #### at this point, $t3 contains value of the first digit read,
+    #### and $t2 contains the value 10
+
+12744:  digitLoop:
+    # loop invariants:
+    # - $t3 contains the value of the number we've read so far
+    # - $t2 contains the value 10
+
+12744#    jal readLogicalChar # read next character
+12748#    subu $t1,$v0,'0' # convert digit to 0-9 value
+12752#    bgeu $t1,$t2,doneDigitLoop # abort if not digit
+12753##...sltu $at,$t1,$t2
+12757##...beq $at,$zero,12776
+
+12760#    mul $t3,$t3,$t2 # multiply old value by 10
+12761##...mult $t3,$t2
+12765##...mflo $t3
+12768#    addu $t3,$t3,$t1 # add in value of new digit
+12772#    j digitLoop
+
+12776:  doneDigitLoop:
+
+    # "push back" unused character into queue
+12776#    sw $v0,lastCharRead
+
+    # restore return address
+12780#    lw $ra,($sp)
+12784#    addu $sp, 4
+
+    # multiply by sign and put return value in $t0
+12788#    mult $t3,$t4 # multiply to account for poss. minus sign
+12792#    mflo $t3
+12796#    move $t0, $t3
+    
+    # return
+12800#    jr $ra
+
+###################################################################
+# readChar() - library method (class Lib)
+# - reads a single character from standard input
+# - returns the integer that is the encoding of the character
+# - returns -1 if end of file was encountered
+# - parameter:
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - value that was read
+###################################################################
+12804:mth_readChar_Lib:
+
+    # save $ra by pushing onto stack
+12804#    subu $sp,$sp,4
+12808#    sw $ra,($sp)
+
+      # read the character
+12812#    jal readLogicalChar
+
+    # restore return address; put value in $t0
+    # replacing this-pointer saved return address
+12816#    lw $ra,($sp)
+12820#    addu $sp, 4
+12824#    move $t0, $v0
+
+    # return
+12828#    jr $ra
+
+########################################################
+# printStr(str) - library method (class Lib)
+# - prints string to standard output
+# parameters:
+#   - ($sp) - the string to print
+#   - 4($sp) - old-this-pointer
+########################################################
+12832:mth_printStr_Lib:
+    # check for null, printing "(null)", if so
+12832#    lw $t0,($sp)
+12836#    bne $t0,$zero,psNotNull
+
+    # print "(null)"
+12840#    la $a0,nullStr
+12844#    li $v0,4
+12848#    syscall
+12852#    j donePrintStr
+    
+12856:  psNotNull:
+    ##### we have a non-null string #####
+    # this means that:
+    # - number of data words in -8($t0):
+    #   - if the sign bit is 1, the low 31 bits
+    #   - if the sign bit is 0, the low 8 bits
+    # - negative of number of characters in string is in -4($t0)
+    # - string begins at $t0-8-(#dataWords*4), stored 1 char per byte
+12856#    subu $t0,$t0,8
+12860#    lw $t1,($t0) # number of data words, but needs modification
+12864#    blt $t1,$zero,skipPrintStr1
+12865##...slt $at,$t1,$zero
+12869##...bne $at,$zero,12888
+12872#    and $t1,0xff # mask out all but low byte
+12873##...lui $at,0
+12877##...ori $at,$at,0xff
+12881##...and $t1,$t1,$at
+12884#    b skipPrintStr2
+12888:skipPrintStr1:
+12888#    and $t1,0x7ffffff
+12889##...lui $at,2047
+12893##...ori $at,$at,0xffff
+12897##...and $t1,$t1,$at
+12900:skipPrintStr2:    
+12900#    sll $t1,$t1,2
+12904#    subu $t1,$t0,$t1 # first word in string
+12908#    lw $t0,4($t0) # negative of string-length
+12912#    subu $t0,$t1,$t0 # byte just beyond last char in string
+
+    # print the chars in the string
+12916#    beq $t0,$t1,donePrintStr
+12920:  psLoop:
+12920#    lb $a0,($t1) # next byte
+12924#    li $v0,11 # code for printing char
+12928#        syscall # print the char
+12932#    addu $t1,$t1,1 # go to next char
+12936#    blt $t1,$t0,psLoop
+12937##...slt $at,$t1,$t0
+12941##...bne $at,$zero,12920
+
+12944:  donePrintStr:
+12944#    jr $ra
+
+########################################################
+# printInt(n) - library method (class Lib)
+# - prints integer in decimal format to standard output
+# - parameters:
+#   - ($sp) - the integer to print
+#   - 4($sp) - GC tag
+#   - ($sp) - old-this-pointer
+########################################################
+12948:mth_printInt_Lib:
+12948#    lw $a0,($sp)
+
+    # print it
+12952#    li $v0,1 # code for print-int
+12956#    syscall
+
+    # return
+12960#    jr $ra
+
+########################################################
+# printBool(n) - library method (class Lib)
+# - prints boolean to standard output
+# - parameters:
+#   - ($sp) - the boolean to print
+#   - 4($sp) - old-this-pointer
+########################################################
+12964:mth_printBool_Lib:
+    # pop value off stack, along with 'this'
+12964#    lw $t0,($sp)
+
+    # print either 'true' or 'false', depending on the value
+12968#    la $a0,falseString
+12972#    beq $t0,$zero,skipPB
+12976#    la $a0,trueString
+12980:  skipPB:
+12980#    li $v0,4 # code for print-string
+12984#    syscall
+
+    # return
+12988#    jr $ra
+
+########################################################
+# str.substring(n, k) - library method (class String)
+# takes a substring of a string: Java: str.substring(n, k)
+# - parameters after pushing RA:
+#   - ($sp) - k: one beyond index of last char in subrange
+#   - 4($sp) - GC tag
+#   - 8($sp) - n: index of first char in subrange
+#   - 12($sp) - GC tag
+#   - 16($sp) - old this pointer
+# - return value:
+#  - $t0 - substring
+########################################################
+12992:mth_substring_String:
+
+    # save $ra by pushing onto stack
+12992#    subu $sp,$sp,4
+12996#    sw $ra,($sp)
+
+    # get string from this, we probably don't need the null check.
+13000#    move $t0,$s2
+13004#    beq $t0,$zero,nullPtrException
+
+    # get both indices and string length, and ensure that
+    #   0 <= n <= k <= length
+13008#    lw $t0,-4($t0) # negative of string length
+13012#    subu $t0,$zero,$t0 # string length
+13016#    lw $t1,4($sp) # k
+13020#    lw $t2,12($sp) # n
+13024#    bgt $zero,$t2,strIndexOutOfBounds
+13025##...slt $at,$t2,$zero
+13029##...bne $at,$zero,14952
+13032#    bgt $t2,$t1,strIndexOutOfBounds
+13033##...slt $at,$t1,$t2
+13037##...bne $at,$zero,14952
+13040#    bgt $t1,$t0,strIndexOutOfBounds
+13041##...slt $at,$t0,$t1
+13045##...bne $at,$zero,14952
+
+    # allocate memory
+13048#    subu $s6,$t1,$t2 # # chars in target-string
+13052#    addu $s6,$s6,7 # account for extra "class" (4) word + 3 to round up
+13056#    srl $s6,$s6,2 # convert bytes-count to word-count
+13060#    move $s7,$zero # (no object-bytes in string)
+13064#    jal newObject
+
+    # store "String" tag in object-type field
+13068#    la $t0,CLASS_String
+13072#    sw $t0,-12($s7)
+    
+    # mask off hash bits, if needed
+13076#    lw $t4,-8($s7) # data words in source string
+13080#    bge $t4,$zero,skipMask_substring # don't strip hash code if not there
+13081##...slt $at,$t4,$zero
+13085##...beq $at,$zero,13104
+13088#    and $t4,0xff # mask off object's hash value ...
+13089##...lui $at,0
+13093##...ori $at,$at,0xff
+13097##...and $t4,$t4,$at
+13100#    sw $t4,-8($s7) # ... and store back into -8 header-word
+13104:skipMask_substring:
+
+    # store negative of count (=n-k) into object-length header-word
+    # indicies have changed, because newObject is on stack
+13104#    lw $t1,8($sp) # k
+13108#    lw $t2,16($sp) # n
+13112#    subu $t0,$t2,$t1 # value to store
+13116#    sw $t0,-4($s7) # store value
+    
+13120#    move $t3,$s2 # source string pointer
+    
+    # skip byte-copy loop if length is zero
+13124#    beq $zero,$t0,doneSubCopyzz
+
+    # get pointers set up in preparation for copy
+13128#    lw $t4,-8($t3) # data words in source string
+13132#    sll $t4,$t4,2 # data bytes in source string (incl. padding)
+13136#    subu $t3,$t3,$t4 # addr. of first data word of source string (+8)
+13140#    addu $t3,$t3,$t2 # addr. of first source data byte to be copied (+8)
+13144#    subu $t1,$t3,$t0 # addr. beyond last source data byte to be copied (+8)
+13148#    lw $t2,-8($s7)   # data words in target string
+13152#    sll $t2,$t2,2    # data bytes in target string
+13156#    subu $t2,$s7,$t2 # addr. of first target data byte (+8)
+    
+    ############################################
+    # at this point:
+    # - we know that the string has a positive length
+    # - $t3 contains 8 + address of the first source-byte
+    # - $t1 contains 8 + limit-address of the first source-byte
+    # - $t2 contains 8 + address first target byte
+    ############################################
+
+    # copy the bytes from source to target
+13160:  subCopyLoopzz:
+13160#    lb $t4,-8($t3)
+13164#    sb $t4,-8($t2)
+13168#    addu $t2,$t2,1
+13172#    addu $t3,$t3,1
+13176#    blt $t3,$t1,subCopyLoopzz
+13177##...slt $at,$t3,$t1
+13181##...bne $at,$zero,13160
+    
+13184:  doneSubCopyzz:
+    # restore return address, store return value, pop stack
+13184#    lw $ra,4($sp) # restore $ra
+13188#    addu $sp,$sp,8 # pop ra, and allocated newObject
+13192#    move $t0, $s7 # we're returning the string we got back
+                  # from newObject
+    
+    # return
+13196#    jr $ra
+
+########################################################
+# length() - library method (class String)
+# returns length of a string: Java: str.length()
+# - parameters:
+#   - ($sp) - old this pointer
+# - return-value:
+#   - $t0 - length of string
+########################################################
+13200:mth_length_String:
+
+    # the length is the negative of 4($s2)
+13200#    lw $t0,-4($s2) # -length
+13204#    subu $t0,$zero,$t0
+
+    # return
+13208#    jr $ra
+
+
+########################################################
+# str1.concat(str2) - library method (class String)
+# (as in Java)
+# - parameters:
+#   - ($sp) - the second string
+#   - 4($sp) - old this pointer
+#   - $s2 - the first string (this)
+# - returns:
+#   - $t0 - pointer to concatenated string
+########################################################
+13212:mth_concat_String:
+    # save $ra by pushing onto stack
+13212#    subu $sp,$sp,4
+13216#    sw $ra, ($sp)
+
+    # get string pointers and check parameter for null
+13220#    lw $t0,4($sp)
+13224#    beq $t0,$zero,nullPtrException
+13228#    move $t1,$s2
+    
+    # get lengths of two strings; allocate object whose size
+    # is their sum divided by 4 (rounded up) plus 1
+13232#    lw $t0,-4($t0) # negative size of second object
+13236#    lw $t1,-4($t1) # negative size of first object
+13240#    addu $s6,$t0,$t1 # sum of negative sizes
+13244#    sra $s6,$s6,2 # negative word-size of char part
+13248#    subu $s6,$zero,$s6 # word size of char part
+13252#    addu $s6,$s6,1 # data word size, including v-table word
+13256#    move $s7,$zero
+13260#    jal newObject
+
+    # store String vtable address in vtable address field
+13264#    la $t0,CLASS_String
+13268#    sw $t0,-12($s7)
+        
+    # mask off hash bits, if needed
+13272#    lw $t4,-8($s7) # # data words in source string
+13276#    bge $t4,$zero,skipMask_concat # don't strip hash code if not there
+13277##...slt $at,$t4,$zero
+13281##...beq $at,$zero,13300
+13284#    and $t4,0xff # mask off object's hash value ...
+13285##...lui $at,0
+13289##...ori $at,$at,0xff
+13293##...and $t4,$t4,$at
+13296#    sw $t4,-8($s7) # ... and store back into -8 header-word
+13300:skipMask_concat:
+
+13300#    move $t9, $s7 # store return string in unused (I hope) t9 register
+
+    #restore $t0, and $t1 after they were potentially blown
+    #away by newObject
+13304#    move $t1,$s2   # first object
+13308#    lw $t0,8($sp) # second object
+    
+    # get negative sizes; sum and store in new object size-field
+13312#    lw $t2,-4($t0) # negative length of second object
+13316#    lw $t3,-4($t1) # negative length of first object
+13320#    addu $t4,$t2,$t3 # sum of negative lengths
+13324#    sw $t4,-4($s7) # store sum as negated target-string length
+
+    #########################################################
+    # at this point:
+    # - $t0 is pointer to second object
+    # - $t1 is pointer to first object
+    # - $t2 is negated length of second object
+    # - $t3 is negated length of first object
+    # - $s7 is pointer to new object
+    #########################################################
+
+    # compute addresses for moving data from first string
+13328#    lw $t4,-8($t1) # # data words in first string
+13332#    sll $t4,$t4,2 # # data bytes in first string
+13336#    subu $t1,$t1,$t4 # addr. (+8) of first byte in first string
+13340#    lw $t4,-8($s7) # # data words in new string
+13344#    sll $t4,$t4,2 # # data bytes in new string
+13348#    subu $s7,$s7,$t4 # addr. (+8) of first byte in new string
+13352#    beq $zero,$t3,doneConcatLoop1zz # skip first loop is no bytes to copy
+13356#    subu $t3,$t1,$t3 # limit (+8) address for first string
+
+    #########################################################
+    # at this point:
+    # - $t0 is pointer to second object
+    # - $t1 is address (+8) of first byte in first object
+    # - $t2 is negated length of second object
+    # - $t3 is limit-address (+8) of data in first object
+    # - $s7 is address (+8) of first byte in new object
+    # - note: if data-length of first object is zero, then
+    #   we skip over this part, and go to 'doneConcatLoop1'
+    #########################################################
+
+    # copy the bytes from first source to target
+13360:  concatLoop1zz:
+13360#    lb $t4,-8($t1)
+13364#    sb $t4,-8($s7)
+13368#    addu $s7,$s7,1
+13372#    addu $t1,$t1,1
+13376#    blt $t1,$t3,concatLoop1zz
+13377##...slt $at,$t1,$t3
+13381##...bne $at,$zero,13360
+13384:  doneConcatLoop1zz:
+  
+    # if second string is empty, skip rest of copy
+13384#    beq $zero,$t2,doneConcatLoop2zz
+
+      # compute addresses for moving data from second string
+13388#    lw $t4,-8($t0) # # data words in second string
+13392#    sll $t4,$t4,2 # # data bytes in second string
+13396#    subu $t1,$t0,$t4 # addr. (+8) of first byte in second string
+13400#    subu $t3,$t1,$t2 # limit (+8) address for second string
+
+    #########################################################
+    # at this point:
+    # - $t1 is address (+8) of first byte in second object
+    # - $t3 is limit-address (+8) of data in second object
+    # - $s7 is address (+8) of next byte to write new object
+    # - note: if data-length of second object is zero, then
+    #   we skip over this part, and go to 'doneConcatLoop2'
+    #########################################################
+
+    # copy the bytes from first source to target
+13404:  concatLoop2zz:
+13404#    lb $t4,-8($t1)
+13408#    sb $t4,-8($s7)
+13412#    addu $s7,$s7,1
+13416#    addu $t1,$t1,1
+13420#    blt $t1,$t3,concatLoop2zz
+13421##...slt $at,$t1,$t3
+13425##...bne $at,$zero,13404
+13428:  doneConcatLoop2zz:
+ 
+13428:  concatRtnzz:
+    # return
+13428#    move $t0, $t9 # put saved return string in $t0
+13432#    lw $ra, 4($sp)
+13436#    addu $sp, 8 # pop ra and allocated newObject
+13440#    jr $ra
+
+########################################################
+# str.charAt(n) - library method (class String)
+# accesses a character in a string, as in Java
+# - parameters:
+#   - ($sp) - the index, n
+#   - 4($sp) - GC tag
+#   - 8($sp) - old this pointer
+#   - $s2    - this pointer
+# - returns:
+#   - $t0 - the character found.
+########################################################
+13444:mth_charAt_String:
+    # get string
+13444#    move $t0,$s2
+
+    # check that index is in bounds
+13448#    lw $t1,-4($t0) # negative of # data words in string
+13452#    subu $t3,$zero,$t1 # # chars in string
+13456#    lw $t2,($sp) # index
+13460#    bgeu $t2,$t3,strIndexOutOfBounds
+13461##...sltu $at,$t2,$t3
+13465##...beq $at,$zero,14952
+
+    # access element
+13468#    lw $t1,-8($t0) # # data words in object
+13472#    sll $t1,$t1,2 # - byte-offset from end of chars
+13476#    subu $t1,$t2,$t1 # - address of first char in string, offset by 8
+13480#    addu $t0,$t0,$t1 # - address of our char, offset by 8
+13484#    lb $t0,-8($t0) # our char
+
+    # return
+13488#    jr $ra
+
+########################################################
+# intToString(n) - library method (class Lib)
+# converts int to string: Java: ""+n
+# - parameters:
+#   - ($sp) - the value to convert, n
+#   - 4($sp) - GC tag
+#   - 8($sp) - old-this-pointer
+#   - $s2 - this-pointer
+# - returns:
+#   - $t0 - the string, which is the string representation of
+#     the integer
+########################################################
+13492:mth_intToString_Lib:
+
+    # save return address on stack; allocate space for dummy GC tag
+13492#    subu $sp,$sp,8
+13496#    sw $ra,4($sp)
+
+    # save current sp
+13500#    move $t0,$sp
+
+    # move constant 10 into $t3 
+    # (Good, I didn't know what li did, I'm glad this comment was here)
+    # * slams head through wall *
+13504#    li $t3,10
+
+    # get argument, negate if negative
+13508#    lw $t1,8($sp)
+13512#    bge $t1,$zero,itsNonNegLoop
+13513##...slt $at,$t1,$zero
+13517##...beq $at,$zero,13524
+13520#    subu $t1,$zero,$t1
+
+    # loop through, computing unsigned remainder by 10, and
+    # storing digits on stack until we reach 0
+13524:  itsNonNegLoop:
+13524#    divu $t1,$t3
+13528#    mflo $t1 # quotient
+13532#    mfhi $t4 # remainder
+13536#    addu $t4,$t4,'0' # turn remainder into digit
+13540#    subu $sp,$sp,4
+13544#    sw $t4,($sp) # push digit onto stack
+13548#    bne $t1,$zero,itsNonNegLoop
+
+    # push '-' if negative
+13552#    lw $t4,8($t0)
+13556#    bge $t4,$zero,itsSkipNeg
+13557##...slt $at,$t4,$zero
+13561##...beq $at,$zero,13576
+13564#    li $t4,'-'
+13568#    subu $sp,$sp,4
+13572#    sw $t4,($sp)
+13576:  itsSkipNeg:
+
+    ################################################
+    # At this point, all of our digits have been pushed
+    # onto the stack.  $sp points to the first one;
+    # $t0 contains the limit-pointer (into which we need to
+    # write a GC tag).
+    ################################################
+
+    # compute number of characters on stack (one word per character);
+    # write GC tag onto stack; push char-count onto stack
+13576#    subu $s6,$t0,$sp
+13580#    addu $t3,$s6,5 # GC tag (including for count-word, about to be pushed)
+13584#    sw $t3,($t0)
+13588#    srl $s6,$s6,2
+13592#    subu $sp,$sp,4
+13596#    sw $s6,($sp)
+    
+    # allocate memory
+13600#    addu $s6,$s6,7 # 3 to round up, plus 4 for vtable word
+13604#    srl $s6,$s6,2
+13608#    move $s7,$zero # no "object" words in object
+13612#    jal newObject
+
+    # restore char-count; pop it and return value from 'newObject'
+13616#    lw $t0,4($sp)
+13620#    addu $sp,$sp,8
+
+    # store "String" tag into class field
+13624#    subu $s7,$s7,8 # address of header-1 word
+13628#    la $t1,CLASS_String
+13632#    sw $t1,-4($s7)
+        
+    # mask off hash bits, if needed
+13636#    lw $t4,($s7) # # data words in source string
+13640#    bge $t4,$zero,skipMask_intToString # don't strip hash code if not there
+13641##...slt $at,$t4,$zero
+13645##...beq $at,$zero,13664
+13648#    and $t4,0xff # mask off object's hash value ...
+13649##...lui $at,0
+13653##...ori $at,$at,0xff
+13657##...and $t4,$t4,$at
+13660#    sw $t4,($s7) # ... and store back into -8 header-word
+13664:skipMask_intToString:
+    
+    # store negative of char-count into header-2 word
+13664#    subu $t0,$zero,$t0
+13668#    sw $t0,4($s7)
+
+13672#    lw $t1,($s7) # number of data words in string
+13676#    sll $t1,$t1,2 # number data bytes in string
+13680#    subu $t1,$s7,$t1 # first location to store chars in string
+13684#    subu $t0,$t1,$t0 # limit address for chars in string
+
+    ####################################################
+    # at this point:
+    # - $sp contains first source character address
+    # - $t1 contains first target character address
+    # - $t0 contains target-limit address
+    ####################################################
+
+    # loop through and copy all elements as we pop them off the stack.
+    # (In this case, we know that there is it least one.)
+13688:  itsLoop:
+13688#    lw $t2,($sp)
+13692#    addu $sp,$sp,4
+13696#    sb $t2,($t1)
+13700#    addu $t1,$t1,1
+13704#    bne $t1,$t0,itsLoop
+
+    ####################################################
+    # At this point
+    # - ($t0+15)&0xfffffffe is our return value
+    # - ($sp) contains garbage (old GC tag)
+    # - 4($sp) contains return address
+    ####################################################
+
+    # adjust stack, restore return address; return
+13708#    lw $ra,4($sp)
+13712#    addu $sp,$sp,8
+13716#    addu $t0,$t0,15
+13720#    and $t0,$t0,0xfffffffc
+13721##...lui $at,65535
+13725##...ori $at,$at,0xfffc
+13729##...and $t0,$t0,$at
+13732#    jr $ra
+
+########################################################
+# intToChar(n) - library method (class Lib)
+# converts int to a one-character string: Java: ""+(char)(n&0xff)
+# - parameters:
+#   - ($sp) - the value to convert, n
+#   - 4($sp) - GC tag
+#   - 8($sp) - old-this-pointer
+# - returns:
+#   - $t0 - the string, which is the converted character
+# - note: only the low 8 bits of the value n are used
+########################################################
+13736:mth_intToChar_Lib:
+    # save return address
+13736#    subu $sp,$sp,4
+13740#    sw $ra,($sp)
+
+    # allocate object
+13744#    li $s6,2
+13748#    move $s7,$zero
+13752#    jal newObject
+
+    # get n from string.
+13756#    lw $t1,8($sp)
+
+    # store "String" tag into class field
+13760#    la $t0,CLASS_String
+13764#    sw $t0,-12($s7)
+        
+    # mask off hash bits, if needed
+13768#    lw $t4,-8($s7) # # data words in source string
+13772#    bge $t4,$zero,skipMask_intToChar # don't strip hash code if not there
+13773##...slt $at,$t4,$zero
+13777##...beq $at,$zero,13796
+13780#    and $t4,0xff # mask off object's hash value ...
+13781##...lui $at,0
+13785##...ori $at,$at,0xff
+13789##...and $t4,$t4,$at
+13792#    sw $t4,-8($s7) # ... and store back into -8 header-word
+13796:  skipMask_intToChar:
+
+    # store data in string
+13796#    sb $t1,-16($s7)
+    
+    # store negative of size in header-word 2
+13800#    li $t0,-1
+13804#    sw $t0,-4($s7)
+
+    # we're returning $s7
+13808#    move $t0, $s7
+
+    # restore $ra, and pop return address and return string off stack
+13812#    lw $ra,4($sp)
+13816#    addu $sp,$sp,8
+
+    # return
+13820#    jr $ra
+
+########################################################
+# str1.compareTo(str2) - library method (class String)
+# compares two strings as in Java
+# - parameters:
+#   - ($sp) - second string
+#   - 4($sp) - old this pointer
+#   - $s2 - first string (this)
+# - returns:
+#   - $t0 - -1, 0, or 1 depending on whether str1 is
+#       lexographically less than, equal to or greater than str2
+########################################################
+13824:mth_compareTo_String:
+    # get string pointers and check parameter for null
+13824#    lw $t0,($sp) # second string
+13828#    beq $t0,$zero,nullPtrException
+13832#    move $t1,$s2 # first string
+    
+    # get (negatives of) respective byte-lengths
+13836#    lw $t2,-4($t0) # negative length of second string
+13840#    lw $t3,-4($t1) # negative length of first string
+
+    # put tentative return value in $t5.
+    # The tentative return value is the one that we will use if we get
+    # to the end of the shorter string during our comparison-loop.
+13844#    slt $t4,$t3,$t2
+13848#    slt $t5,$t2,$t3
+13852#    subu $t5,$t5,$t4
+    
+    # at this point:
+    # - $t0 contains the pointer to the second string object
+    # - $t1 contains the pointer to the first string object
+    # - $t5 contains the value to return if the strings compare equal up
+    #   to the length of the shortest word
+
+    # get begin-of-string addresses
+13856#    lw $t2,-8($t0) # # data words in second string
+13860#    lw $t3,-8($t1) # # data words in first string
+13864#    sll $t2,$t2,2 # byte-offset to beginning of str2 (+8)
+13868#    sll $t3,$t3,2 # byte-offset to beginning of str1 (+8)
+13872#    subu $t0,$t0,$t2 # beginning of str1 address (+8)
+13876#    subu $t1,$t1,$t3 # beginning of str2 address (+8)
+    
+    # put $t1-limit into $t2
+13880#    beq $zero,$t5,skipStrCmpLenzz
+13884#    move $t2,$t3
+13888:  skipStrCmpLenzz:
+13888#    add $t2,$t1,$t2
+    
+    # at this point:
+    # - $t0 contains 8 plus the address of the first data-byte of str2
+    # - $t1 contains 8 plus the address of the first data-byte of str1
+    # - $t2 contains 8 plus the address of the last data-type of str1
+    # - $t5 contains the value to return if the strings compare equal up
+    #   to the length of the shortest word
+
+    #######################################################
+    # at this point, we have
+    # - $t5 containing the tentative return-value
+    # - $t1 containing address of first char in str2
+    # - $t2 containing limit for $t1
+    # - $t0 containing address of first char in str1
+    #######################################################
+
+    # loop through, until we find unequal words or we hit
+    # our limit    
+13892:  cmpLoopzz:
+13892#    lw $t3,-8($t1) # word from str2
+13896#    lw $t4,-8($t0) # word from str1
+13900#    bne $t3,$t4,cmpNotEqualzz
+13904#    addu $t1,$t1,4
+13908#    addu $t0,$t0,4
+13912#    bne $t1,$t2,cmpLoopzz
+
+    # # got to the end of one string: go set up return
+13916#    j cmpHitLimitzz
+
+13920:  cmpNotEqualzz:
+    # found unequal characters: return -1 or 1, depending on which is
+    # greater
+13920#    slt $t5,$t4,$t3 # 1 if str2 > str1, else 0
+13924#    sll $t5,$t5,1 # 2 if str2 > str1, else 0
+13928#    subu $t5,$t5,1 # 1 if str2 > str1, else -1
+13932:  cmpHitLimitzz:
+13932#    move $t0, $t5 # store return value
+13936#    jr $ra # return
+
+########################################################
+# readLogicalChar (millicode)
+#  - logically reads a character from standard input
+#  - first checks character buffer, consuming it if possible
+#  - return-result:
+#    - returns character in $v0
+#  - side-effects:
+#    - reads a character
+#    - clobbers $t0
+########################################################
+13940:readLogicalChar:
+
+    # check if we already have a character
+13940#    lw $v0,lastCharRead
+13944#    li $t0,-2
+13948#    beq $t0,$v0 doReadCh
+
+    # we have our character from the buffer. Wipe out
+    # buffer and return
+13952#    sw $t0,lastCharRead # store -2 into buffer (i.e. "empty")
+13956#    jr $ra # return
+    
+13960:  doReadCh:
+    # we need to actually read a character: read and return
+13960#    li $v0,12 # use system call to read a character
+13964#    syscall
+13968#    jr $ra # return
+
+########################################################
+# newObject (millicode)
+#  - allocates a new object on the heap
+#  - two-word header is set up properly
+#  - all non-header words in object are set to zero
+#  - parameters:
+#    - $s6 = the number of data words in the negative-offset portion of
+#      the object (including the vtable pointer); this value is 1 if the
+#      object is an array; this should always be at least 1
+#    - $s7 - second header-word, which is the number of object
+#      words in the object
+#      - $s7 may not be negative (this is checked); if so, the program is
+#        aborted with an "array size of out bounds" error message
+#      is treated as if it were zero
+#  - return-result:
+#    - returned in $s7
+#    - and pushed on the stack
+#  - side-effects:
+#  - may trash all $tx registers and all $sx registers, except the
+#    "permanent" ones, which get updated with values that are
+#    consistent with the new space
+########################################################
+13972:newObject:
+    # $s6 = # data words
+    # $s7 = # object words (# data words if data-array allocation,
+    # where a negative number is treated as 0)
+    # $ra = return address
+    # on return, pointer to new memory in two places:
+    # - pushed onto top of stack
+    # - in $s7
+    
+    # if the object-portion size is negative, abort with error
+13972#    blt $s7,$zero arraySizeOutOfBounds
+13973##...slt $at,$s7,$zero
+13977##...bne $at,$zero,14968
+
+    # mark the fact that we have not yet GC'd for this allocation
+13980#    move $t5,$zero
+
+    ###### TEMPORARY #######
+    # for now, go a GC unconditionally, so that a full GC occurs
+    # every time we allocate an object
+    ### let's not do that for now
+    # j doGC
+
+13984:  gcJoin:
+
+    # at this point:
+    #  $s6 contains the before-header word count
+    #  $s7 contains the second header word, which is also the
+    #    after-header word count
+    #  $t5 is zero iff we have not GC'd for this allocation
+
+    # determine if we have enough memory available
+13984#    addu $t0,$s6,$s7
+13988#    sll $t0,$t0,2
+13992#    addu $t0,$t0,8 # amount of memory needed
+13996#    addu $t1,$t0,$s3
+14000#    bgtu $t1,$s4,doGC
+14001##...sltu $at,$s4,$t1
+14005##...bne $at,$zero,14128
+
+    # at this point:
+    #  $s3 points to beginning of segment, and
+    #  $t1 points just past the end
+
+    # zero out the memory
+14008#    move $t2,$s3
+14012:  zeroObjLoop:
+14012#    sw $zero,($s3)
+14016#    lw $zero,($s3)
+
+14020#    addu $s3,4
+14024#    bltu $s3,$t1,zeroObjLoop
+14025##...sltu $at,$s3,$t1
+14029##...bne $at,$zero,14012
+
+    # at this point:
+    #  $s3 has been updated to point to the next free slot,
+    #    which is also the points just past our object
+
+    # compute pointer value and set up header-words
+14032#    sll $t0,$s7,2    # number of post-header bytes
+14036#    subu $t0,$s3,$t0 # pointer that we will return
+
+    # determine the value to store in the first header-word:
+    # if <= 255 (unsigned):
+    #  - it goes into low byte
+    #  - hash bits go into high three bytes, with top bit being 1
+    # if >255 (unsigned)
+    #  - it goes into full word (with a 0 in the high bit)
+    
+14040#    li $t2,255
+14044#    bgeu $s6,$t2 firstHeaderLarge
+14045##...sltu $at,$s6,$t2
+14049##...beq $at,$zero,14096
+14052#    lw $t1,prevHashConstant
+14056#    addu $t1,0x12b68fd2
+14057##...lui $at,4791
+14061##...addiu $at,$at,-28718
+14065##...addu $t1,$at,$t1
+14068#    sw $t1,prevHashConstant # update hash constant
+14072#    or $t1,0x80000000 # set top bit
+14073##...lui $at,32768
+14077##...or $t1,$at,$t1
+14080#    and $t1,0xffffff00 # clear low bit
+14081##...lui $at,65535
+14085##...ori $at,$at,0xff00
+14089##...and $t1,$t1,$at
+14092#    or $s6,$t1
+14096:firstHeaderLarge:
+14096#    sw $s6,-8($t0) # store header-1 value
+14100#    lw $zero,-8($t0)
+
+    # store second header-value
+14104#    sw $s7,-4($t0)   # second header-word
+14108#    lw $zero,-4($t0)
+    
+    # put return-value into $s7 and also push it onto top of stack
+14112#    move $s7,$t0
+14116#    subu $sp,$sp,4
+14120#    sw $t0,($sp)
+
+14124#    jr $ra
+    
+14128:  doGC:
+    #####################################################
+    # We need to do a garbage-collect
+    #####################################################
+ 
+     ####### print that we are doing a GC ########
+     ####### THESE THREE LINES WILL NORMALLY BE COMMENTED OUT #######
+#         la $a0,gcMsg # prints message: "GC!" 
+#         li $v0,4 # syscall-code for print-string 
+#         syscall 
+       
+
+    # if we've already done a GC for this allocation, then
+    # we are actually out heap-memory: abort program
+14128#    bne $t5,$zero,outOfHeapMemory
+      
+    # increment the number of times we've done a GC, for later reporting
+14132#    lw $t5,gcCount
+14136#    addu $t5,1
+14140#    sw $t5,gcCount
+
+    # save $s2 (our only rooted register) on the stack
+    # so that the garbage collector processes it
+14144#    subu $sp,$sp,4
+14148#    sw $s2,($sp)
+
+    # set $s3 to the address of the new segment and the
+    # end-limit of the new segment, respectively,
+    # Also, update cur_seg to refer to the other segment
+14152#    lw $t0,cur_seg
+14156#    move $t7,$s4
+14160#    la $t6,seg1_start
+14161##...lui $t6,16
+14165##...addiu $t6,$t6,15708
+14168#    la $s3,seg0_start
+14172#    la $s4,seg0_end
+14173##...lui $s4,16
+14177##...addiu $s4,$s4,15708
+14180#    sw $zero,cur_seg
+14184#    bne $t0,$zero,skipGc1
+14188#    la $t6,seg0_start
+14192#    la $s3,seg1_start
+14193##...lui $s3,16
+14197##...addiu $s3,$s3,15708
+14200#    la $s4,seg1_end
+14201##...lui $s4,32
+14205##...addiu $s4,$s4,15708
+14208#    sw $s5,cur_seg
+14212:  skipGc1:
+14212#    li $t5,0x80000000
+14216#    lw $t0,stack_bottom
+14220#    subu $t0,4
+
+
+    ###############################################################
+    # at this point:
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first address of the target space
+    # - $s4 contains the limit address of the target space
+    # - cur_seg has been updated to refer to the target space
+    # - $t0 contains the address of the deepest stack element
+    # - $sp contains the address of the top stack element
+    # - $s2 is available for use, having been pushed onto the stack
+    # - $t5 contains the value 0x80000000
+    ###############################################################
+
+    ###### begin outer loop to copy all stack-direct objects ######
+
+14224:  gcStackCopyLoop:
+14224#    lw $t1,($t0) # current stack element
+
+    # test if we have a GC tag
+14228#    sll $t2,$t1,31 # zero iff low bit was zero
+14232#    bne $t2,$zero,gcBump # go skip data values if low bit not zero
+
+    # bump stack-address pointer
+14236#    subu $t0,$t0,4
+
+    # if value is out of range (which includes null=0), and is
+    # therefore does not refer to an object on the heap, just go
+    # loop back and do the next one
+14240#    bleu $t1,$t6,gcTestIterDone1
+14241##...sltu $at,$t6,$t1
+14245##...beq $at,$zero,14408
+14248#    bgtu $t1,$t7,gcTestIterDone1
+14249##...sltu $at,$t7,$t1
+14253##...bne $at,$zero,14408
+
+    # if the object has already been moved, update the stack-value
+    # via the forwarding pointer
+14256#    lw $t2,-8($t1) # possible forwarding tag
+14260#    bne $t2,$zero,gcNoForward1 # if not forwarding tag, go copy
+14264#    lw $t2,-4($t1) # forwarding pointer: object's new address
+14268#    sw $t2,4($t0) # update stack value
+14272#    j gcTestIterDone1 # do next iteration
+
+14276:  gcNoForward1:
+    #########################################################
+    # we actually need to copy the object into the new space
+    #########################################################
+
+    # compute the amount of space that is needed
+14276#    bge $t2,$zero,gcSkip2
+14277##...slt $at,$t2,$zero
+14281##...beq $at,$zero,14296
+14284#    and $t2,0xff #### mask off hash value
+14285##...lui $at,0
+14289##...ori $at,$at,0xff
+14293##...and $t2,$t2,$at
+    #### OLD
+    #### subu $t2,$zero,$t2 # set to 1 if -1 (number of data words)
+
+14296:  gcSkip2:
+14296#    sll $t2,$t2,2
+14300#    addu $t2,$t2,8
+14304#    subu $t4,$t1,$t2 # address of first word of source
+14308#    lw $t3,-4($t1) # number of object words (negative means zero)
+14312#    bge $t3,$zero,gcH2Neg1
+14313##...slt $at,$t3,$zero
+14317##...beq $at,$zero,14324
+14320#    move $t3,$zero
+14324:  gcH2Neg1:
+14324#    sll $t3,$t3,2
+14328#    addu $t3,$t3,$t1 # address one word past last word of source
+
+14332#    addu $t2,$s3,$t2 # pointer to target object
+
+    #########################################################
+    # At this point:
+    # - $t0 contains the address of the stack slot we'll
+    #   process next
+    # - $t1 contains the contents of the stack slot we're
+    #   currently working on, which is a pointer to the source
+    #   object (i.e., the address just beyond the object's header)
+    # - $t2 contains the pointer to the target object
+    # - $t3 contains the limit address of the source object
+    # - $t4 contains the first address of the source object
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first unallocated address of the
+    #   target space, which is also the first address of the
+    #   target object
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # - $sp contains the address of the top stack element
+    # - available for use: $s0-2
+    #########################################################
+
+    # swap first header word and first data word so that header
+        # can be found by "trailing finger" in the target space
+14336#    lw $s0,($t4)
+14340#    lw $s1,-8($t1)
+14344#    sw $s1,($t4)
+14348#    sw $s0,-8($t1)
+    
+    # copy all source bytes to the target
+14352:  gCinnerCopy1:
+14352#    lw $s0,($t4)
+14356#    sw $s0,($s3)
+14360#    addu $t4,$t4,4
+14364#    addu $s3,$s3,4
+14368#    bltu $t4,$t3,gCinnerCopy1
+14369##...sltu $at,$t4,$t3
+14373##...bne $at,$zero,14352
+
+    ###########################################################
+    # All bytes have been copied to the target space.  We still
+    # need to:
+    # - set up forwarding pointer in source object
+    # - update the pointer in the current stack slot
+    ###########################################################
+
+    # set up the forwarding pointer
+14376#    sw $zero,-8($t1) # 0 in first header-slot
+14380#    sw $t2,-4($t1) # forwarding pointer in second header-slot
+
+    # update the stack slot with the address in the target space
+14384#    sw $t2,4($t0)
+14388#    lw $zero,-8($t2)
+14392#    lw $zero,-4($t2)
+
+    # go handle next stack slot (testing if done)
+14396#    j gcTestIterDone1
+
+14400:  gcBump:
+    #### we have a GC tag.  Bytes to skip: tag value + 3.
+14400#    subu $t0,$t0,$t1
+14404#    subu $t0,$t0,3
+
+14408:  gcTestIterDone1:
+14408#    bgeu $t0,$sp,gcStackCopyLoop
+14409##...sltu $at,$t0,$sp
+14413##...beq $at,$zero,14224
+
+    ###### end outer loop to copy all stack-direct objects ######
+
+    #############################################################
+    # We have finished processing the stack elements.  Now we need
+    # to update elements in the heap itself. This may itself involve
+    # moving additional objects
+    #############################################################
+
+    #########################################################
+    # At this point:
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first unallocated address of the
+    #   target space
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # We want to set things up so that in addition:
+    # - $t0 is the "trailing finger", containing the address
+    #   of the first slot in target space that we have yet
+    #   to process.
+    # Then during processing:
+    # - $t1 will contain the contents of the heap slot we're
+    #   currently working on, which is a pointer to the source
+    #   object
+    # And when we're actually copying an object:
+    # - $t2 will contain pointer to the target object
+    # - $t3 will contain the limit address of the source object
+    # - $t4 will contain the first address of the source object
+    # - $s1 will contain the the limit address for the current
+    #   object that tells where the pointers in the object end
+    # - available for use: $s0
+    ##########################################################
+
+    # set $t0 to be at the beginning of target-space
+14416#    lw $t1,cur_seg
+14420#    la $t0,seg0_start
+14424#    beq $t1,$zero,gcSkip4
+14428#    la $t0,seg1_start
+14429##...lui $t0,16
+14433##...addiu $t0,$t0,15708
+
+
+14436:  gcSkip4:
+
+    # if there were no objects put into the heap during stack
+    # processing, we're done, so go finish up
+14436#    bgeu $t0,$s3,gcFinishUp
+14437##...sltu $at,$t0,$s3
+14441##...beq $at,$zero,14732
+
+    ###### begin outer loop to copy all non-stack-direct objects ######
+
+14444:  gcHeapCopyLoop:
+    # get data count for object; swap header-word with first word
+    # of object so that they're back in the right place
+14444#    lw $t1,($t0) # (what will be) first header word for current object
+14448#    move $t2,$t1 # number data bytes in object (poss. w/hash bits)
+14452#    bge $t2,$zero,gcSkip4a # are there hash bits?
+14453##...slt $at,$t2,$zero
+14457##...beq $at,$zero,14472
+14460#    and $t2,0xff # mask off hash bits
+14461##...lui $at,0
+14465##...ori $at,$at,0xff
+14469##...and $t2,$t2,$at
+14472:gcSkip4a:    
+14472#    sll $t2,$t2,2 # # data bytes
+14476#    addu $t2,$t2,8 # to skip header words
+14480#    addu $t2,$t0,$t2 # pointer to new object
+14484#    lw $t3,-8($t2) # word to swap
+14488#    sw $t1,-8($t2) # store header word
+14492#    sw $t3,($t0) # restore first word of object
+
+    ################################################
+    # at this point:
+    # - $t2 contains the pointer to our new object
+    ################################################
+
+    # check if we have a data array
+14496#    lw $t1,-12($t2) # vtable pointer
+14500#    li $t0,dataArrayVTableStart # address of vtable for first data array
+14504#    blt $t1,$t0,gcNotDataArray # if data array, no more xforming to do
+14505##...slt $at,$t1,$t0
+14509##...bne $at,$zero,14528
+
+    # We have a vtable address that is a data array.
+    # we need skip over it then loop back to do next object.
+14512:  skipToNextObj:
+14512#    lw $t1,-4($t2) # data words in (object position of) array
+    #### note: we know that it's not a string, so the value will
+    #### not be artificially negative
+14516#    sll $t1,$t1,2 # convert to byte-count
+14520#    addu $t0,$t2,$t1 # skip over object
+14524#    j gcTestIterDone2 # go do next object, if any
+
+    ###################################################
+    # at this point:
+    # - the object has been restored to normal status--that is, the
+    #   word-swap has been done
+    # - $t2 contains a pointer to the object
+    ###################################################
+    
+14528:  gcNotDataArray:
+14528#    lw $t3,-4($t2) # # object words (negative treated as zero)
+14532#    bge $t3,$zero,gcH2Neg2
+14533##...slt $at,$t3,$zero
+14537##...beq $at,$zero,14544
+14540#    move $t3,$zero
+14544:  gcH2Neg2:
+14544#    sll $t3,$t3,2 # # object bytes
+14548#    move $t0,$t2 # address of first pointer in object
+14552#    add $s1,$t2,$t3 # limit address for this object
+
+    #####################################################
+    # At this point, we have to "translate" all pointers,
+    # starting at $t0 to (but not including) $s1
+    #####################################################
+
+    # if there are no pointer-slots (i.e., $t0=$s1), skip this
+    # part
+14556#    beq $t0,$s1,gcTestIterDone2
+    
+14560:  gcNextPointerInObject:
+    # get pointer from object
+14560#    lw $t1,($t0)
+
+    # if value is out of range, and is therefore does not refer
+    # to an object, just go loop back and do the next one
+14564#    bleu $t1,$t6,gcGoNextPointerSlot
+14565##...sltu $at,$t6,$t1
+14569##...beq $at,$zero,14712
+14572#    bgtu $t1,$t7,gcGoNextPointerSlot
+14573##...sltu $at,$t7,$t1
+14577##...bne $at,$zero,14712
+
+    # if the object has already been moved, update the stack-value
+    # via the forwarding pointer
+14580#    lw $t8,-8($t1) # possible forwarding tag
+14584#    bne $t8,$zero,gcNoForward2 # if not forwarding tag, go copy
+14588#    lw $t8,-4($t1) # forwarding pointer: object's new address
+14592#    sw $t8,($t0) # update pointer in object
+14596#    j gcGoNextPointerSlot # do next iteration
+
+14600:  gcNoForward2:
+    #########################################################
+    # we actually need to copy the object into the new space
+    #########################################################
+
+    #########################################################
+    # At this point:
+    # - $t0 contains the address of the heap-slot we're translating
+    # - $t1 will contain the contents of the heap-slot we're
+    #   currently working on, which is a pointer to the source
+    #   object
+    # - $t2 will contains pointer to the object we're in the
+    #   middle of translating
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first unallocated address of the
+    #   target space, which will also be the first address
+    #   of the target object
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # Then during processing:
+    # And when we're actually copying an object:
+    # - $t3 will contain the limit address of the source object
+    # - $t4 will contain the first address of the source object
+    # - $s1 will contain the the limit address for the current
+    #   object that tells where the pointers in the object end
+    # - $t8 will contain a pointer to the target object
+    # - available for use: $s0, $t8, $t9
+    ##########################################################
+
+    # compute the amount of space that is needed
+14600#    bge $t8,$zero,gcSkip5 # # words in negative-offset portion
+14601##...slt $at,$t8,$zero
+14605##...beq $at,$zero,14620
+14608#    and $t8,0xff # mask off hash bits
+14609##...lui $at,0
+14613##...ori $at,$at,0xff
+14617##...and $t8,$t8,$at
+
+14620:  gcSkip5:
+14620#    sll $t8,$t8,2 # bytes in negative-offset portion ...
+14624#    addu $t8,$t8,8 # ... add in bytes for header-words
+14628#    subu $t4,$t1,$t8 # address of first word of source object
+14632#    lw $t3,-4($t1) # # words in positive-offset portion
+14636#    bge $t3,$zero,gcNoNeg
+14637##...slt $at,$t3,$zero
+14641##...beq $at,$zero,14648
+14644#    move $t3,$zero # negative treated as zero
+14648:  gcNoNeg:
+14648#    sll $t3,$t3,2 # bytes in negative-offset portion
+14652#    addu $t3,$t3,$t1 # address one word past last word of source
+
+14656#    addu $t8,$s3,$t8 # pointer to target object
+
+    #########################################################
+    # At this point:
+    # - $t0 contains the address of the stack slot we'll
+    #   process next
+    # - $t1 contains the contents of the stack slot we're
+    #   currently working on, which is a pointer to the source
+    #   object
+    # - $t2 will contains pointer to the object we're in the
+    #   middle of translating
+    # - $t3 contains the limit address of the source object
+    # - $t4 contains the first address of the source object
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $t8 contains the pointer to the target object
+    # - $s1 contains the the limit address for the current
+    #   object that tells where the pointers in the object end
+    # - $s3 contains the first unallocated address of the
+    #   target space, which is also the first address of the
+    #   target object
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # - $sp contains the address of the top stack element
+    # - available for use: $s0, $t9
+    #########################################################
+
+    # swap first header word and first data word so that header
+        # can be found by "trailing finger"
+14660#    lw $s0,($t4)
+14664#    lw $t9,-8($t1)
+14668#    sw $t9,($t4)
+14672#    sw $s0,-8($t1)
+
+    # copy all source bytes to the target
+14676:  gCinnerCopy2:
+14676#    lw $s0,($t4)
+14680#    sw $s0,($s3)
+14684#    addu $t4,$t4,4
+14688#    addu $s3,$s3,4
+14692#    bltu $t4,$t3,gCinnerCopy2
+14693##...sltu $at,$t4,$t3
+14697##...bne $at,$zero,14676
+
+    ###########################################################
+    # All bytes have been copied to the target space.  We still
+    # need to:
+    # - set up forwarding pointer in source object
+    # - update the pointer in the current stack slot
+    ###########################################################
+
+    # set up the forwarding pointer
+14700#    sw $zero,-8($t1) # 0 in first header-slot
+14704#    sw $t8,-4($t1) # forwarding pointer in second header-slot
+
+    # update the heap-slot with the address in the target space
+14708#    sw $t8,($t0)
+
+14712:  gcGoNextPointerSlot:
+    # bump $t0 to next slot in object; if not done, loop back
+14712#    addu $t0,$t0,4
+14716#    bltu $t0,$s1,gcNextPointerInObject
+14717##...sltu $at,$t0,$s1
+14721##...bne $at,$zero,14560
+
+14724:  gcTestIterDone2:
+14724#    bltu $t0,$s3,gcHeapCopyLoop
+14725##...sltu $at,$t0,$s3
+14729##...bne $at,$zero,14444
+
+    ###### end outer loop to copy all non-stack-direct objects ######
+
+14732:  gcFinishUp:
+    # restore $s2 to its updated value by popping off stack
+14732#    lw $s2,($sp)
+14736#    addu $sp,$sp,4
+
+    # mark us as having already GC'd
+14740#    move $t5,$s5
+
+    # go try and allocate again
+14744#    j gcJoin
+        
+
+########################################################
+# vm_init (millicode)
+#  - initialzes the virtual machine
+#  - values 5 stored in $s5
+#  - zero ("this pointer") stored in $s2
+#  - heap and heap-limit pointers stored respectively in $s3 and $s4
+#  - address of bottom of stack stored in 'stack_bottom' memory
+#    location
+#  - (note: 'cur_seg' memory location is already set to 0)
+########################################################
+14748:vm_init:
+
+    # mark bottom of stack
+14748#    sw $sp,stack_bottom
+    
+    # set "this" pointer to be null, for now
+14752#    move $s2,$zero
+
+    #set up the "five" register
+14756#    li $s5,5
+
+14760#    la $s3,seg0_start
+14764#    la $s4,seg0_end
+14765##...lui $s4,16
+14769##...addiu $s4,$s4,15708
+    
+    # return
+14772#    jr $ra
+
+########################################################
+# divide (millicode)
+#  - divides first arg by second (signed divide)
+#  - aborts if divisor is zero
+#  - follows calling conventions for library methods
+#  - parameters:
+#    - ($sp) divisor
+#    - 4($sp) (dummy) GC tag
+#    - 8($sp) dividend
+#    - 12($sp) (dummy) GC tag
+#  - return value:
+#    - ($sp) result
+#    - 4($sp) (dummy) GC tag
+########################################################
+14776:divide:
+    # get parameters; abort if divisor zero
+14776#    lw $t0,($sp)
+14780#    lw $t1,8($sp)
+14784#    beq $t0,$zero,divByZeroError
+    
+    # perform division
+14788#    div $t1,$t0
+14792#    mflo $t0
+
+    # store result, adjust stack and return
+14796#    addu $sp,$sp,8 # adjust stack
+14800#    sw $t0,($sp) # store result
+14804#    jr $ra
+
+########################################################
+# remainder (millicode)
+#  - takes remainder first arg divided by second (signed divide)
+#  - aborts if divisor is zero
+#  - follows calling conventions for library methods
+#  - parameters:
+#    - ($sp) divisor
+#    - 4($sp) (dummy) GC tag
+#    - 8($sp) dividend
+#    - 12($sp) (dummy) GC tag
+#  - return value:
+#    - ($sp) result
+#    - 4($sp) (dummy) GC tag
+########################################################
+14808:remainder:
+    # get parameters; abort if divisor zero
+14808#    lw $t0,($sp)
+14812#    lw $t1,8($sp)
+14816#    beq $t0,$zero,divByZeroError
+    
+    # perform division
+14820#    div $t1,$t0
+14824#    mfhi $t0
+
+    # store result, adjust stack and return
+14828#    addu $sp,$sp,8 # adjust stack
+14832#    sw $t0,($sp) # store result
+14836#    jr $ra
+    
+########################################################
+# checkCast (millicode) - checks that a cast is legal
+#  - aborts if null
+#  - aborts if cast is illegal cast
+#  - parameters:
+#    - ($sp) object to check
+#    - $t0 address of vtable for target-class
+#    - $t1 address one past vtable address of last
+#      subclass of target-class
+#  - return value:
+#    - ($sp) object to check (now checked)
+#  - side-effects: clobbers $t2 and $t3
+########################################################
+14840:checkCast:
+    # get object, allow immediately if null
+14840#    lw $t2,($sp)
+14844#    beq $t2,$zero,checkCastReturn
+    
+    # get vtable address of object, abort if less than
+    # lower limit or greater then or equal to higher
+    # limit
+14848#    lw $t2,-12($t2) # vtable address
+14852#    bge $t2,$t1,castException
+14853##...slt $at,$t2,$t1
+14857##...beq $at,$zero,14992
+14860#    blt $t2,$t0,castException
+14861##...slt $at,$t2,$t0
+14865##...bne $at,$zero,14992
+    
+    # return, leaving object unchanged on stack
+14868:  checkCastReturn:    
+14868#    jr $ra    
+
+# checkCast:
+#     # get object, allow immediately if null
+#     lw $t2,($sp)
+#     beq $t2,$zero,checkCastReturn
+#     
+#     # get vtable address of object (using Object vtable
+#     # address for arrays)
+#     lw $t3,-8($t2) # <= 0 if array
+#     lw $t2,-12($t2) # vtable address (unless array)
+#     bgt $t3,$zero,skipArrayCast
+#     la $t2,CLASS_Object
+#     
+#     # get vtable address of object, abort if less than
+#     # lower limit or greater then or equal to higher
+#     # limit
+#   skipArrayCast:
+#     bge $t2,$t1,castException
+#     blt $t2,$t0,castException
+#     
+#     # return, leaving object unchanged on stack
+#   checkCastReturn:    
+#     jr $ra    
+
+########################################################
+# instanceOf (millicode) - tests whether an object is
+#   a member of a given class (or subclass)
+#  - returns false if object is null
+#  - parameters:
+#    - ($sp) object to check
+#    - $t0 address of vtable for target-class
+#    - $t1 address one past vtable address of last
+#      subclass of target-class
+#  - return value:
+#    - ($sp) true (1) or false (0), depending on whether
+#      object is a member
+#  - side-effects: clobbers $t2 and $t3
+########################################################
+14872:instanceOf:
+    # get object, go return false if null
+14872#    lw $t2,($sp)
+14876#    beq $t2,$zero,doneInstanceOf
+    
+    # get vtable address of object, determine if we're >= the
+    # lower limit, and if we're < the higher limit
+14880#    lw $t2,-12($t2) # vtable address
+14884#    sge $t0,$t2,$t0 # are we >= the lower limit?
+14885##...slt $t0,$t2,$t0
+14889##...xori $t0,$t0,0x1
+14892#    slt $t1,$t2,$t1 # are we < the higher limit?
+    
+    # store the AND of the two conditions onto the stack; return
+14896#    and $t2,$t0,$t1
+14900#    sw $t2,($sp)
+14904:doneInstanceOf: # if we reach here via branch, stack-top is zero,
+            # which will now represent false
+14904#    jr $ra
+
+
+###########################################################
+# jump-targets to terminate program:
+# - exit: returns normally
+# - outOfHeapMemory: prints "out of memory" error and returns
+###########################################################
+
+14908:exitError:
+    # assumes $a0 has pointer to null-terminated string
+
+    # print the string
+14908#    li $v0,4 # syscall-code for print-string
+14912#    syscall
+14916:exit:
+    # print termination message
+14916#    li $v0,4 # syscall-code for print-string
+14920#    la $a0,exitString
+14924#    syscall
+
+    # terminate execution
+14928#    li $v0,10 #syscall-code for "exit"
+14932#    syscall
+
+14936:outOfHeapMemory:
+14936#    la $a0,heapMemoryMsg
+14940#    j exitError
+14944:divByZeroError:
+14944#    la $a0,divByZeroMsg
+14948#    j exitError
+14952:strIndexOutOfBounds:
+14952#    la $a0,strIndexOutOfBoundsMsg
+14956#    j exitError
+14960:arrayIndexOutOfBounds:
+14960#    la $a0,arrayIndexOutOfBoundsMsg
+14964#    j exitError
+14968:arraySizeOutOfBounds:
+14968#    la $a0,arraySizeOutOfBoundsMsg
+14972#    j exitError
+14976:nullPtrException:
+14976#    la $a0,nullPtrExceptionMsg
+14980#    j exitError
+14984:badIntegerFormat:
+14984#    la $a0,badIntegerFormatMsg
+14988#    j exitError
+14992:castException:
+14992#    la $a0,castExceptionMsg
+14996#    j exitError
+############## data section ################
+    .data
+15344:hexChars:
+    .ascii "0123456789abcdef"
+    .align 2
+15360:cur_seg:
+    .word 0
+
+15364:lastCharRead:
+    .word -2 # -2 => no buffered character
+15368:prevHashConstant:
+    .word 0x2785173c
+15372:gcCount:
+    .word 0
+
+15376:heapMemoryMsg:
+    .asciiz "ERROR: out of heap memory\n"
+15403:divByZeroMsg:
+    .asciiz "ERROR: divide by zero\n"
+15426:strIndexOutOfBoundsMsg:
+    .asciiz "ERROR: string index out of bounds\n"
+15461:arrayIndexOutOfBoundsMsg:
+    .asciiz "ERROR: array index out of bounds\n"
+15495:arraySizeOutOfBoundsMsg:
+    .asciiz "ERROR: array size out of bounds\n"
+15528:nullPtrExceptionMsg:
+    .asciiz "ERROR: null-pointer exception\n"
+15559:badIntegerFormatMsg:
+    .asciiz "ERROR: attempt to read badly formatted integer\n"
+15607:castExceptionMsg:
+    .asciiz "ERROR: illegal cast\n"
+15628:gcMsg: 
+      .asciiz "\nGC!\n"
+15634:gcCountMsg: 
+      .asciiz "Number of garbage collections: "
+
+15666:nullStr:
+    .asciiz "null"
+15671:trueString:
+    .asciiz "true"
+15676:falseString:
+    .asciiz "false"
+15682:exitString:
+    .ascii "Program terminated."
+    #### "falls through" here
+15701:newlineString:
+    .asciiz "\n"
+    
+    .align 2
+15704:stack_bottom:
+    .word 0
+
+# heapFudge: # temporary fudge amount to exercise GC
+#     .word 0
+
+15708:seg0_start:
+    .space 0x100000
+1064284:seg0_end:
+1064284:seg1_start:
+    .space 0x100000
+2112860:seg1_end:

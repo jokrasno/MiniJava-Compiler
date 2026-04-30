@@ -1,0 +1,22 @@
+# Compiled class files
+*.class
+
+# MIPS simulator/testing binaries
+RIPS.jar
+rips-cli*
+mips_engine.dll
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated MIPS output
+*.asm
